@@ -573,7 +573,7 @@
     ],
     "name": "Stress",
     "team": "outsider",
-    "ability": "While you are dead: each night, a Minion's ability might work twice until dusk.",
+    "ability": "While you are dead: each night, a Minion's ability might work twice until dusk. You learn when this happens.",
     "flavor": "Does nothing. Disappears when used or after battle",
     "otherNight": 3,
     "jinxes": [
@@ -605,7 +605,13 @@
     "team": "minion",
     "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
     "flavor": "Chomp Chomp",
-    "firstNight": 30
+    "firstNight": 30,
+    "jinxes": [
+      {
+        "id": "heretic",
+        "reason": "Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
+      }
+    ]
   },
   {
     "id": "grave_faketierscollection",
