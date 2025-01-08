@@ -286,7 +286,7 @@
     "team": "townsfolk",
     "ability": "Each night*, guess the other: if both are right: good wins. All evils know you are in play & if 1 publicly guesses you (once): evil wins. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
-    "firstNight": 20,
+    "firstNight": 14,
     "otherNight": 71,
     "jinxes": [
       {
@@ -327,8 +327,8 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Overdrive shakes head no or points at a player. Show them that players character token. If that player is a Townsfolk, they are drunk, place the Drunk token on them.",
-    "otherNightReminder": "If the Overdrive still has their ability: the Overdrive shakes head no or points at a player. Show them that players character token. If that player is a Townsfolk, they are drunk, place the Drunk token on them.",
+    "firstNightReminder": "The Overdrive shakes head \"no\" or points at a player. If they pointed: mark them with the \"No Ability\" token and show them that players character token. If that player is a Townsfolk, mark them with the Drunk token.",
+    "otherNightReminder": "If the Overdrive still has their ability: the Overdrive shakes head no or points at a player. Show them that players character token. If that player is a Townsfolk, they are drunk, mark them with the Drunk token.",
     "reminders": [
       "No Ability",
       "Drunk"
@@ -563,7 +563,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now.",
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
     "reminders": [
       "Works Twice",
       "?",
@@ -573,7 +573,7 @@
     ],
     "name": "Stress",
     "team": "outsider",
-    "ability": "While you are dead: each night, a Minion's ability might work twice until dusk. You learn when this happens.",
+    "ability": "While you are dead: each night, a Minion's ability might work twice until dusk. You & they learn this.",
     "flavor": "Does nothing. Disappears when used or after battle",
     "otherNight": 3,
     "jinxes": [
@@ -609,7 +609,7 @@
     "jinxes": [
       {
         "id": "heretic",
-        "reason": "Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
+        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
       }
     ]
   },
@@ -619,7 +619,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/grave_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the Grave up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up seperately, show them 'This player has selected you' and Grave's token then put them to sleep",
+    "firstNightReminder": "Show the Grave up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up seperately, show them Grave's token then put them to sleep.",
     "otherNightReminder": "The Grave points at as many players as targets. If correct, announce that their team has won.",
     "reminders": [
       "Target",
@@ -665,7 +665,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hunter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hunter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the Hunter an up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up, show them Hunters character token and put them to sleep.",
+    "firstNightReminder": "Show the Hunter an up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up, show them Hunter's character token and put them to sleep.",
     "otherNightReminder": "The Hunter points at a player, if they have a Target token, they die.",
     "reminders": [
       "Target",
@@ -678,7 +678,7 @@
     "ability": "You start knowing up to 3 in-play characters (they learn this). Each night* choose a player, if they are one of those characters, they die.",
     "flavor": "if you're not willing to obey, then only the end awaits you",
     "firstNight": 35,
-    "otherNight": 10,
+    "otherNight": 52,
     "jinxes": [
       {
         "id": "dazzle_faketierscollection",
@@ -807,7 +807,7 @@
     "team": "demon",
     "ability": "Each night, the next Townsfolk closer clockwise to you is poisoned & learns false info. Each night*, choose a player: they die.",
     "flavor": "If only you knew your place! But its too late now!",
-    "firstNight": 8,
+    "firstNight": 1,
     "otherNight": 6
   },
   {
@@ -945,7 +945,8 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/destiny_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/destiny_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Destiny points at a player. That player dies.",
+    "firstNightReminder": "Wake Destiny if you need or want.",
+    "otherNightReminder": "Destiny points at a player. That player dies. They may signal or text you their prediction.",
     "reminders": [
       "Prediction made",
       "Unresolved Prediction",
@@ -959,6 +960,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. You may make a prediction: if accepted, you cannot make another & it will come true with consequences.",
     "flavor": "The world is MINE to shape.",
+    "firstNight": 30,
     "otherNight": 40
   },
   {
