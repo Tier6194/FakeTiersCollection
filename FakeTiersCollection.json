@@ -382,7 +382,7 @@
     "otherNightReminder": "Minions choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
     "name": "Trick Mask",
     "team": "townsfolk",
-    "ability": "Minions & Demons don't know the other. Each night, Minions guess a player: if you or a Demon, they learn this, even if your ability is removed from play.",
+    "ability": "Minions & Demons do not know the other. Each night, Minions guess a player: if you or a Demon, they learn this, even if your ability is removed from play.",
     "flavor": "Halve opponent Barrier and gain 4 Cover Status",
     "firstNight": 12,
     "otherNight": 46,
@@ -589,7 +589,7 @@
       },
       {
         "id": "summoner",
-        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary"
+        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
       }
     ]
   },
