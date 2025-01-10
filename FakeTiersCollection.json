@@ -524,14 +524,20 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
   ],
     "otherNightReminder": "If a Trauma just died, wake them and show them \"You are\" then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
-    "reminders": [
-      "Is Trauma"
+    "remindersGlobal": [
+      "Is a Trauma"
     ],
     "name": "Trauma",
     "team": "outsider",
     "ability": "When you die, learn your character then a Townsfolk becomes Trauma, thinks their character is unchanged and must learn false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
     "otherNight": 66,
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      }
+    ],
     "jinxes": [
       {
         "id": "vortox",
