@@ -845,11 +845,11 @@
       },
       {
         "id": "kazali",
-        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) are Demons. The Storyteller will choose which players become Marusok and the other Demons."
+        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons. The Storyteller chooses which players become Marusok and the other Demons."
       },
       {
         "id": "legion",
-        "reason": "Maruok can replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
+        "reason": "Maruok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
       },
       {
         "id": "po",
@@ -941,7 +941,7 @@
     ],
     "name": "Corr. Sylphy",
     "team": "demon",
-    "ability": "Each night*, choose 1 more player than the previous night (up to 4): they die. If an evil player died to execution today, choose 1.",
+    "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If an evil player died to execution today, choose 1.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
   },
