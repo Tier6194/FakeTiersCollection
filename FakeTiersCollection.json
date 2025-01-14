@@ -830,7 +830,7 @@
     "setup": true,
     "name": "Marusok",
     "team": "demon",
-    "ability": "Each night, even while dead, Demons might not wake. Demons are safe from other Demons. [All Minions are Demons, Demons only learn bluffs]",
+    "ability": "Each night, even while dead, Demons might not wake & players might not die. Demons are safe from other Demons. [All Minions are Demons, Demons only learn bluffs]",
     "flavor": "I am the infinite spiral. What are you?",
     "firstNight": 1,
     "otherNight": 1,
