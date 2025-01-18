@@ -847,7 +847,7 @@
     ],
     "firstNightReminder": "Wake all Minions and show them the Invitation Letter's token. They will point to a player. If they do not come to a decision, choose a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. Place the Day 1 Token in the center of the Grimoire.",
     "otherNightReminder": "Place the next Day token in the centre of the Grimoire. Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is Day 3, wake them. They choose a Demon. If they choose Invitation Letter motion them to choose again. When they make their choice, show them the \"Your character is\" card and the Demon they chose. Change their token in the Grimoire to reflect that and remove the Invitation Letter reminders and tokens. You may need to rotate their token if they are good.",
-    "reminders": [
+    "remindersGlobal": [
       "Night 1",
       "Night 2",
       "Night 3",
@@ -919,6 +919,18 @@
       {
         "id": "zombuul",
         "reason": "On night 3, if a dead player becomes the Invitee, they may choose to invite Zombuul. If they do, they become a Zombuul that has died once."
+      }
+    ],
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "name": "pointing",
+        "type": "ability",
+        "time": "night",
+        "global": "minion"
       }
     ]
   },
