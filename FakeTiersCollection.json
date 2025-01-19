@@ -853,6 +853,7 @@
       "Night 3",
       "Invitee"
     ],
+    "setup": "true",
     "name": "Invitation Letter",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter's token. On night 3, the invitee chooses a Demon to become. [+1 Minion]",
