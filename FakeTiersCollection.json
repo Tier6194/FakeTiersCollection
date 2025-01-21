@@ -863,11 +863,11 @@
     "jinxes": [
       {
         "id": "clockmaker",
-        "reason": "If the Invitation Letter is in-play, the Clockmaker does not recieve their info until the Invitee becomes a Demon."
+        "reason": "If the Invitation Letter is in-play, the Clockmaker does not recieve their info until a Demon is successfully invited."
       },
       {
         "id": "cultist_faketierscollection",
-        "reason": "If the Cult is invited, most players (including all evil players) become evil Cultists."
+        "reason": "If the Cult is invited, most players (including all evil players) become evil Cultists. If the Cult wins and they were invited, they must do the macarena."
       },
       {
         "id": "engineer",
