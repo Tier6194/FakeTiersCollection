@@ -759,7 +759,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hedjiu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hedjiu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If Hedji-U does not have the Timer Active token: the Hedji-U shakes their head \"no\" or nods \"yes\". If they nodded \"yes\", mark the Hedji-U with Timer Begins to indicate other evil players are poisoned, and signal Hedji-U any number. That number will be the day before evil wins.  Place the Evil wins token [number of days you want evil to win - 1] steps clockwise to the Hedji-U and as many New Cycle tokens on them as the Evil Wins token lands on it prematurely. If the Hedji-U has the Timer Active token: move the Evil Wins token 1 space clockwise. If it lands on the Hedji-U, remove a New Cycle, if there are none, evil wins.",
+    "otherNightReminder": "If Hedji-U does not have the Timer Active token: the Hedji-U shakes their head \"no\" or nods \"yes\". If they nodded \"yes\", mark the Hedji-U with Timer Begins to indicate other evil players are poisoned then announce to everyone a day. That number will be the day before evil wins.  Place the Evil wins token [number of days you want evil to win - 1] steps clockwise to the Hedji-U and as many New Cycle tokens on them as the Evil Wins token lands on it prematurely. If the Hedji-U has the Timer Active token: move the Evil Wins token 1 space clockwise. If it lands on the Hedji-U, remove a New Cycle, if there are none, evil wins.",
     "reminders": [
       "Timer Active",
       "Evil Wins",
@@ -769,7 +769,7 @@
     ],
     "name": "Hedji-U",
     "team": "minion",
-    "ability": "Once per game at night*, choose to poison all other evil players and learn a day: after that day, evil wins. After using your ability, good can't win.",
+    "ability": "Once per game at night*, choose to poison all other evil players, good can't win & all players learn a day. After that day, evil wins.",
     "flavor": "You blind yourself with the wrong goal my fleshy friend.",
     "otherNight": 13
   },
