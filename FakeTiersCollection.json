@@ -833,7 +833,7 @@
     ],
     "name": "Hand of Fate",
     "team": "demon",
-    "ability": "Each night, choose a number: gain the corresponding ability. Then, you may use those abilities. Then*, choose a player: they die. All players know your abilities.",
+    "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
     "flavor": "the time has come for you to return where you belong",
     "firstNight": 4,
     "otherNight": 44
