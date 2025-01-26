@@ -680,7 +680,7 @@
     ],
     "name": "Hunter",
     "team": "minion",
-    "ability": "You start knowing up to 3 in-play characters (they learn this). Each night* choose a player, if they are a target, they die.",
+    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night* choose a player, if they are a target, they die.",
     "flavor": "if you're not willing to obey, then only the end awaits you",
     "firstNight": 35,
     "otherNight": 52,
