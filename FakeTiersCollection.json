@@ -20,6 +20,7 @@
       "Demon",
       "Learnt"
     ],
+    "setup": true,
     "name": "Jump Strike",
     "team": "townsfolk",
     "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
