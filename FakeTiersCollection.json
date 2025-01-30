@@ -6,28 +6,6 @@
     "logo": "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/FTC.png?raw=true"
   },
   {
-    "id": "jumpstrike_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
-    "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
-    "reminders": [
-      "Townsfolk",
-      "Outsider",
-      "Minion",
-      "Demon",
-      "Learnt"
-    ],
-    "setup": true,
-    "name": "Jump Strike",
-    "team": "townsfolk",
-    "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
-    "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
-    "firstNight": 47
-  },
-  {
     "id": "starpierce_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
@@ -71,6 +49,28 @@
     "flavor": "Gain 3 Focus status",
     "firstNight": 60,
     "otherNight": 60
+  },
+  {
+    "id": "jumpstrike_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
+    "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
+    "reminders": [
+      "Townsfolk",
+      "Outsider",
+      "Minion",
+      "Demon",
+      "Learnt"
+    ],
+    "setup": true,
+    "name": "Jump Strike",
+    "team": "townsfolk",
+    "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
+    "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
+    "firstNight": 47
   },
   {
     "id": "dazzle_faketierscollection",
