@@ -70,7 +70,8 @@
     "team": "townsfolk",
     "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
     "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
-    "firstNight": 47
+    "firstNight": 47,
+    "otherNight": 75
   },
   {
     "id": "dazzle_faketierscollection",
