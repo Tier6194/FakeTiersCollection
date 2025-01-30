@@ -852,7 +852,7 @@
       "Night 3",
       "Invitee"
     ],
-    "setup": "true",
+    "setup": true,
     "name": "Invitation Letter",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter's token. On night 3, the invitee chooses a Demon to become. [+1 Minion]",
@@ -1011,6 +1011,34 @@
     "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If an evil player died to execution today, choose 1.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
+  },
+  {
+    "id": "zhobazhbu_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Zhobazhbu points at a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
+    "reminders": [
+      "Dead",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Purged"
+    ],
+    "setup": true,
+    "name": "Zhobazhbu",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die, Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
+    "flavor": "By the Blessed Flame of the One Beyond, you are reborn.",
+    "otherNight": 43,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "If the Demon kills the Banshee, their announcement still happens as normal."
+      }
+    ]
   },
   {
     "id": "destiny_faketierscollection",
