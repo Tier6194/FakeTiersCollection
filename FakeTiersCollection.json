@@ -750,16 +750,17 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, flip their character token face down to indicate that. On a virtual Grimoire, mark that player with No Ability instead. Then remove a Has Ability token from the Enra.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, flip their character token face down to indicate that. On a virtual Grimoire, mark that player with No Ability instead. Then remove a Has Ability token from the Enra.",
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
     "reminders": [
       "Has Ability",
       "Has Ability",
-      "No Ability "
+      "No Ability",
+      "No Ability"
     ],
     "name": "Enra",
     "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this and permanently have no ability.",
+    "ability": "Twice per game at night, choose a player: they learn this and have no ability.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
     "firstNight": 24,
     "otherNight": 11.1
