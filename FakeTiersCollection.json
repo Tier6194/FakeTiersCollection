@@ -717,6 +717,34 @@
     ]
   },
   {
+    "id": "hagumoth_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "reminders": [
+      "Chosen"
+    ],
+    "name": "Hagumoth",
+    "team": "minion",
+    "ability": "Each night, choose a player: they learn this & if executed tomorrow, their team loses.",
+    "flavor": "Verily, thou art screwed.",
+    "firstNight": 38,
+    "otherNight": 26,
+    "jinxes": [
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
+      },
+      {
+        "id": "vizier",
+        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+      }
+    ]
+  },
+  {
     "id": "enra_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_faketierscollection.png?raw=true",
@@ -757,26 +785,6 @@
     "flavor": "Do not worry, your death will be swift and painless",
     "firstNight": 1,
     "otherNight": 16
-  },
-  {
-    "id": "hedjiu_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hedjiu_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hedjiu_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "If Hedji-U does not have the Timer Active token: the Hedji-U shakes their head \"no\" or nods \"yes\". If they nodded \"yes\", mark the Hedji-U with Timer Begins to indicate other evil players are poisoned then announce to everyone a day. That number will be the day before evil wins.  Place the Evil wins token [number of days you want evil to win - 1] steps clockwise to the Hedji-U and as many New Cycle tokens on them as the Evil Wins token lands on it prematurely. If the Hedji-U has the Timer Active token: move the Evil Wins token 1 space clockwise. If it lands on the Hedji-U, remove a New Cycle, if there are none, evil wins.",
-    "reminders": [
-      "Timer Active",
-      "Evil Wins",
-      "New Cycle",
-      "New Cycle",
-      "New Cycle"
-    ],
-    "name": "Hedji-U",
-    "team": "minion",
-    "ability": "Once per game at night*, choose to poison all other evil players, good can't win & all players learn a day. After that day, evil wins.",
-    "flavor": "You blind yourself with the wrong goal my fleshy friend.",
-    "otherNight": 13
   },
   {
     "id": "falseidol_faketierscollection",
