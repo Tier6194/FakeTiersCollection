@@ -729,7 +729,7 @@
     ],
     "name": "Hagumoth",
     "team": "minion",
-    "ability": "Each night, choose a player: they learn this & if executed tomorrow, their team loses.",
+    "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Verily, thou art screwed.",
     "firstNight": 38,
     "otherNight": 26,
