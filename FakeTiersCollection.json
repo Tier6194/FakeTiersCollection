@@ -161,7 +161,7 @@
     ],
     "name": "Ammo Blast",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Minion is chosen, you die & someone you chose might die.",
+    "ability": "Each night*, choose a player: if a Minion is chosen, you die and previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 52
   },
@@ -240,7 +240,7 @@
     ],
     "name": "Blitz",
     "team": "townsfolk",
-    "ability": "Each night, choose 2 players (not yourself & different from last night) & guess one of their characters: if correct, learn the other. If incorrect, learn false info.",
+    "ability": "Each night, choose 2 players (not yourself & different from last night) & a character: if it is among them, learn the other character else learn false info.",
     "flavor": "Attack twice if used in odd-numbered Phase",
     "otherNight": 77
   },
@@ -250,7 +250,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/mysteryattack_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Change and run the Mystery Attacks ability.",
+    "otherNightReminder": "Change and run the Mystery Attack's ability.",
     "reminders": [
       "?",
       "?",
@@ -262,7 +262,7 @@
     ],
     "name": "Mystery Attack",
     "team": "townsfolk",
-    "ability": "You have an extra ability that changes each dusk. Each day, you may visit the Storyteller to learn what it will change to tonight and its new night priority if there is.",
+    "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight and tomorrow.",
     "flavor": "At the start of battle: Transform into a random Attack card. Turn back after battle",
     "otherNight": 1,
     "jinxes": [
