@@ -902,7 +902,7 @@
       },
       {
         "id": "focus_faketierscollection",
-        "reason": "If Invitation letter is in-play and no Demon was invited yet, a Focus meeting their requirments recieves their info after a Demon is invited."
+        "reason": "If Invitation letter is in-play and no Demon was invited yet, a Focus that met their requirements at their time to wake recieves their info after a Demon is invited."
       },
       {
         "id": "hatter",
