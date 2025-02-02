@@ -371,7 +371,7 @@
     ],
     "name": "Inverse Strike",
     "team": "townsfolk",
-    "ability": "The 1st time an evil player chooses you at night, an evil player is chosen instead.",
+    "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
     "flavor": "Attack then reduce cooldown of Magic cards",
     "firstNight": 40,
     "otherNight": 53
