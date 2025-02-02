@@ -467,7 +467,7 @@
     ],
     "name": "Stress",
     "team": "outsider",
-    "ability": "Each night, if you are dead: a Minion's ability might work twice until dusk. You & they learn this.",
+    "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
     "flavor": "Does nothing. Disappears when used or after battle",
     "otherNight": 3,
     "jinxes": [
