@@ -803,9 +803,23 @@
     ],
     "name": "False Idol",
     "team": "minion",
-    "ability": "If there are 4 or more players alive (excluding Travellers) & there is no alive Demon, become \"The Demon\" & evil wins after some days (you learn how many).",
+    "ability": "If the Demon died today (ending the game), become \"the Demon\" and nobody can win. After 4 days, evil wins.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
-    "otherNight": 68
+    "otherNight": 68,
+    "jinxes": [
+      {
+        "id": "lleech",
+        "reason": "If the Lleech's host dies during the day and the False Idol's ability triggers, the Lleech lives but loses their ability and registers as a Minion."
+      },
+      {
+        "id": "mastermind",
+        "reason": "If both Mastermind's and False Idol's abilities trigger,False Idol's ability works as normal but if an evil player is executed during those 4 days, good wins."
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If the Scarlet Woman's ability triggers, False Idol's does not."
+      }
+    ]
   },
   {
     "id": "madeline_faketierscollection",
