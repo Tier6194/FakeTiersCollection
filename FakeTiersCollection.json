@@ -87,7 +87,7 @@
     ],
     "name": "Dazzle",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle and are drunk until dusk.",
+    "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
     "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
     "firstNight": 22,
     "otherNight": 10,
@@ -112,7 +112,7 @@
     ],
     "name": "Fine Maneuver",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): if evil, all Townsfolk are sober, healthy and their abilities yield true info until dusk.",
+    "ability": "Each night, choose a player (different to last night): if evil, all Townsfolk are sober, healthy & their abilities yield true info until dusk.",
     "flavor": "If the next card on the field is an Attack, heal by 6 HP. If its a Magic card, inflict 6 damage",
     "firstNight": 25,
     "otherNight": 11.2,
@@ -161,7 +161,7 @@
     ],
     "name": "Ammo Blast",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Minion is chosen, you die and previously chosen players might die.",
+    "ability": "Each night*, choose a player: if a Minion is chosen, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 52
   },
@@ -262,7 +262,7 @@
     ],
     "name": "Mystery Attack",
     "team": "townsfolk",
-    "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight and tomorrow.",
+    "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight & tomorrow.",
     "flavor": "At the start of battle: Transform into a random Attack card. Turn back after battle",
     "otherNight": 1,
     "jinxes": [
@@ -760,7 +760,7 @@
     ],
     "name": "Enra",
     "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you have no ability, chosen players might regain theirs at any time.",
+    "ability": "Twice per game at night, choose a player: they learn this & have no ability. If you have no ability, chosen players might regain theirs at any time.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
     "firstNight": 24,
     "otherNight": 11.1
@@ -960,7 +960,7 @@
     ],
     "name": "Plank of Wood",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. On the final day, whoever wins, loses and whoever loses, wins.",
+    "ability": "Each night*, choose a player: they die. On the final day, whoever wins, loses & whoever loses, wins.",
     "flavor": "*Plank of Wood noises*",
     "otherNight": 49
   },
