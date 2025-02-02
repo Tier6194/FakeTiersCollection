@@ -760,7 +760,7 @@
     ],
     "name": "Enra",
     "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you are dead, chosen players might regain their ability at any time.",
+    "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you have no ability, chosen players might regain theirs at any time.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
     "firstNight": 24,
     "otherNight": 11.1
