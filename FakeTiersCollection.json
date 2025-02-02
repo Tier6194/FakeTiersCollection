@@ -452,6 +452,36 @@
     "firstNight": 57
   },
   {
+    "id": "stress_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "reminders": [
+      "Works Twice",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Stress",
+    "team": "outsider",
+    "ability": "Each night, if you are dead: a Minion's ability might work twice until dusk. You & they learn this.",
+    "flavor": "Does nothing. Disappears when used or after battle",
+    "otherNight": 3,
+    "jinxes": [
+      {
+        "id": "mezepheles",
+        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
+      },
+      {
+        "id": "summoner",
+        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
+      }
+    ]
+  },
+  {
     "id": "feint_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/feint_faketierscollection.png?raw=true",
@@ -566,36 +596,6 @@
     "ability": "If you died today or tonight, choose a living player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
     "otherNight": 70
-  },
-  {
-    "id": "stress_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
-    "reminders": [
-      "Works Twice",
-      "?",
-      "?",
-      "?",
-      "?"
-    ],
-    "name": "Stress",
-    "team": "outsider",
-    "ability": "While you are dead: each night, a Minion's ability might work twice until dusk. You & they learn this.",
-    "flavor": "Does nothing. Disappears when used or after battle",
-    "otherNight": 3,
-    "jinxes": [
-      {
-        "id": "mezepheles",
-        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
-      },
-      {
-        "id": "summoner",
-        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
-      }
-    ]
   },
   {
     "id": "biter_faketierscollection",
