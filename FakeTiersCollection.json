@@ -593,7 +593,7 @@
     ],
     "name": "Showtime",
     "team": "outsider",
-    "ability": "If you died today or tonight, choose a living player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
+    "ability": "If you died today or tonight, choose 1 alive player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
     "otherNight": 70
   },
