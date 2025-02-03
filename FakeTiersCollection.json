@@ -563,7 +563,7 @@
     ],
     "name": "Trauma",
     "team": "outsider",
-    "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks their character is unchanged & learns false info.",
+    "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
     "otherNight": 66,
     "special": [
