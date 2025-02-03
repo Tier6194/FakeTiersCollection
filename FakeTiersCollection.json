@@ -722,8 +722,8 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth points to a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth points to a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "reminders": [
       "Chosen"
     ],
@@ -741,6 +741,45 @@
       {
         "id": "vizier",
         "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "tyrant_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/tyrant_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/tyrant_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Tyrant points to a player. That player dies. If the Demon is marked with the Overthrown token, they do not wake tonight. If they do not, wake them as normal and then mark them with the Overthrown token.",
+    "reminders": [
+      "Dead",
+      "Overthrown"
+    ],
+    "name": "Tyrant",
+    "team": "minion",
+    "ability": "Each night*, choose a player: they die. The Demon wakes every other night, even if you are dead, drunk or poisoned.",
+    "flavor": "We shall dance, challenger",
+    "otherNight": 34,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "The Tyrant registers as the Demon to the Banshee's ability."
+      },
+      {
+        "id": "lilmonsta",
+        "reason": "The Lil' Monsta's ability does not kill every other day/night cycle."
+      },
+      {
+        "id": "sage",
+        "reason": "If the Tyrant kills the Sage, the Sage learns the Demon is 1 of 2 players."
+      },
+      {
+        "id": "yaggababble",
+        "reason": "The Yaggababble's ability does not kill every other day/night cycle."
+      },
+      {
+        "id": "zombuul",
+        "reason": "If the Tyrant is in play, the Zombuul instead wakes every other night that no player died that day."
       }
     ]
   },
@@ -938,7 +977,7 @@
       },
       {
         "id": "trickmask_faketierscollection",
-        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Trick Mask's token."
+        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Invitation Letter's token."
       },
       {
         "id": "vizier",
@@ -1046,7 +1085,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points at a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
     "reminders": [
       "Dead",
       "Has Ability",
