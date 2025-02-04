@@ -1316,7 +1316,7 @@
       },
       {
         "id": "hatter",
-        "reason": "If the Hatter dies and a Cultist is in play, nothing happens. If the Hatter dies and an evil player chooses Cultist, most players, including current evil players, become evil Cultists."
+        "reason": "If the Hatter dies and a Cultist is in play, nothing happens. If the Hatter dies and an evil player chooses Cultist, all current evil players become Cultists."
       },
       {
         "id": "minstrel",
