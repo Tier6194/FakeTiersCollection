@@ -397,7 +397,7 @@
       },
       {
         "id": "lilmonsta",
-        "reason": "If the Trick Mask's and Lil' Monsta's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Lil' Monsta's token."
+        "reason": "If the Trick Mask's ability is active, Minions also wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
       },
       {
         "id": "magician",
