@@ -4,16 +4,15 @@
     "name":"Madness, Gaslighting & Toxins",
     "author":"FakeTier",
     "firstNight":[
-      "bootlegger",
       "dusk",
+      "madeline_faketierscollection",
+      "philosopher"
       "minioninfo",
       "demoninfo",
       "enra_faketierscollection",
-      "madeline_faketierscollection",
       "eviltwin",
       "witch",
-      "cerenovus",
-      "empath",
+      "harpy",
       "dreamer",
       "seamstress",
       "noble",
@@ -22,18 +21,20 @@
     ],
     "otherNight":[
       "dusk",
+      "madeline_faketierscollection",
+      "philosopher"
       "enra_faketierscollection",
-      "madeline_faketierscollection,",
       "witch",
-      "cerenovus",
-      "nodashii",
-      "vortox",
+      "harpy",
       "cultist_faketierscollection",
-      "showtime_faketierscollection",
+      "vortox"
+      "vigormortis"
       "coda_faketierscollection",
+      "hatter",
       "sage",
+      "trauma_faketierscollection",
       "ravenkeeper",
-      "empath",
+      "showtime_faketierscollection"
       "dreamer",
       "flowergirl",
       "oracle",
