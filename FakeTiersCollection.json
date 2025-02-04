@@ -1298,7 +1298,7 @@
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Players may die at any time",
+    "otherNightReminder": "Players might die at any time",
     "reminders": [
       "Dead",
       "About to Die"
