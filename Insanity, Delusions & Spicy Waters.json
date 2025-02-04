@@ -46,8 +46,8 @@
   {
     "id": "starpierce_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
     "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
@@ -75,8 +75,8 @@
   {
     "id": "overdrive_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Overdrive shakes head \"no\" or points to a player. If they pointed: mark them with the \"No Ability\" token and show them that players character token. If that player is a Townsfolk, mark them with the Drunk token.",
     "otherNightReminder": "If the Overdrive still has their ability: the Overdrive shakes head no or points to a player. Show them that players character token. If that player is a Townsfolk, they are drunk, mark them with the Drunk token.",
@@ -95,8 +95,8 @@
   {
     "id": "hope_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
     ],
     "reminders": [
       "No Ability"
@@ -112,8 +112,8 @@
   {
     "id": "coda_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
   ],
     "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them \"This character has chosen you\" then Coda's token and then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
     "reminders": [
@@ -163,8 +163,8 @@
   {
     "id": "showtime_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "If the Showtime died today or tonight, wake them to choose a player. Mark them with the Target token.",
     "reminders": [
@@ -182,8 +182,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
@@ -212,8 +212,8 @@
   {
     "id": "corrupted_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Place both Has Ability tokens on the Corrupted.",
     "otherNightReminder": "Every night but the first, if the Corrupted has its ability: the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce \"The Corrupted has chosen\" the first player's name \"and\" the second player's name. \"After a countdown from 10, if most players have their hand up, the first player dies and if most players have their hand down, the second player dies. The Corrupted breaks ties.\" Start the countdown. When the countdown reaches 0, tally the results silently. The player with the most votes dies and the other is now alive.",
@@ -234,8 +234,8 @@
   {
     "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Madeline's clockwise Townsfolk neighbor is poisoned.",
     "otherNightReminder": "The Madeline's next clockwise Townsfolk neighbor is poisoned. Wake them later when Demons normally wake to point to a player. That player dies.",
@@ -256,8 +256,8 @@
   {
     "id": "zhobazhbu_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "The Zhobazhbu points at a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
     "reminders": [
@@ -284,8 +284,8 @@
   {
     "id": "sabnock_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
     "reminders": [

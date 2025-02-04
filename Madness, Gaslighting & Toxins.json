@@ -55,8 +55,8 @@
   {
     "id": "hope_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
     ],
     "reminders": [
       "No Ability"
@@ -72,8 +72,8 @@
   {
     "id": "coda_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
   ],
     "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them \"This character has chosen you\" then Coda's token and then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
     "reminders": [
@@ -122,8 +122,8 @@
   {
     "id": "trauma_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
   ],
     "otherNightReminder": "If a Trauma just died, wake them and show them \"You are\" then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
     "remindersGlobal": [
@@ -151,8 +151,8 @@
   {
     "id": "showtime_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "If the Showtime died today or tonight, wake them to choose a player. Mark them with the Target token.",
     "reminders": [
@@ -171,8 +171,8 @@
   {
     "id": "enra_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
     "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
@@ -193,8 +193,8 @@
   {
     "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Madeline's clockwise Townsfolk neighbor is poisoned.",
     "otherNightReminder": "The Madeline's next clockwise Townsfolk neighbor is poisoned. Wake them later when Demons normally wake to point to a player. That player dies.",
@@ -216,8 +216,8 @@
   {
     "id": "cultist_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "Players might die at any time",
     "reminders": [

@@ -7,8 +7,8 @@
   {
     "id": "starpierce_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
     "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
@@ -31,8 +31,8 @@
   {
     "id": "jumpstrike_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
     "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
@@ -56,8 +56,8 @@
   {
     "id": "dazzle_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them 'This character has chosen you', Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
     "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil: wake that player, show the Dazzle token and point to the Dazzle. The chosen player is drunk.",
@@ -84,8 +84,8 @@
   {
     "id": "ammoblast_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "The Ammo Blast points to a player. If they are Minion, kill the Ammo Blast and as many of the players they previously chose as you like. If good, mark them with the Linked Token.",
     "reminders": [
@@ -110,8 +110,8 @@
   {
     "id": "stress_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
     "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
     "reminders": [
@@ -145,8 +145,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
@@ -175,8 +175,8 @@
   {
     "id": "invitationletter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Wake all Minions and show them the Invitation Letter's token. They will point to a player. If they do not come to a decision, choose a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. Place the Day 1 Token in the center of the Grimoire.",
     "otherNightReminder": "Place the next Day token in the centre of the Grimoire. Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is Day 3, wake them. They choose a Demon. If they choose Invitation Letter motion them to choose again. When they make their choice, show them the \"Your character is\" card and the Demon they chose. Change their token in the Grimoire to reflect that and remove the Invitation Letter reminders and tokens. You may need to rotate their token if they are good.",
