@@ -228,7 +228,7 @@
     "setup": true,
     "name": "Cultist",
     "team": "demon",
-    "ability": "Players might die at any time. Evil votes secretly don't count & majority is 2 votes. You register as a Minion too. [Most players are Cultists]",
+    "ability": "Players might die at any time. Evil votes secretly don't count & majority is 1 vote. You register as a Minion too. [Most players are Cultists]",
     "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
     "otherNight": 41,
     "jinxes": [
