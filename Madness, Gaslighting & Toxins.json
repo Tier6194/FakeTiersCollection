@@ -1,0 +1,270 @@
+[
+  {
+    "id":"_meta",
+    "name":"Madness, Gaslighting & Toxins",
+    "author":"FakeTier",
+    "firstNight":[
+      "bootlegger",
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "enra_faketierscollection",
+      "madeline_faketierscollection",
+      "eviltwin",
+      "witch",
+      "cerenovus",
+      "empath",
+      "dreamer",
+      "seamstress",
+      "noble",
+      "mathematician",
+      "dawn"
+    ],
+    "otherNight":[
+      "dusk",
+      "enra_faketierscollection",
+      "madeline_faketierscollection,",
+      "witch",
+      "cerenovus",
+      "nodashii",
+      "vortox",
+      "cultist_faketierscollection",
+      "showtime_faketierscollection",
+      "coda_faketierscollection",
+      "sage",
+      "ravenkeeper",
+      "empath",
+      "dreamer",
+      "flowergirl",
+      "oracle",
+      "seamstress",
+      "juggler",
+      "mathematician",
+      "dawn"
+    ]
+  },
+  "noble",
+  "dreamer",
+  "mathematician",
+  "flowergirl",
+  "oracle",
+  "savant",
+  "seamstress",
+  "philosopher",
+  "artist",
+  {
+    "id": "hope_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+    ],
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Hope",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, privately ask the Storyteller any question & recieve some answers (only 1 is correct).",
+    "flavor": "Recover HP by 8 and gain 4 Barrier"
+  },
+  "juggler",
+  "ravenkeeper",
+  "sage",
+  {
+    "id": "coda_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
+  ],
+    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them \"This character has chosen you\" then Coda's token and then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
+    "reminders": [
+      "Demon's Ability"
+    ],
+    "name": "Coda",
+    "team": "outsider",
+    "ability": "When you die, the Demon gains a Minion ability alongside their own.",
+    "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
+    "otherNight": 55,
+    "jinxes": [
+      {
+        "id": "baron",
+        "reason": "If the Demon gains the Baron's ability, up to 2 players become not-in-play Outsiders."
+      },
+      {
+        "id": "boomdandy",
+        "reason": "If the Coda is executed and the Demon would gain the Boomdandy's ability, it instead triggers immediately."
+      },
+      {
+        "id": "falseidol_faketierscollection",
+        "reason": "If the Coda dies and would give the False Idol's ability, a Minion gains it instead and learns so."
+      },
+      {
+        "id": "grave_faketierscollection",
+        "reason": "Up to 3 extra players learn that the Grave is in play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
+      },
+      {
+        "id": "hunter_faketierscollection",
+        "reason": "Up to 3 extra players learn that Hunter is in play. If Hunter's ability is created midgame, those are its targets. If no possible targets, Hunter's ability cannot be put into play."
+      },
+      {
+        "id": "marionette",
+        "reason": "If the Demon has a neighbor who is alive and a good Townsfolk or Outsider when the Coda dies and would give the Marionette ability, that player becomes an evil Marionette. The Coda cannot give the Marionette ability if there is already an extra evil player."
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it instead and learns so."
+      },
+      {
+        "id": "summoner",
+        "reason": "If the Demon gains and uses the Summoner's ability, deaths tonight are arbitrary. The Summoner's ability cannot create an in-play Demon."
+      }
+    ]
+  },
+  {
+    "id": "trauma_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
+  ],
+    "otherNightReminder": "If a Trauma just died, wake them and show them \"You are\" then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
+    "remindersGlobal": [
+      "Is a Trauma"
+    ],
+    "name": "Trauma",
+    "team": "outsider",
+    "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks their character is unchanged & learns false info.",
+    "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
+    "otherNight": 66,
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "vortox",
+        "reason": "If the Vortox's ability is active and Townsfolk was turned into a Trauma by Trauma's ability, that player exclusively learns true info instead."
+      }
+    ]
+  },
+  "hatter",
+  {
+    "id": "showtime_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "If the Showtime died today or tonight, wake them to choose a player. Mark them with the Target token.",
+    "reminders": [
+      "Show Tonight",
+      "Target",
+      "Drunk"
+    ],
+    "name": "Showtime",
+    "team": "outsider",
+    "ability": "If you died today or tonight, choose 1 alive player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
+    "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
+    "otherNight": 70
+  },
+  "harpy",
+  "witch",
+  {
+    "id": "enra_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
+    "reminders": [
+      "Has Ability",
+      "Has Ability",
+      "No Ability",
+      "No Ability"
+    ],
+    "name": "Enra",
+    "team": "minion",
+    "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you have no ability, chosen players might regain theirs at any time.",
+    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
+    "firstNight": 24,
+    "otherNight": 11.1
+  },
+  "eviltwin",
+  {
+    "id": "madeline_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Madeline's clockwise Townsfolk neighbor is poisoned.",
+    "otherNightReminder": "The Madeline's next clockwise Townsfolk neighbor is poisoned. Wake them later when Demons normally wake to point to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "name": "Madeline",
+    "team": "demon",
+    "ability": "Each night, the next Townsfolk closer clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
+    "flavor": "If only you knew your place! But its too late now!",
+    "firstNight": 1,
+    "otherNight": 6
+  },
+  "vigormortis",
+  "vortox",
+  {
+    "id": "cultist_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Players may die at any time",
+    "reminders": [
+      "Dead",
+      "About to Die"
+    ],
+    "setup": true,
+    "name": "Cultist",
+    "team": "demon",
+    "ability": "Players might die at any time. Evil votes secretly don't count & majority is 2 votes. You register as a Minion too. [Most players are Cultists]",
+    "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
+    "otherNight": 41,
+    "jinxes": [
+      {
+        "id": "engineer",
+        "reason": "Cultists and the Engineer can not both be in play at the start of the game. If the Engineer creates a Culist, most players (including all evil players) become evil Cultists."
+      },
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies and a Cultist is in play, nothing happens. If the Hatter dies and an evil player chooses Cultist, most players, including current evil players, become evil Cultists."
+      },
+      {
+        "id": "minstrel",
+        "reason": "If a Cultist died by execution today, Cultists keeps their ability, but the Minstrel might learn they are a Cultist."
+      },
+      {
+        "id": "preacher",
+        "reason": "If the Preacher chooses a Cultist, They keep their ability, but the Preacher might learn they are a Cultist."
+      },
+      {
+        "id": "summoner",
+        "reason": "If the Summoner creates a Cultist, most players (including all evil players) become evil Cultists."
+      },
+      {
+        "id": "trickmask_faketierscollection",
+        "reason": "If both Trick Mask and Cultists are in-play, Cultists do not learn each other and may guess a player is a Cultist. Trick Mask registers as a Cultist to this."
+      }
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  "barista",
+  "bonecollector",
+  "apprentice",
+  "deviant"
+]

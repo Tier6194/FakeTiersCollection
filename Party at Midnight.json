@@ -1,0 +1,273 @@
+[
+  {
+    "id":"_meta",
+    "author":"FakeTier",
+    "name":"Party at Midnight"
+  },
+  {
+    "id": "starpierce_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
+    "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
+    "reminders": [
+      "Target"
+    ],
+    "name": "Star Pierce",
+    "team": "townsfolk",
+    "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
+    "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
+    "firstNight": 49,
+    "otherNight": 75,
+    "jinxes": [
+      {
+        "id": "vizier",
+        "reason": "If the Star Pierce learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
+      }
+    ]
+  },
+  {
+    "id": "jumpstrike_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
+    "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
+    "reminders": [
+      "Townsfolk",
+      "Outsider",
+      "Minion",
+      "Demon",
+      "Learnt"
+    ],
+    "setup": true,
+    "name": "Jump Strike",
+    "team": "townsfolk",
+    "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
+    "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
+    "firstNight": 47,
+    "otherNight": 75
+  },
+  "highpriestess",
+  "sailor",
+  {
+    "id": "dazzle_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them 'This character has chosen you', Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
+    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil: wake that player, show the Dazzle token and point to the Dazzle. The chosen player is drunk.",
+    "reminders": [
+      "Drunk",
+      "Chosen"
+    ],
+    "name": "Dazzle",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
+    "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
+    "firstNight": 22,
+    "otherNight": 10,
+    "jinxes": [
+      {
+        "id": "summoner",
+        "reason": "If the Summoner is drunk from Dazzle's ability on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
+      }
+    ]
+  },
+  "innkeeper",
+  "gambler",
+  "acrobat",
+  {
+    "id": "ammoblast_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Ammo Blast points to a player. If they are Minion, kill the Ammo Blast and as many of the players they previously chose as you like. If good, mark them with the Linked Token.",
+    "reminders": [
+      "Linked",
+      "Linked",
+      "Linked",
+      "Linked",
+      "Linked",
+      "Linked",
+      "Dead"
+    ],
+    "name": "Ammo Blast",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: if a Minion is chosen, you die & previously chosen players might die.",
+    "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
+    "otherNight": 52
+  },
+  "courtier",
+  "fisherman",
+  "minstrel",
+  "fool",
+  {
+    "id": "stress_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "reminders": [
+      "Works Twice",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Stress",
+    "team": "outsider",
+    "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
+    "flavor": "Does nothing. Disappears when used or after battle",
+    "otherNight": 3,
+    "jinxes": [
+      {
+        "id": "mezepheles",
+        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
+      },
+      {
+        "id": "summoner",
+        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
+      }
+    ]
+  },
+  "ogre",
+  "sweetheart",
+  "klutz",
+  "godfather",
+  "devilsadvocate",
+  {
+    "id": "hagumoth_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "reminders": [
+      "Chosen"
+    ],
+    "name": "Hagumoth",
+    "team": "minion",
+    "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
+    "flavor": "Verily, thou art screwed.",
+    "firstNight": 38,
+    "otherNight": 26,
+    "jinxes": [
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
+      },
+      {
+        "id": "vizier",
+        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+      }
+    ]
+  },
+  "widow",
+  "pukka",
+  {
+    "id": "invitationletter_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection-Icons/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Wake all Minions and show them the Invitation Letter's token. They will point to a player. If they do not come to a decision, choose a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. Place the Day 1 Token in the center of the Grimoire.",
+    "otherNightReminder": "Place the next Day token in the centre of the Grimoire. Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is Day 3, wake them. They choose a Demon. If they choose Invitation Letter motion them to choose again. When they make their choice, show them the \"Your character is\" card and the Demon they chose. Change their token in the Grimoire to reflect that and remove the Invitation Letter reminders and tokens. You may need to rotate their token if they are good.",
+    "remindersGlobal": [
+      "Night 1",
+      "Night 2",
+      "Night 3",
+      "Invitee"
+    ],
+    "setup": true,
+    "name": "Invitation Letter",
+    "team": "demon",
+    "ability": "Each night, Minions choose who holds the Invitation Letter's token. On night 3, the invitee chooses a Demon to become. [+1 Minion]",
+    "flavor": "Greetings to whomever recieves this letter. \n\nYou have been invited to be the VIP guest of the Great Party at Midnight being held on the 3rd night of the Black Moon! \nAll costs will be covered by our generous Host*. Entertainment includes: singing, dancing, darts, music, talking, murdering the guests (only after the clock strikes 3), betrayal. Please bring your own Demon horns and ornamental mask. \n\n\n\n*Costs covered do not include travel fees, legal fees, hospital fees, bail. By attending this party you hereby acknowledge that The Followers of the One Beyond will not be held liable for any injuries, diseases, murder, arson, loss of sanity, loss of kidneys, and that you, the holder of the letter, consent to having your insides violently ripped out and replaced by the unholy offspring of our Lord.",
+    "firstNight": 24,
+    "otherNight": 30,
+    "jinxes": [
+      {
+        "id": "clockmaker",
+        "reason": "If the Invitation Letter is in-play, the Clockmaker does not recieve their info until a Demon is successfully invited."
+      },
+      {
+        "id": "cultist_faketierscollection",
+        "reason": "If the Cult is invited, most players (including all evil players) become evil Cultists. If the Cult wins and they were invited, they must do the macarena."
+      },
+      {
+        "id": "engineer",
+        "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before or on Night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
+      },
+      {
+        "id": "focus_faketierscollection",
+        "reason": "If Invitation letter is in-play and no Demon was invited yet, a Focus that met their requirements at their time to wake recieves their info after a Demon is invited."
+      },
+      {
+        "id": "hatter",
+        "reason": "If the Hatter dies, the Invitee can choose a Demon to become. If the Demon chooses Invitation Letter, they also choose a Minion to become and are the Invitee."
+      },
+      {
+        "id": "legion",
+        "reason": "If Legion is invited, most players (including all evil players) become evil Legion."
+      },
+      {
+        "id": "lordoftyphon",
+        "reason": "If Lord of Typhon is invited, one of the Invitee's neighbors becomes an evil Lord of Typhon."
+      },
+      {
+        "id": "magician",
+        "reason": "Each night, the Magician chooses a Minion: if that Minion & the Invitation Letter are alive, that Minion is the Invitee."
+      },
+      {
+        "id": "marionette",
+        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Invitation Letter's token, and does not learn they are the Marionette if they are the Invitee."
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to be the Invitee."
+      },
+      {
+        "id": "pukka",
+        "reason": "The Invitee may choose to invite Pukka on Night 2."
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If there are 5 or more players alive (excluding Travellers) and the Invitee dies, the Scarlet Woman is the Invitee then loses their ability."
+      },
+      {
+        "id": "trickmask_faketierscollection",
+        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Trick Mask's token."
+      },
+      {
+        "id": "vizier",
+        "reason": "The Vizier can die by execution if they are the Invitee."
+      },
+      {
+        "id": "zombuul",
+        "reason": "On night 3, if a dead player becomes the Invitee, they may choose to invite Zombuul. If they do, they become a Zombuul that has died once."
+      }
+    ],
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "name": "pointing",
+        "type": "ability",
+        "time": "night",
+        "global": "minion"
+      }
+    ]
+  },
+  "imp",
+  "zombuul"
+]
