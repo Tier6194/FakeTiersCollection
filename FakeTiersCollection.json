@@ -99,6 +99,23 @@
     ]
   },
   {
+    "id": "blitz_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Blitz chooses 2 players and a character. If that character is amongst the 2, tell them the other character. If not, show them any other token.",
+    "reminders": [
+      "Chosen",
+      "Chosen"
+    ],
+    "name": "Blitz",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players (not yourself & different from last night) & a character: if it is among them, learn the other character else learn false info.",
+    "flavor": "Attack twice if used in odd-numbered Phase",
+    "otherNight": 77
+  },
+  {
     "id": "finemaneuver_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/finemaneuver_faketierscollection.png?raw=true",
@@ -226,23 +243,6 @@
         "reason": "If Riot is in play, players protected by Fortify are safe from all evil abilities."
       }
     ]
-  },
-  {
-    "id": "blitz_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_evil_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Blitz chooses 2 players and a character. If that character is amongst the 2, tell them the other character. If not, show them any other token.",
-    "reminders": [
-      "Chosen",
-      "Chosen"
-    ],
-    "name": "Blitz",
-    "team": "townsfolk",
-    "ability": "Each night, choose 2 players (not yourself & different from last night) & a character: if it is among them, learn the other character else learn false info.",
-    "flavor": "Attack twice if used in odd-numbered Phase",
-    "otherNight": 77
   },
   {
     "id": "mysteryattack_faketierscollection",
