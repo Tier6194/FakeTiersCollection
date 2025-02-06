@@ -1145,6 +1145,7 @@
       "Poisoned",
       "Poisoned"
     ],
+    "setup": true,
     "name": "Sabnock",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
