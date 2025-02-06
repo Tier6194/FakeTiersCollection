@@ -178,7 +178,7 @@
     ],
     "name": "Encore",
     "team": "townsfolk",
-    "ability": "Each night*, choose a dead player: gain their ability (if unused) until dusk. If evil is chosen, you are drunk until dusk.",
+    "ability": "Each night*, choose a dead player: gain their ability (if unused) until your next choice. If they were evil, you are drunk until you choose again.",
     "flavor": "If previous card on the field is card user's, activate it again",
     "otherNight": 2,
     "jinxes":[
