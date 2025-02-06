@@ -832,17 +832,14 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If the False Idol just became \"The Demon\", wake them and signal the day before evil wins. If the False Idol already knows: move the Stage token 1 step clockwise. If it reaches False Idol, remove a New Cycle and if there are none, evil wins.",
+    "otherNightReminder": "If The Concert token is on False Idol, move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
     "reminders": [
-      "The Demon",
-      "Stage",
-      "New Cycle",
-      "New Cycle",
-      "New Cycle"
+      "Concert",
+      "Stage"
     ],
     "name": "False Idol",
     "team": "minion",
-    "ability": "If the Demon died today (ending the game), become \"the Demon\" and nobody can win. After 4 days, evil wins.",
+    "ability": "If the Demon died today (ending the game), play for 4 more days after which evil wins.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "otherNight": 68,
     "jinxes": [
