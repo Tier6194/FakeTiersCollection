@@ -94,7 +94,7 @@
     "jinxes": [
       {
         "id": "summoner",
-        "reason": "If the Summoner is drunk from Dazzle's ability on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
+        "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
       }
     ]
   },
@@ -136,7 +136,7 @@
     "jinxes": [
       {
         "id": "alchemist",
-        "reason": "A drunk or poisoned Alchemist learns their ability after the Fine Maneuver's turn. The effects of a drunk or poisoned Alchemist's ability only takes place after Fine Maneuver's turn unless it would poison Fine Manuever."
+        "reason": "The effects of a drunk or poisoned Alchemist's ability only takes place after Fine Maneuver's turn unless it would poison Fine Manuever."
       },
       {
         "id": "engineer",
@@ -144,15 +144,15 @@
       },
       {
         "id": "overdrive_faketierscollection",
-        "reason": "The Overdrive learns info after the Fine Manuever's turn. If the Overdrive would make a Townsfolk drunk, that player is drunk after the Fine Manuever's turn if the Fine Manuever is in-play and the Overdrive is drunk or poisoned."
+        "reason": "The Overdrive learns info after the Fine Manuever's turn."
       },
       {
         "id": "philosopher",
-        "reason": "If the Fine Maneuver chooses an evil player the same night a drunk or poisoned Philospher uses their ability, they gain their chosen ability and will successfully drunk their chosen character once Fine Maneuever's ability wears off."
+        "reason": "If the Fine Maneuver chooses an evil player the same night a drunk or poisoned Philospher uses their ability, their ability works as normal."
       },
       {
         "id": "poppygrower",
-        "reason": "Minion and Demon info is delayed until after the Fine Manuever's turn if it is in-play and the Poppy Grower started out drunk or poisoned. If the Poppy Grower became sober and healthy from the Fine Manuever's ability it is skipped."
+        "reason": "Minion and Demon info is delayed until after the Fine Manuever's turn if it is in-play and the Poppy Grower started out drunk or poisoned."
       },
       {
         "id": "preacher",
@@ -195,9 +195,9 @@
     ],
     "name": "Encore",
     "team": "townsfolk",
-    "ability": "Each night*, choose a dead player: gain their ability (if unused) until your next choice. If they were evil, you are drunk until you choose again.",
+    "ability": "Each night*, choose a dead player: gain their ability (if unused) until your next choice. If they were evil, you are drunk until your next choice.",
     "flavor": "If previous card on the field is card user's, activate it again",
-    "otherNight": 2,
+    "otherNight": 3,
     "jinxes":[
       {
         "id": "butler",
@@ -205,11 +205,11 @@
       },
       {
         "id": "juggler",
-        "reason": "If the Juggler guesses on their first day and dies before learning, tonight a living Encore choosing the Juggler learns how many guesses the Juggler got correct."
+        "reason": "If the Juggler guesses on their first day and dies before learning, tonight a sober and healthy Encore choosing the Juggler learns how many guesses the Juggler got correct."
       },
       {
         "id": "poppygrower",
-        "reason": "If the Poppy Grower died today or before Encore's turn in the night order, evil info only occurs after Encore's turn unless they choose the Poppy Grower. Poppy Grower will be considered newly dead when Encore loses their ability at dusk."
+        "reason": "If the Poppy Grower died today or before Encore's turn in the night order, evil info only occurs after Encore's turn. Poppy Grower will be considered newly dead when Encore loses their ability at dusk."
       },
       {
         "id": "zealot",
@@ -295,7 +295,7 @@
     "jinxes": [
       {
         "id": "bountyhunter",
-        "reason": "A Shadow Pierce cannot turn evil due to the Bounty Hunter's ability."
+        "reason": "A Shadow Pierce cannot turn evil."
       },
       {
         "id": "marionette",
@@ -303,7 +303,7 @@
       },
       {
         "id": "mezepheles",
-        "reason": "A Shadow Pierce cannot turn evil due to the Mezepheles' ability."
+        "reason": "A Shadow Pierce cannot turn evil."
       },
       {
         "id": "pithag",
@@ -393,11 +393,11 @@
     "jinxes": [
       {
         "id": "legion",
-        "reason": "If both Trick Mask and Legion are in-play, Legion do not learn each other and, each night, may guess a player as Legion. They learn if they are correct. Trick Mask registers as Legion to this jinx."
+        "reason": "If both Trick Mask and Legion are in-play, Legion do not learn each other and, each night, may guess a player as Legion. They learn if they are correct. Trick Mask registers as Legion to this."
       },
       {
         "id": "lilmonsta",
-        "reason": "If the Trick Mask's ability is active, Minions also wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
+        "reason": "If the Trick Mask's ability is active, Minions wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
       },
       {
         "id": "magician",
@@ -405,11 +405,11 @@
       },
       {
         "id": "marionette",
-        "reason": "The Demon will still learn who the Marionette is."
+        "reason": "The Demon will learn who the Marionette is."
       },
       {
         "id": "summoner",
-        "reason": "When the Summoner uses their ability, the Summoner chooses which Demon but the Storyteller chooses which player."
+        "reason": "When the Summoner uses their ability and Trick Mask's ability is active, the Summoner chooses which Demon but the Storyteller chooses which player."
       },
       {
         "id": "spy",
@@ -535,19 +535,19 @@
       },
       {
         "id": "hunter_faketierscollection",
-        "reason": "Up to 3 extra players learn that Hunter is in play. If Hunter's ability is created midgame, those are its targets. If no possible targets, Hunter's ability cannot be put into play."
+        "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
       },
       {
         "id": "marionette",
-        "reason": "If the Demon has a neighbor who is alive and a good Townsfolk or Outsider when the Coda dies and would give the Marionette ability, that player becomes an evil Marionette. The Coda cannot give the Marionette ability if there is already an extra evil player."
+        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
       },
       {
         "id": "scarletwoman",
-        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it instead and learns so."
+        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it alongside their own instead and learns so."
       },
       {
         "id": "summoner",
-        "reason": "If the Demon gains and uses the Summoner's ability, deaths tonight are arbitrary. The Summoner's ability cannot create an in-play Demon."
+        "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
       }
     ]
   },
@@ -575,7 +575,7 @@
     "jinxes": [
       {
         "id": "vortox",
-        "reason": "If the Vortox's ability is active and Townsfolk was turned into a Trauma by Trauma's ability, that player exclusively learns true info instead."
+        "reason": "Players turned into Trauma through its ability learn only true info if the Vortox is alive, sober and healthy."
       }
     ]
   },
@@ -934,7 +934,7 @@
       },
       {
         "id": "engineer",
-        "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before or on Night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
+        "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
       },
       {
         "id": "focus_faketierscollection",

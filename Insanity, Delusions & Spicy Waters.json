@@ -144,19 +144,19 @@
       },
       {
         "id": "hunter_faketierscollection",
-        "reason": "Up to 3 extra players learn that Hunter is in play. If Hunter's ability is created midgame, those are its targets. If no possible targets, Hunter's ability cannot be put into play."
+        "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
       },
       {
         "id": "marionette",
-        "reason": "If the Demon has a neighbor who is alive and a good Townsfolk or Outsider when the Coda dies and would give the Marionette ability, that player becomes an evil Marionette. The Coda cannot give the Marionette ability if there is already an extra evil player."
+        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
       },
       {
         "id": "scarletwoman",
-        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it instead and learns so."
+        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it alongside their own instead and learns so."
       },
       {
         "id": "summoner",
-        "reason": "If the Demon gains and uses the Summoner's ability, deaths tonight are arbitrary. The Summoner's ability cannot create an in-play Demon."
+        "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
       }
     ]
   },

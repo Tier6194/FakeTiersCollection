@@ -74,7 +74,7 @@
     "jinxes": [
       {
         "id": "summoner",
-        "reason": "If the Summoner is drunk from Dazzle's ability on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
+        "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
       }
     ]
   },
@@ -204,7 +204,7 @@
       },
       {
         "id": "engineer",
-        "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before or on Night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
+        "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
       },
       {
         "id": "focus_faketierscollection",
@@ -244,7 +244,7 @@
       },
       {
         "id": "trickmask_faketierscollection",
-        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Trick Mask's token."
+        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Invitation Letter's token."
       },
       {
         "id": "vizier",
