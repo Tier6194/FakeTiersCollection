@@ -1095,7 +1095,7 @@
     ],
     "name": "Destiny",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. You may make a prediction: if accepted, you cannot make another & it will come true with consequences.",
+    "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true with consequences.",
     "flavor": "The world is MINE to shape.",
     "firstNight": 30,
     "otherNight": 40
