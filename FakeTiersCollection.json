@@ -1077,34 +1077,6 @@
     "otherNight": 46
   },
   {
-    "id": "zhobazhbu_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
-    "reminders": [
-      "Dead",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Purged"
-    ],
-    "setup": true,
-    "name": "Zhobazhbu",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
-    "flavor": "By the Blessed Flame of the One Beyond, you are reborn.",
-    "otherNight": 43,
-    "jinxes": [
-      {
-        "id": "banshee",
-        "reason": "If the Demon kills the Banshee, their announcement still happens as normal."
-      }
-    ]
-  },
-  {
     "id": "destiny_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/destiny_faketierscollection.png?raw=true",
@@ -1127,6 +1099,34 @@
     "flavor": "The world is MINE to shape.",
     "firstNight": 30,
     "otherNight": 40
+  },
+  {
+    "id": "zhobazhbu_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
+    "reminders": [
+      "Dead",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Purged"
+    ],
+    "setup": true,
+    "name": "Zhobazhbu",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until your next choice. [-1 Outsider]",
+    "flavor": "By the Blessed Flame of the One Beyond, you are reborn.",
+    "otherNight": 43,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
+      }
+    ]
   },
   {
     "id": "sabnock_faketierscollection",
