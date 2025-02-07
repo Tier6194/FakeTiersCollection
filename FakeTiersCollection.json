@@ -1119,7 +1119,7 @@
     "name": "Zhobazhbu",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
-    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\... You are ReBorn!",
+    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... You are ReBorn!",
     "otherNight": 43,
     "jinxes": [
       {
