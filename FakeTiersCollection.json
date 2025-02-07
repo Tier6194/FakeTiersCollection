@@ -1118,7 +1118,7 @@
     "setup": true,
     "name": "Zhobazhbu",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until your next choice. [-1 Outsider]",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
     "flavor": "By the Blessed Flame of the One Beyond, you are reborn.",
     "otherNight": 43,
     "jinxes": [
