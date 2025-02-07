@@ -260,7 +260,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points at a player. That player dies. If that player was a Minion, mark them with the Has Ability token and the Purged token. Townsfolk abilities yield false information while the Purged token is placed. At the start of the next night, remove the Purged token.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
     "reminders": [
       "Dead",
       "Has Ability",
@@ -272,13 +272,13 @@
     "setup": true,
     "name": "Zhobazhbu",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die, Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
-    "flavor": "By the Blessed Flame of the One Beyond, you are reborn.",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
+    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\... You are ReBorn!",
     "otherNight": 43,
     "jinxes": [
       {
         "id": "banshee",
-        "reason": "If the Demon kills the Banshee, their announcement still happens as normal."
+        "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
       }
     ]
   },
