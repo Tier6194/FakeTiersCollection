@@ -999,22 +999,6 @@
     ]
   },
   {
-    "id": "plankofwood_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "name": "Plank of Wood",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. On the final day, whoever wins, loses & whoever loses, wins.",
-    "flavor": "*Plank of Wood noises*",
-    "otherNight": 49
-  },
-  {
     "id": "estelle_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
@@ -1099,6 +1083,22 @@
     "flavor": "The world is MINE to shape.",
     "firstNight": 30,
     "otherNight": 40
+  },
+  {
+    "id": "plankofwood_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Plank of Wood",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
+    "flavor": "*Plank of Wood noises*",
+    "otherNight": 49
   },
   {
     "id": "zhobazhbu_faketierscollection",
