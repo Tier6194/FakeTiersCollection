@@ -4,17 +4,16 @@
     "name":"Insanity, Delusions & Spicy Waters",
     "author":"FakeTier",
     "firstNight":[
-      "bootlegger",
       "dusk",
       "corrupted_faketierscollection",
       "madeline_faketierscollection",
+      "overdrive_faketierscollection",
       "minioninfo",
       "demoninfo",
       "cerenovus",
       "hagumoth_faketierscollection",
       "starpierce_faketierscollection",
       "seamstress",
-      "overdrive_faketierscollection",
       "noble",
       "mathematician",
       "dawn"
@@ -22,6 +21,7 @@
     "otherNight":[
       "dusk",
       "madeline_faketierscollection",
+      "overdrive_faketierscollection",
       "corrupted_faketierscollection",
       "cerenovus",
       "hagumoth_faketierscollection",
