@@ -142,35 +142,38 @@
   "klutz",
   "godfather",
   "devilsadvocate",
+  "marionette",
   {
-    "id": "hagumoth_faketierscollection",
+    "id": "falseidol_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "If The Concert token is on False Idol, move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
     "reminders": [
-      "Chosen"
+      "Concert",
+      "Stage"
     ],
-    "name": "Hagumoth - π",
+    "name": "False Idol - π",
     "team": "minion",
-    "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
-    "flavor": "Verily, thou art screwed.",
-    "firstNight": 38,
-    "otherNight": 26,
+    "ability": "If the Demon died today (ending the game), play for 4 more days after which evil wins.",
+    "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
+    "otherNight": 68,
     "jinxes": [
       {
-        "id": "plaguedoctor",
-        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
+        "id": "lleech",
+        "reason": "If the Lleech's host dies during the day and the False Idol's ability triggers, the Lleech lives but loses their ability and registers as a Minion."
       },
       {
-        "id": "vizier",
-        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+        "id": "mastermind",
+        "reason": "If both Mastermind's and False Idol's abilities trigger,False Idol's ability works as normal but if an evil player is executed during those 4 days, good wins."
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If the Scarlet Woman's ability triggers, False Idol's does not."
       }
     ]
   },
-  "widow",
   "pukka",
   {
     "id": "invitationletter_faketierscollection",
