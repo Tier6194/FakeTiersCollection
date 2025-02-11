@@ -237,34 +237,6 @@
     ]
   },
   {
-    "id": "mysteryattack_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_evil_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Change and run the Mystery Attack's ability.",
-    "reminders": [
-      "?",
-      "?",
-      "?",
-      "?",
-      "?",
-      "?",
-      "?"
-    ],
-    "name": "Mystery Attack - π",
-    "team": "townsfolk",
-    "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight & tomorrow.",
-    "flavor": "At the start of battle: Transform into a random Attack card. Turn back after battle",
-    "otherNight": 1,
-    "jinxes": [
-      {
-        "id": "vortox",
-        "reason": "The Mystery Attack when learning their next ability will always recieve true information."
-      }
-    ]
-  },
-  {
     "id": "shadowpierce_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_faketierscollection.png?raw=true",
@@ -314,6 +286,34 @@
       {
         "name": "bag-duplicate",
         "type": "selection"
+      }
+    ]
+  },
+  {
+    "id": "mysteryattack_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Change and run the Mystery Attack's ability.",
+    "reminders": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Mystery Attack - π",
+    "team": "townsfolk",
+    "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight & tomorrow.",
+    "flavor": "At the start of battle: Transform into a random Attack card. Turn back after battle",
+    "otherNight": 1,
+    "jinxes": [
+      {
+        "id": "vortox",
+        "reason": "The Mystery Attack when learning their next ability will always recieve true information."
       }
     ]
   },
@@ -616,52 +616,6 @@
     ]
   },
   {
-    "id": "grave_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Show the Grave up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up seperately, show them Grave's token then put them to sleep.",
-    "otherNightReminder": "The Grave points to as many players as targets. If correct, announce that their team has won.",
-    "reminders": [
-      "Target",
-      "Target",
-      "Target"
-    ],
-    "name": "Grave - π",
-    "team": "minion",
-    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 is alive, your team wins.",
-    "flavor": "you shall not pass",
-    "firstNight": 34,
-    "otherNight": 30,
-    "jinxes": [
-      {
-        "id": "dazzle_faketierscollection",
-        "reason": "The Grave cannot have a Dazzle as their target"
-      },
-      {
-        "id": "exorcist",
-        "reason": "The Grave cannot have a Exorcist as their target"
-      },
-      {
-        "id": "heretic",
-        "reason": "The Grave cannot have a Heretic as their target."
-      },
-      {
-        "id": "king",
-        "reason": "The Grave cannot have a King as their target"
-      },
-      {
-        "id": "lunatic",
-        "reason": "The Grave cannot have a Lunatic as their target"
-      },
-      {
-        "id": "pithag",
-        "reason": "Up to 3 extra players learn that the Grave is in play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
-      }
-    ]
-  },
-  {
     "id": "hunter_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_faketierscollection.png?raw=true",
@@ -705,6 +659,52 @@
       {
         "id": "pithag",
         "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
+      }
+    ]
+  },
+  {
+    "id": "grave_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Show the Grave up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up seperately, show them Grave's token then put them to sleep.",
+    "otherNightReminder": "The Grave points to as many players as targets. If correct, announce that their team has won.",
+    "reminders": [
+      "Target",
+      "Target",
+      "Target"
+    ],
+    "name": "Grave - π",
+    "team": "minion",
+    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 is alive, your team wins.",
+    "flavor": "you shall not pass",
+    "firstNight": 34,
+    "otherNight": 30,
+    "jinxes": [
+      {
+        "id": "dazzle_faketierscollection",
+        "reason": "The Grave cannot have a Dazzle as their target"
+      },
+      {
+        "id": "exorcist",
+        "reason": "The Grave cannot have a Exorcist as their target"
+      },
+      {
+        "id": "heretic",
+        "reason": "The Grave cannot have a Heretic as their target."
+      },
+      {
+        "id": "king",
+        "reason": "The Grave cannot have a King as their target"
+      },
+      {
+        "id": "lunatic",
+        "reason": "The Grave cannot have a Lunatic as their target"
+      },
+      {
+        "id": "pithag",
+        "reason": "Up to 3 extra players learn that the Grave is in play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
       }
     ]
   },
@@ -1049,6 +1049,60 @@
     "otherNight": 46
   },
   {
+    "id": "marusok_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "You may choose to not wake a Demon.",
+    "otherNightReminder": "You may choose to not wake a Demon. The Marusok points to a player. That player dies.",
+    "reminders": [
+      "The Demon",
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Marusok - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Demons might not wake & might not kill, even if you are dead. [All Minions are Demons]",
+    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
+    "firstNight": 1,
+    "otherNight": 46,
+    "jinxes": [
+      {
+        "id": "corrsylphy_faketierscollection",
+        "reason": "Corr. Sylphy's ability only checks the last night they woke."
+      },
+      {
+        "id": "estelle_faketierscollection",
+        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
+      },
+      {
+        "id": "kazali",
+        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
+      },
+      {
+        "id": "legion",
+        "reason": "Maruok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
+      },
+      {
+        "id": "po",
+        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
+      },
+      {
+        "id": "riot",
+        "reason": "On day 3, all Demons become Riot."
+      },
+      {
+        "id": "vigormortis",
+        "reason": "Demons register as Minions to the Vigormortis' ability."
+      },
+      {
+        "id": "zhobazhbu_faketierscollection",
+        "reason": "Demons register as Minions to the Zhobazhbu's ability."
+      }
+    ]
+  },
+  {
     "id": "destiny_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/destiny_faketierscollection.png?raw=true",
@@ -1136,60 +1190,6 @@
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
     "otherNight": 42
-  },
-  {
-    "id": "marusok_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "You may choose to not wake a Demon.",
-    "otherNightReminder": "You may choose to not wake a Demon. The Marusok points to a player. That player dies.",
-    "reminders": [
-      "The Demon",
-      "Dead"
-    ],
-    "setup": true,
-    "name": "Marusok - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Demons might not wake & might not kill, even if you are dead. [All Minions are Demons]",
-    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
-    "firstNight": 1,
-    "otherNight": 46,
-    "jinxes": [
-      {
-        "id": "corrsylphy_faketierscollection",
-        "reason": "Corr. Sylphy's ability only checks the last night they woke."
-      },
-      {
-        "id": "estelle_faketierscollection",
-        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
-      },
-      {
-        "id": "kazali",
-        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
-      },
-      {
-        "id": "legion",
-        "reason": "Maruok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
-      },
-      {
-        "id": "po",
-        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
-      },
-      {
-        "id": "riot",
-        "reason": "On day 3, all Demons become Riot."
-      },
-      {
-        "id": "vigormortis",
-        "reason": "Demons register as Minions to the Vigormortis' ability."
-      },
-      {
-        "id": "zhobazhbu_faketierscollection",
-        "reason": "Demons register as Minions to the Zhobazhbu's ability."
-      }
-    ]
   },
   {
     "id": "timeninth_faketierscollection",
