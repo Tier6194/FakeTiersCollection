@@ -62,7 +62,7 @@
     "reminders": [
       "No Ability"
     ],
-    "name": "Hope",
+    "name": "Hope - π",
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately ask the Storyteller any question & recieve some answers (only 1 is correct).",
     "flavor": "Recover HP by 8 and gain 4 Barrier"
@@ -80,7 +80,7 @@
     "reminders": [
       "Demon's Ability"
     ],
-    "name": "Coda",
+    "name": "Coda - π",
     "team": "outsider",
     "ability": "When you die, the Demon gains a Minion ability alongside their own.",
     "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
@@ -130,7 +130,7 @@
     "remindersGlobal": [
       "Is a Trauma"
     ],
-    "name": "Trauma",
+    "name": "Trauma - π",
     "team": "outsider",
     "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
@@ -161,7 +161,7 @@
       "Target",
       "Drunk"
     ],
-    "name": "Showtime",
+    "name": "Showtime - π",
     "team": "outsider",
     "ability": "If you died today or tonight, choose 1 alive player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
@@ -183,7 +183,7 @@
       "No Ability",
       "No Ability"
     ],
-    "name": "Enra",
+    "name": "Enra - π",
     "team": "minion",
     "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you have no ability, chosen players might regain theirs at any time.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
@@ -205,7 +205,7 @@
       "Poisoned",
       "Poisoned"
     ],
-    "name": "Madeline",
+    "name": "Madeline - π",
     "team": "demon",
     "ability": "Each night, the next Townsfolk closer clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
     "flavor": "If only you knew your place! But its too late now!",
@@ -226,7 +226,7 @@
       "About to Die"
     ],
     "setup": true,
-    "name": "Cultist",
+    "name": "Cultist - π",
     "team": "demon",
     "ability": "Players might die at any time. Evil votes secretly don't count & a 50% majority is not required. You register as a Minion too. [Most players are Cultists]",
     "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
