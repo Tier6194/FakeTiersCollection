@@ -1144,17 +1144,18 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "You may choose to not wake a Demon.",
-    "otherNightReminder": "You may choose to not wake a Demon.",
+    "otherNightReminder": "You may choose to not wake a Demon. The Marusok points to a player. That player dies.",
     "reminders": [
-      "The Demon"
+      "The Demon",
+      "Dead"
     ],
     "setup": true,
     "name": "Marusok - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Demons might not wake & are safe from the Demon, even if you are dead. [All Minions are Demons, Demons only learn bluffs]",
-    "flavor": "I am the infinite spiral. What are you?",
+    "ability": "Each night*, choose a player: they die. Demons might not wake & might not kill, even if you are dead. [All Minions are Demons]",
+    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
     "firstNight": 1,
-    "otherNight": 1,
+    "otherNight": 46,
     "jinxes": [
       {
         "id": "corrsylphy_faketierscollection",
