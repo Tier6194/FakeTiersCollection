@@ -55,7 +55,7 @@
     "reminders": [
       "Target"
     ],
-    "name": "Star Pierce",
+    "name": "Star Pierce - π",
     "team": "townsfolk",
     "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
     "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
@@ -85,7 +85,7 @@
       "No Ability",
       "Drunk"
     ],
-    "name": "Overdrive",
+    "name": "Overdrive - π",
     "team": "townsfolk",
     "ability": "Once per game at night, choose a player: learn their character but they are drunk if a Townsfolk, even if you are dead.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
@@ -102,7 +102,7 @@
     "reminders": [
       "No Ability"
     ],
-    "name": "Hope",
+    "name": "Hope - π",
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately ask the Storyteller any question & recieve some answers (only 1 is correct).",
     "flavor": "Recover HP by 8 and gain 4 Barrier"
@@ -120,7 +120,7 @@
     "reminders": [
       "Demon's Ability"
     ],
-    "name": "Coda",
+    "name": "Coda - π",
     "team": "outsider",
     "ability": "When you die, the Demon gains a Minion ability alongside their own.",
     "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
@@ -173,7 +173,7 @@
       "Target",
       "Drunk"
     ],
-    "name": "Showtime",
+    "name": "Showtime - π",
     "team": "outsider",
     "ability": "If you died today or tonight, choose 1 alive player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
@@ -191,7 +191,7 @@
     "reminders": [
       "Chosen"
     ],
-    "name": "Hagumoth",
+    "name": "Hagumoth - π",
     "team": "minion",
     "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
@@ -225,7 +225,7 @@
       "Has Ability",
       "Has Ability"
     ],
-    "name": "Corrupted",
+    "name": "Corrupted - π",
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players (all learn which): after a 10 to 1 countdown, the player with the most votes dies & the other lives, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
@@ -246,7 +246,7 @@
       "Poisoned",
       "Poisoned"
     ],
-    "name": "Madeline",
+    "name": "Madeline - π",
     "team": "demon",
     "ability": "Each night, the next Townsfolk closer clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
     "flavor": "If only you knew your place! But its too late now!",
@@ -270,7 +270,7 @@
       "Purged"
     ],
     "setup": true,
-    "name": "Zhobazhbu",
+    "name": "Zhobazhbu - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... You are reborn!",
@@ -297,7 +297,7 @@
       "Poisoned"
     ],
     "setup": true,
-    "name": "Sabnock",
+    "name": "Sabnock - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
