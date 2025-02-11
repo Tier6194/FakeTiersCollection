@@ -35,20 +35,12 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Point to 3 players and mark Knows tokens on all of them.",
-    "otherNightReminder": "If all players with Knows tokens are dead the Focus has no Learnt token, wake the Focus and point to 2 players, 1 of which is the Demon.",
-    "reminders": [
-      "Knows",
-      "Knows",
-      "Knows",
-      "Learnt"
-    ],
+    "firstNightReminder": "Decide Focus' question. Show Focus a piece of paper with the answer to that question or signal it if possible.",
     "name": "Focus",
     "team": "townsfolk",
-    "ability": "You start knowing 3 players. The 1st time they are all dead: learn that the Demon is 1 of 2 players.",
+    "ability": "You start knowing the answer to a question. Each day, privately guess what it is: you learn how accurate you are.",
     "flavor": "Gain 3 Focus status",
-    "firstNight": 60,
-    "otherNight": 60
+    "firstNight": 75
   },
   {
     "id": "jumpstrike_faketierscollection",
@@ -935,10 +927,6 @@
       {
         "id": "engineer",
         "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
-      },
-      {
-        "id": "focus_faketierscollection",
-        "reason": "If Invitation letter is in-play and no Demon was invited yet, a Focus that met their requirements at their time to wake recieves their info after a Demon is invited."
       },
       {
         "id": "hatter",
