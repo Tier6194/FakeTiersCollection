@@ -15,7 +15,7 @@
     "reminders": [
       "Target"
     ],
-    "name": "Star Pierce",
+    "name": "Star Pierce - π",
     "team": "townsfolk",
     "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
     "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
@@ -44,7 +44,7 @@
       "Learnt"
     ],
     "setup": true,
-    "name": "Jump Strike",
+    "name": "Jump Strike - π",
     "team": "townsfolk",
     "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
     "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
@@ -65,7 +65,7 @@
       "Drunk",
       "Chosen"
     ],
-    "name": "Dazzle",
+    "name": "Dazzle - π",
     "team": "townsfolk",
     "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
     "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
@@ -97,7 +97,7 @@
       "Linked",
       "Dead"
     ],
-    "name": "Ammo Blast",
+    "name": "Ammo Blast - π",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: if a Minion is chosen, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
@@ -121,7 +121,7 @@
       "?",
       "?"
     ],
-    "name": "Stress",
+    "name": "Stress - π",
     "team": "outsider",
     "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
     "flavor": "Does nothing. Disappears when used or after battle",
@@ -153,7 +153,7 @@
     "reminders": [
       "Chosen"
     ],
-    "name": "Hagumoth",
+    "name": "Hagumoth - π",
     "team": "minion",
     "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Verily, thou art screwed.",
@@ -187,7 +187,7 @@
       "Invitee"
     ],
     "setup": true,
-    "name": "Invitation Letter",
+    "name": "Invitation Letter - π",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter's token. On night 3, the invitee chooses a Demon to become. [+1 Minion]",
     "flavor": "Greetings to whomever recieves this letter. \n\nYou have been invited to be the VIP guest of the Great Party at Midnight being held on the 3rd night of the Black Moon! \nAll costs will be covered by our generous Host*. Entertainment includes: singing, dancing, darts, music, talking, murdering the guests (only after the clock strikes 3), betrayal. Please bring your own Demon horns and ornamental mask. \n\n\n\n*Costs covered do not include travel fees, legal fees, hospital fees, bail. By attending this party you hereby acknowledge that The Followers of the One Beyond will not be held liable for any injuries, diseases, murder, arson, loss of sanity, loss of kidneys, and that you, the holder of the letter, consent to having your insides violently ripped out and replaced by the unholy offspring of our Lord.",
