@@ -16,7 +16,7 @@
     "reminders": [
       "Target"
     ],
-    "name": "Star Pierce",
+    "name": "Star Pierce - π",
     "team": "townsfolk",
     "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
     "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
@@ -36,7 +36,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_evil_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Decide Focus' question. Show Focus a piece of paper with the answer to that question or signal it if possible.",
-    "name": "Focus",
+    "name": "Focus - π",
     "team": "townsfolk",
     "ability": "You start knowing the answer to a question. Each day, privately guess what it is: you learn how accurate you are.",
     "flavor": "Gain 3 Focus status",
@@ -58,7 +58,7 @@
       "Learnt"
     ],
     "setup": true,
-    "name": "Jump Strike",
+    "name": "Jump Strike - π",
     "team": "townsfolk",
     "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
     "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
@@ -77,7 +77,7 @@
       "Drunk",
       "Chosen"
     ],
-    "name": "Dazzle",
+    "name": "Dazzle - π",
     "team": "townsfolk",
     "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
     "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
@@ -101,7 +101,7 @@
       "Chosen",
       "Chosen"
     ],
-    "name": "Blitz",
+    "name": "Blitz - π",
     "team": "townsfolk",
     "ability": "Each night, choose 2 players (not yourself & different from last night) & a character: if it is among them, learn the other character else learn false info.",
     "flavor": "Attack twice if used in odd-numbered Phase",
@@ -119,7 +119,7 @@
       "Chosen",
       "True"
     ],
-    "name": "Fine Maneuver",
+    "name": "Fine Maneuver - π",
     "team": "townsfolk",
     "ability": "Each night, choose a player (different to last night): if evil, all Townsfolk are sober, healthy & their abilities yield true info until dusk.",
     "flavor": "If the next card on the field is an Attack, heal by 6 HP. If its a Magic card, inflict 6 damage",
@@ -168,7 +168,7 @@
       "Linked",
       "Dead"
     ],
-    "name": "Ammo Blast",
+    "name": "Ammo Blast - π",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: if a Minion is chosen, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
@@ -185,7 +185,7 @@
       "Drunk",
       "Encored"
     ],
-    "name": "Encore",
+    "name": "Encore - π",
     "team": "townsfolk",
     "ability": "Each night*, choose a dead player: gain their ability (if unused) until your next choice. If they were evil, you are drunk until your next choice.",
     "flavor": "If previous card on the field is card user's, activate it again",
@@ -220,7 +220,7 @@
       "Safe",
       "Drunk"
     ],
-    "name": "Fortify",
+    "name": "Fortify - π",
     "team": "townsfolk",
     "ability": "Each night*, choose a player: they can't die tonight. If you chose an evil player, you are drunk.",
     "flavor": "Gain 12 Barrier",
@@ -252,7 +252,7 @@
       "?",
       "?"
     ],
-    "name": "Mystery Attack",
+    "name": "Mystery Attack - π",
     "team": "townsfolk",
     "ability": "Each day, you may visit the Storyteller to learn what your ability is tonight & tomorrow.",
     "flavor": "At the start of battle: Transform into a random Attack card. Turn back after battle",
@@ -278,7 +278,7 @@
       "Guess used"
     ],
     "setup": true,
-    "name": "Shadow Pierce",
+    "name": "Shadow Pierce - π",
     "team": "townsfolk",
     "ability": "Each night*, if both Shadow Pierces guessed the other, good wins. Evil knows Shadow Pierce is in-play & win if they publicly guess 1. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
@@ -329,7 +329,7 @@
       "No Ability",
       "Drunk"
     ],
-    "name": "Overdrive",
+    "name": "Overdrive - π",
     "team": "townsfolk",
     "ability": "Once per game at night, choose a player: learn their character but they are drunk if a Townsfolk, even if you are dead.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
@@ -345,7 +345,7 @@
     "reminders": [
       "No Ability"
     ],
-    "name": "Hope",
+    "name": "Hope - π",
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately ask the Storyteller any question & recieve some answers (only 1 is correct).",
     "flavor": "Recover HP by 8 and gain 4 Barrier"
@@ -361,7 +361,7 @@
     "reminders": [
       "No Ability"
     ],
-    "name": "Inverse Strike",
+    "name": "Inverse Strike - π",
     "team": "townsfolk",
     "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
     "flavor": "Attack then reduce cooldown of Magic cards",
@@ -376,7 +376,7 @@
     ],
     "firstNightReminder": "Dont tell the Demon their Minions and Minions their Demon and instead show both parties Tricks Mask's token. Minions then choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
     "otherNightReminder": "Minions choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
-    "name": "Trick Mask",
+    "name": "Trick Mask - π",
     "team": "townsfolk",
     "ability": "Minions & Demons do not know the other. Each night, Minions guess a player: if you or a Demon, they learn this, even if your ability is removed from play.",
     "flavor": "Halve opponent Barrier and gain 4 Cover Status",
@@ -437,7 +437,7 @@
       "Linked",
       "Dead"
     ],
-    "name": "Whisper",
+    "name": "Whisper - π",
     "team": "outsider",
     "ability": "You start knowing up to 2 alive players: what happens to you happens to them, and vice versa, even if poisoned or drunk.",
     "flavor": "Inflict 3 Sensitive",
@@ -457,7 +457,7 @@
       "?",
       "?"
     ],
-    "name": "Stress",
+    "name": "Stress - π",
     "team": "outsider",
     "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
     "flavor": "Does nothing. Disappears when used or after battle",
@@ -486,7 +486,7 @@
       "Minion",
       "Dead"
     ],
-    "name": "Feint",
+    "name": "Feint - π",
     "team": "outsider",
     "ability": "Each night, learn a player. If you aren't mad they are evil tomorrow, one or both of you might die. If you learn a Minion, you might learn this (once).",
     "flavor": "Gain 3 Feint Status",
@@ -503,7 +503,7 @@
     "reminders": [
       "Demon's Ability"
     ],
-    "name": "Coda",
+    "name": "Coda - π",
     "team": "outsider",
     "ability": "When you die, the Demon gains a Minion ability alongside their own.",
     "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
@@ -553,7 +553,7 @@
     "remindersGlobal": [
       "Is a Trauma"
     ],
-    "name": "Trauma",
+    "name": "Trauma - π",
     "team": "outsider",
     "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
@@ -583,7 +583,7 @@
       "Target",
       "Drunk"
     ],
-    "name": "Showtime",
+    "name": "Showtime - π",
     "team": "outsider",
     "ability": "If you died today or tonight, choose 1 alive player: if they are not executed tomorrow, your team loses. If it is the final day, you are drunk.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
@@ -603,7 +603,7 @@
       "Poisoned"
     ],
     "setup": true,
-    "name": "Biter",
+    "name": "Biter - π",
     "team": "minion",
     "ability": "You start knowing which Outsiders are in play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
     "flavor": "Chomp Chomp",
@@ -628,7 +628,7 @@
       "Target",
       "Target"
     ],
-    "name": "Grave",
+    "name": "Grave - π",
     "team": "minion",
     "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 is alive, your team wins.",
     "flavor": "you shall not pass",
@@ -675,7 +675,7 @@
       "Target",
       "Dead"
     ],
-    "name": "Hunter",
+    "name": "Hunter - π",
     "team": "minion",
     "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night* choose a player, if they are a target, they die.",
     "flavor": "if you're not willing to obey, then only the end awaits you",
@@ -719,7 +719,7 @@
     "reminders": [
       "Chosen"
     ],
-    "name": "Hagumoth",
+    "name": "Hagumoth - π",
     "team": "minion",
     "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
@@ -747,7 +747,7 @@
       "Dead",
       "Overthrown"
     ],
-    "name": "Tyrant",
+    "name": "Tyrant - π",
     "team": "minion",
     "ability": "Each night*, choose a player: they die. The Demon wakes every other night, even if you are dead, drunk or poisoned.",
     "flavor": "We shall dance, challenger",
@@ -789,7 +789,7 @@
       "No Ability",
       "No Ability"
     ],
-    "name": "Enra",
+    "name": "Enra - π",
     "team": "minion",
     "ability": "Twice per game at night, choose a player: they learn this & have no ability. If you have no ability, chosen players might regain theirs at any time.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
@@ -811,7 +811,7 @@
       "Has Ability",
       "Has Ability"
     ],
-    "name": "Corrupted",
+    "name": "Corrupted - π",
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players (all learn which): after a 10 to 1 countdown, the player with the most votes dies & the other lives, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
@@ -829,7 +829,7 @@
       "Concert",
       "Stage"
     ],
-    "name": "False Idol",
+    "name": "False Idol - π",
     "team": "minion",
     "ability": "If the Demon died today (ending the game), play for 4 more days after which evil wins.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
@@ -863,7 +863,7 @@
       "Poisoned",
       "Poisoned"
     ],
-    "name": "Madeline",
+    "name": "Madeline - π",
     "team": "demon",
     "ability": "Each night, the next Townsfolk closer clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
     "flavor": "If only you knew your place! But its too late now!",
@@ -887,7 +887,7 @@
       "?",
       "?"
     ],
-    "name": "Hand of Fate",
+    "name": "Hand of Fate - π",
     "team": "demon",
     "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
     "flavor": "the time has come for you to return where you belong",
@@ -909,7 +909,7 @@
       "Invitee"
     ],
     "setup": true,
-    "name": "Invitation Letter",
+    "name": "Invitation Letter - π",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter's token. On night 3, the invitee chooses a Demon to become. [+1 Minion]",
     "flavor": "Greetings to whomever recieves this letter. \n\nYou have been invited to be the VIP guest of the Great Party at Midnight being held on the 3rd night of the Black Moon! \nAll costs will be covered by our generous Host*. Entertainment includes: singing, dancing, darts, music, talking, murdering the guests (only after the clock strikes 3), betrayal. Please bring your own Demon horns and ornamental mask. \n\n\n\n*Costs covered do not include travel fees, legal fees, hospital fees, bail. By attending this party you hereby acknowledge that The Followers of the One Beyond will not be held liable for any injuries, diseases, murder, arson, loss of sanity, loss of kidneys, and that you, the holder of the letter, consent to having your insides violently ripped out and replaced by the unholy offspring of our Lord.",
@@ -1000,7 +1000,7 @@
       "+1",
       "+1"
     ],
-    "name": "Estelle",
+    "name": "Estelle - π",
     "team": "demon",
     "ability": "Each night*, you may choose a player: they die. For every night you chose no-one, you may choose 1 more (up to 4).",
     "flavor": "No... Please stop. I don't want to hurt you",
@@ -1021,7 +1021,7 @@
       "New Day",
       "New Day"
     ],
-    "name": "Time - Sixth",
+    "name": "Time - Sixth - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. On your 1st night, choose from a list of events. All players learn your choice.",
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
@@ -1042,7 +1042,7 @@
       "Kill Chain",
       "Kill Chain"
     ],
-    "name": "Corr. Sylphy",
+    "name": "Corr. Sylphy - π",
     "team": "demon",
     "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If an evil player died to execution today, choose 1.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
@@ -1065,7 +1065,7 @@
       "?",
       "?"
     ],
-    "name": "Destiny",
+    "name": "Destiny - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true with consequences.",
     "flavor": "The world is MINE to shape.",
@@ -1082,7 +1082,7 @@
     "reminders": [
       "Dead"
     ],
-    "name": "Plank of Wood",
+    "name": "Plank of Wood - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
     "flavor": "*Plank of Wood noises*",
@@ -1104,7 +1104,7 @@
       "Purged"
     ],
     "setup": true,
-    "name": "Zhobazhbu",
+    "name": "Zhobazhbu - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
@@ -1131,7 +1131,7 @@
       "Poisoned"
     ],
     "setup": true,
-    "name": "Sabnock",
+    "name": "Sabnock - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
@@ -1149,7 +1149,7 @@
       "The Demon"
     ],
     "setup": true,
-    "name": "Marusok",
+    "name": "Marusok - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Demons might not wake & are safe from the Demon, even if you are dead. [All Minions are Demons, Demons only learn bluffs]",
     "flavor": "I am the infinite spiral. What are you?",
@@ -1200,7 +1200,7 @@
       "Day 2",
       "Day 3"
     ],
-    "name": "Time - Ninth",
+    "name": "Time - Ninth - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If your ability would end the game: deaths tonight are arbitrary.",
     "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
@@ -1221,7 +1221,7 @@
       "New Cycle",
       "New Cycle"
     ],
-    "name": "Fall. Charlotte ",
+    "name": "Fall. Charlotte - π",
     "team": "demon",
     "ability": "All players start knowing a day. After that day, at dusk, evil wins. For every failed nomination, that day comes closer by 1 (2 if Demon nominee).",
     "flavor": "..............",
@@ -1290,7 +1290,7 @@
       "About to Die"
     ],
     "setup": true,
-    "name": "Cultist",
+    "name": "Cultist - π",
     "team": "demon",
     "ability": "Players might die at any time. Evil votes secretly don't count & a 50% majority is not required. You register as a Minion too. [Most players are Cultists]",
     "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
