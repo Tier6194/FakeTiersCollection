@@ -1167,7 +1167,7 @@
       },
       {
         "id": "kazali",
-        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons. The Storyteller chooses which players become Marusok and the other Demons."
+        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
       },
       {
         "id": "legion",
@@ -1183,7 +1183,11 @@
       },
       {
         "id": "vigormortis",
-        "reason": "Demons are not safe from the Vigormortis. If a Demon (not the Vigormortis) is killed by the Vigormortis, they keep their ability."
+        "reason": "Demons register as Minions to the Vigormortis' ability."
+      },
+      {
+        "id": "zhobazhbu_faketierscollection",
+        "reason": "Demons register as Minions to the Zhobazhbu's ability."
       }
     ]
   },
