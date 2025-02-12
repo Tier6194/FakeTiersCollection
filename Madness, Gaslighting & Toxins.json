@@ -3,46 +3,6 @@
     "id":"_meta",
     "name":"Madness, Gaslighting & Toxins",
     "author":"FakeTier",
-    "firstNight":[
-      "dusk",
-      "madeline_faketierscollection",
-      "philosopher",
-      "minioninfo",
-      "demoninfo",
-      "enra_faketierscollection",
-      "eviltwin",
-      "witch",
-      "harpy",
-      "dreamer",
-      "seamstress",
-      "noble",
-      "mathematician",
-      "dawn"
-    ],
-    "otherNight":[
-      "dusk",
-      "madeline_faketierscollection",
-      "philosopher",
-      "enra_faketierscollection",
-      "witch",
-      "harpy",
-      "cultist_faketierscollection",
-      "vortox",
-      "vigormortis",
-      "coda_faketierscollection",
-      "hatter",
-      "sage",
-      "trauma_faketierscollection",
-      "ravenkeeper",
-      "showtime_faketierscollection",
-      "dreamer",
-      "flowergirl",
-      "oracle",
-      "seamstress",
-      "juggler",
-      "mathematician",
-      "dawn"
-    ]
   },
   "noble",
   "dreamer",
@@ -212,8 +172,35 @@
     "firstNight": 1,
     "otherNight": 6
   },
-  "vigormortis",
   "vortox",
+  {
+    "id": "zhobazhbu_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
+    "reminders": [
+      "Dead",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Purged"
+    ],
+    "setup": true,
+    "name": "Zhobazhbu - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
+    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
+    "otherNight": 43,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
+      }
+    ]
+  },
   {
     "id": "cultist_faketierscollection",
     "image": [
