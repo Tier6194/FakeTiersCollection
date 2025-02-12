@@ -72,52 +72,32 @@
   "sage",
   "atheist",
   {
-    "id": "coda_faketierscollection",
+    "id": "stress_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
-  ],
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them \"This character has chosen you\" then Coda's token and then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
-    "reminders": [
-      "Demon's Ability"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
-    "name": "Coda - π",
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "reminders": [
+      "Works Twice",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Stress - π",
     "team": "outsider",
-    "ability": "When you die, the Demon gains a Minion ability alongside their own.",
-    "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
-    "otherNight": 55,
+    "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
+    "flavor": "Does nothing. Disappears when used or after battle",
+    "otherNight": 3,
     "jinxes": [
       {
-        "id": "baron",
-        "reason": "If the Demon gains the Baron's ability, up to 2 players become not-in-play Outsiders."
-      },
-      {
-        "id": "boomdandy",
-        "reason": "If the Coda is executed and the Demon would gain the Boomdandy's ability, it instead triggers immediately."
-      },
-      {
-        "id": "falseidol_faketierscollection",
-        "reason": "If the Coda dies and would give the False Idol's ability, a Minion gains it instead and learns so."
-      },
-      {
-        "id": "grave_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Grave is in play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
-      },
-      {
-        "id": "hunter_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
-      },
-      {
-        "id": "marionette",
-        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
-      },
-      {
-        "id": "scarletwoman",
-        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it alongside their own instead and learns so."
+        "id": "mezepheles",
+        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
       },
       {
         "id": "summoner",
-        "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
+        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
       }
     ]
   },
