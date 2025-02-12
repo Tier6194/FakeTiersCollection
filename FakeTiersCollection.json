@@ -987,6 +987,26 @@
     ]
   },
   {
+    "id": "corrsylphy_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Signal (1, 2, 3, 4, 5) how many players the Corr. Sylphy can point to. They point to that many players. Those players die and place a Kill Chain token on Corr. Sylphy unless they already have 4.",
+    "reminders": [
+      "Dead",
+      "Kill Chain",
+      "Kill Chain",
+      "Kill Chain",
+      "Kill Chain"
+    ],
+    "name": "Corr. Sylphy - π",
+    "team": "demon",
+    "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If a Minion died today, choose 1 instead.",
+    "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
+    "otherNight": 46
+  },
+  {
     "id": "estelle_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
@@ -1027,80 +1047,6 @@
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
     "firstNight": 2,
     "otherNight": 43
-  },
-  {
-    "id": "corrsylphy_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Signal (1, 2, 3, 4, 5) how many players the Corr. Sylphy can point to. They point to that many players. Those players die and place a Kill Chain token on Corr. Sylphy unless they already have 4. ",
-    "reminders": [
-      "Dead",
-      "Kill Chain",
-      "Kill Chain",
-      "Kill Chain",
-      "Kill Chain"
-    ],
-    "name": "Corr. Sylphy - π",
-    "team": "demon",
-    "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If an evil player died to execution today, choose 1.",
-    "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
-    "otherNight": 46
-  },
-  {
-    "id": "marusok_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "You may choose to not wake a Demon.",
-    "otherNightReminder": "You may choose to not wake a Demon. The Marusok points to a player. That player dies.",
-    "reminders": [
-      "The Demon",
-      "Dead"
-    ],
-    "setup": true,
-    "name": "Marusok - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Demons might not wake & might register as Minions, even if you are dead. [All Minions are Demons]",
-    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
-    "firstNight": 1,
-    "otherNight": 46,
-    "jinxes": [
-      {
-        "id": "corrsylphy_faketierscollection",
-        "reason": "Corr. Sylphy's ability only checks the last night they woke."
-      },
-      {
-        "id": "estelle_faketierscollection",
-        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
-      },
-      {
-        "id": "kazali",
-        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
-      },
-      {
-        "id": "legion",
-        "reason": "Maruok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
-      },
-      {
-        "id": "po",
-        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
-      },
-      {
-        "id": "riot",
-        "reason": "On day 3, all Demons become Riot."
-      },
-      {
-        "id": "vigormortis",
-        "reason": "Demons register as Minions to the Vigormortis' ability."
-      },
-      {
-        "id": "zhobazhbu_faketierscollection",
-        "reason": "Demons register as Minions to the Zhobazhbu's ability."
-      }
-    ]
   },
   {
     "id": "destiny_faketierscollection",
@@ -1168,6 +1114,45 @@
         "id": "banshee",
         "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
       }
+    ]
+  },
+  {
+    "id": "marusok_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Marusok points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": true,
+    "name": "Marusok - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Demons might not wake, only you are \"The Demon\" & other Demons register as Minions too. [All Minions are Demons]",
+    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
+    "otherNight": 46,
+    "jinxes": [
+      {
+        "id": "corrsylphy_faketierscollection",
+        "reason": "Corr. Sylphy's ability only checks the last night they woke."
+      },
+      {
+        "id": "estelle_faketierscollection",
+        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
+      },
+      {
+        "id": "kazali",
+        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
+      },
+      {
+        "id": "legion",
+        "reason": "Marusok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
+      },
+      {
+        "id": "po",
+        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
+      },
     ]
   },
   {
