@@ -135,13 +135,13 @@
     "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
     "otherNight": 66,
-    "special": [
     "jinxes": [
       {
         "id": "vortox",
         "reason": "Players turned into Trauma through its ability learn only true info if the Vortox is alive, sober and healthy."
       }
     ],
+    "special": [
       {
         "name": "replace-character",
         "type": "reveal"

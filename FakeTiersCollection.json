@@ -832,7 +832,7 @@
       "Is Marusok",
       "Is Marusok",
       "Is Marusok",
-      "Is Marusok",
+      "Is Marusok"
     ],
     "setup": true,
     "name": "Marusok - π",
@@ -882,7 +882,8 @@
       {
         "name": "bag-duplicate",
         "type": "selection"
-      },
+      }
+    ]
   },
   {
     "id": "falseidol_faketierscollection",
