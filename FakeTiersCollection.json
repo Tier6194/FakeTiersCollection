@@ -435,6 +435,7 @@
     "reminders": [
       "Linked",
       "Linked",
+      "Dead",
       "Dead"
     ],
     "name": "Whisper - π",
@@ -484,6 +485,7 @@
     "reminders": [
       "Mad",
       "Minion",
+      "Dead",
       "Dead"
     ],
     "name": "Feint - π",
@@ -558,16 +560,16 @@
     "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
     "otherNight": 66,
-    "special": [
-      {
-        "name": "replace-character",
-        "type": "reveal"
-      }
-    ],
     "jinxes": [
       {
         "id": "vortox",
         "reason": "Players turned into Trauma through its ability learn only true info if the Vortox is alive, sober and healthy."
+      }
+    ],
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
       }
     ]
   },
@@ -835,7 +837,7 @@
     "setup": true,
     "name": "Marusok - π",
     "team": "minion",
-    "ability": You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
+    "ability": "You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
     "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
     "firstNight": 4,
     "jinxes": [
@@ -871,7 +873,16 @@
         "id": "summoner",
         "reason": "The Summoner may choose to create Marusok as well as their Demon. If they do, all Minions become Marusok and the Summoner chosen player becomes the chosen Demon."
       }
-    ]
+    ],
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      },
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      },
   },
   {
     "id": "falseidol_faketierscollection",
