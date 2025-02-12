@@ -819,6 +819,61 @@
     "otherNight": 16
   },
   {
+    "id": "marusok_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Wake all Marusok 1 by 1. Show them each a not in-play Demon ability and replace their tokens with the corresponding Demon. Mark them with the Is Marusok tokens.",
+    "remindersGlobal": [
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok",
+    ],
+    "setup": true,
+    "name": "Marusok - π",
+    "team": "minion",
+    "ability": You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
+    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
+    "firstNight": 4,
+    "jinxes": [
+      {
+        "id": "corrsylphy_faketierscollection",
+        "reason": "Corr. Sylphy's ability only checks the last night they woke."
+      },
+      {
+        "id": "engineer",
+        "reason": "If the Enginner successfully creates Marusok, all Minions become Marusok."
+      },
+      {
+        "id": "estelle_faketierscollection",
+        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
+      },
+      {
+        "id": "invitationletter_faketierscollection",
+        "reason": "Marusok can be invited alongside a Demon. If it is, all Minions become Marusok except the Invitee, who becomes the invited Demon."
+      },
+      {
+        "id": "kazali",
+        "reason": "Kazali may choose Marusok's Demon abilities. If they made a Marusok, all Minions become Marusok."
+      },
+      {
+        "id": "legion",
+        "reason": "If Marusok has the Legion ability, other Marusok and the Demon might have it instead"
+      },
+      {
+        "id": "po",
+        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
+      },
+      {
+        "id": "summoner",
+        "reason": "The Summoner may choose to create Marusok as well as their Demon. If they do, all Minions become Marusok and the Summoner chosen player becomes the chosen Demon."
+      }
+    ]
+  },
+  {
     "id": "falseidol_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
@@ -1114,45 +1169,6 @@
         "id": "banshee",
         "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
       }
-    ]
-  },
-  {
-    "id": "marusok_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/marusok_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Marusok points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "setup": true,
-    "name": "Marusok - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Demons might not wake, only you are \"The Demon\" & other Demons register as Minions too. [All Minions are Demons]",
-    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
-    "otherNight": 46,
-    "jinxes": [
-      {
-        "id": "corrsylphy_faketierscollection",
-        "reason": "Corr. Sylphy's ability only checks the last night they woke."
-      },
-      {
-        "id": "estelle_faketierscollection",
-        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
-      },
-      {
-        "id": "kazali",
-        "reason": "If the Kazali is in-play, they may choose Marusok for their first choice. If they did so, the rest of their choices (if any) must be Demons."
-      },
-      {
-        "id": "legion",
-        "reason": "Marusok might replace a Legion. Other Demons might replace some Legion if Marusok is in-play."
-      },
-      {
-        "id": "po",
-        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
-      },
     ]
   },
   {
