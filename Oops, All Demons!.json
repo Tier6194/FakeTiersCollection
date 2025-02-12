@@ -1,0 +1,227 @@
+[
+  {
+    "id":"_meta",
+    "author":"FakeTier",
+    "name":"Oops, All Demons!"
+  },
+  "steward",
+  "chef",
+  "balloonist",
+  "general",
+  "flowergirl",
+  "undertaker",
+  "monk",
+  "exorcist",
+  "savant",
+  "slayer",
+  "juggler",
+  "soldier",
+  {
+    "id": "inversestrike_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The first time an evil player chooses Inverse Strike, this ability will affect an evil player instead of Inverse Strike, mark Inverse Strike with the No Ability token.",
+    "otherNightReminder": "The first time an evil player chooses Inverse Strike, this ability will affect an evil player instead of Inverse Strike, mark Inverse Strike with the No Ability token.",
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Inverse Strike - π",
+    "team": "townsfolk",
+    "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
+    "flavor": "Attack then reduce cooldown of Magic cards",
+    "firstNight": 40,
+    "otherNight": 53
+  },
+  {
+    "id": "stress_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "reminders": [
+      "Works Twice",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Stress - π",
+    "team": "outsider",
+    "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
+    "flavor": "Does nothing. Disappears when used or after battle",
+    "otherNight": 3,
+    "jinxes": [
+      {
+        "id": "mezepheles",
+        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
+      },
+      {
+        "id": "summoner",
+        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
+      }
+    ]
+  },
+  "ogre",
+  "mutant",
+  "damsel",
+  {
+    "id": "tyrant_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/tyrant_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/tyrant_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Tyrant points to a player. That player dies. If the Demon is marked with the Overthrown token, they do not wake tonight. If they do not, wake them as normal and then mark them with the Overthrown token.",
+    "reminders": [
+      "Dead",
+      "Overthrown"
+    ],
+    "name": "Tyrant - π",
+    "team": "minion",
+    "ability": "Each night*, choose a player: they die. The Demon wakes every other night, even if you are dead, drunk or poisoned.",
+    "flavor": "We shall dance, challenger",
+    "otherNight": 34,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "The Tyrant registers as the Demon to the Banshee's ability."
+      },
+      {
+        "id": "lilmonsta",
+        "reason": "The Lil' Monsta's ability does not kill every other day/night cycle."
+      },
+      {
+        "id": "sage",
+        "reason": "If the Tyrant kills the Sage, the Sage learns the Demon is 1 of 2 players."
+      },
+      {
+        "id": "yaggababble",
+        "reason": "The Yaggababble's ability does not kill every other day/night cycle."
+      },
+      {
+        "id": "zombuul",
+        "reason": "If the Tyrant is in play, the Zombuul instead wakes every other night that no player died that day."
+      }
+    ]
+  },
+  "assassin",
+  "marionette",
+  {
+    "id": "marusok_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Wake all Marusok 1 by 1. Show them each a not in-play Demon ability and replace their tokens with the corresponding Demon. Mark them with the Is Marusok tokens.",
+    "remindersGlobal": [
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok",
+      "Is Marusok"
+    ],
+    "setup": true,
+    "name": "Marusok - π",
+    "team": "minion",
+    "ability": "You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
+    "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
+    "firstNight": 4,
+    "jinxes": [
+      {
+        "id": "corrsylphy_faketierscollection",
+        "reason": "Corr. Sylphy's ability only checks the last night they woke."
+      },
+      {
+        "id": "engineer",
+        "reason": "If the Enginner successfully creates Marusok, all Minions become Marusok."
+      },
+      {
+        "id": "estelle_faketierscollection",
+        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
+      },
+      {
+        "id": "invitationletter_faketierscollection",
+        "reason": "Marusok can be invited alongside a Demon. If it is, all Minions become Marusok except the Invitee, who becomes the invited Demon."
+      },
+      {
+        "id": "kazali",
+        "reason": "Kazali may choose Marusok's Demon abilities. If they made a Marusok, all Minions become Marusok."
+      },
+      {
+        "id": "legion",
+        "reason": "If Marusok has the Legion ability, other Marusok and the Demon might have it instead"
+      },
+      {
+        "id": "po",
+        "reason": "Demons may choose to not attack when they wake. If the Po wakes and the last Demon to wake chose to not attack, they choose 3 players."
+      },
+      {
+        "id": "summoner",
+        "reason": "The Summoner may choose to create Marusok as well as their Demon. If they do, all Minions become Marusok and the Summoner chosen player becomes the chosen Demon."
+      }
+    ],
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      },
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
+  },
+  "scarletwoman",
+  "pukka",
+  {
+    "id": "zhobazhbu_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
+    "reminders": [
+      "Dead",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Purged"
+    ],
+    "setup": true,
+    "name": "Zhobazhbu - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
+    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
+    "otherNight": 43,
+    "jinxes": [
+      {
+        "id": "banshee",
+        "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
+      }
+    ]
+  },
+  {
+    "id": "sabnock_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Sabnock - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
+    "flavor": "Attrape des vers, salope.",
+    "otherNight": 42
+  }
+]
