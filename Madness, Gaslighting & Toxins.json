@@ -136,15 +136,15 @@
     "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
     "otherNight": 66,
     "special": [
-      {
-        "name": "replace-character",
-        "type": "reveal"
-      }
-    ],
     "jinxes": [
       {
         "id": "vortox",
         "reason": "Players turned into Trauma through its ability learn only true info if the Vortox is alive, sober and healthy."
+      }
+    ],
+      {
+        "name": "replace-character",
+        "type": "reveal"
       }
     ]
   },
