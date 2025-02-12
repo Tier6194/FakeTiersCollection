@@ -955,7 +955,7 @@
       "setup": true,
       "name": "Marusok - π",
       "team": "demon",
-      "ability": "Each night*, choose a player: they die. Demons might not wake & might not kill, even if you are dead. [All Minions are Demons]",
+      "ability": "Each night*, choose a player: they die. Demons might not wake & register as Minions too, even if you are dead. [All Minions are Demons]",
       "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
       "firstNight": 1,
       "otherNight": 46,
