@@ -2,46 +2,7 @@
   {
     "id":"_meta",
     "name":"Insanity, Delusions & Spicy Waters",
-    "author":"FakeTier",
-    "firstNight":[
-      "dusk",
-      "corrupted_faketierscollection",
-      "madeline_faketierscollection",
-      "overdrive_faketierscollection",
-      "minioninfo",
-      "demoninfo",
-      "cerenovus",
-      "hagumoth_faketierscollection",
-      "starpierce_faketierscollection",
-      "seamstress",
-      "noble",
-      "mathematician",
-      "dawn"
-    ],
-    "otherNight":[
-      "dusk",
-      "madeline_faketierscollection",
-      "overdrive_faketierscollection",
-      "corrupted_faketierscollection",
-      "cerenovus",
-      "hagumoth_faketierscollection",
-      "pithag",
-      "sabnock_faketierscollection",
-      "vortox",
-      "zhobazhbu_faketierscollection",
-      "coda_faketierscollection",
-      "barber",
-      "sage",
-      "showtime_faketierscollection",
-      "flowergirl",
-      "starpierce_faketierscollection",
-      "oracle",
-      "seamstress",
-      "overdrive_faketierscollection",
-      "juggler",
-      "mathematician",
-      "dawn"
-    ]
+    "author":"FakeTier"
   },
   "noble",
   {
