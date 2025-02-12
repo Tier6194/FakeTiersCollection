@@ -259,8 +259,8 @@
     ],
     "special": [
       {
-        "type": "selection",
-        "name": "bag-duplicate"
+        "name": "bag-duplicate",
+        "type": "selection"
       }
     ]
   },
