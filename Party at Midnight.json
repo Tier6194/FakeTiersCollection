@@ -232,7 +232,7 @@
       },
       {
         "id": "marionette",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Invitation Letter's token, and does not learn they are the Marionette if they are the Invitee."
+        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Invitation Letter's token."
       },
       {
         "id": "poppygrower",
