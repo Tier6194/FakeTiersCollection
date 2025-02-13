@@ -536,12 +536,20 @@
         "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
       },
       {
+        "id": "mastermind",
+        "reason": "If the Coda dies and would give the Masterminds's ability, a Minion gains it instead and learns so."
+      },
+      {
         "id": "scarletwoman",
         "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it alongside their own instead and learns so."
       },
       {
         "id": "summoner",
         "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
+      },
+      {
+        "id": "vizier",
+        "reason": "If the Coda dies and would give the Vizier's ability, a living Minion gains it alongside their own."
       }
     ]
   },
@@ -909,10 +917,6 @@
       {
         "id": "mastermind",
         "reason": "If both Mastermind's and False Idol's abilities trigger,False Idol's ability works as normal but if an evil player is executed during those 4 days, good wins."
-      },
-      {
-        "id": "scarletwoman",
-        "reason": "If the Scarlet Woman's ability triggers, False Idol's does not."
       }
     ]
   },
@@ -1022,10 +1026,6 @@
       {
         "id": "pukka",
         "reason": "The Invitee may choose to invite Pukka on Night 2."
-      },
-      {
-        "id": "scarletwoman",
-        "reason": "If there are 5 or more players alive (excluding Travellers) and the Invitee dies, the Scarlet Woman is the Invitee then loses their ability."
       },
       {
         "id": "trickmask_faketierscollection",
