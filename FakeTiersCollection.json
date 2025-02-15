@@ -440,7 +440,7 @@
     ],
     "name": "Whisper - π",
     "team": "outsider",
-    "ability": "You start knowing up to 2 alive players: what happens to you happens to them, and vice versa, even if poisoned or drunk.",
+    "ability": "You start knowing up to 2 players: what happens to you happens to them & vice versa, even if you are dead, drunk or poisoned.",
     "flavor": "Inflict 3 Sensitive",
     "firstNight": 57
   },
