@@ -431,12 +431,14 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Point out up to 2 alive players as you want to the Whisper. Those players are linked to them.",
+    "firstNightReminder": "Point 2 up to 2 alive players as you want to the Whisper. Mark them with Linked tokens",
     "reminders": [
       "Linked",
       "Linked",
-      "Dead",
-      "Dead"
+      "?",
+      "?",
+      "?",
+      "?"
     ],
     "name": "Whisper - π",
     "team": "outsider",
@@ -464,6 +466,10 @@
     "flavor": "Does nothing. Disappears when used or after battle",
     "otherNight": 3,
     "jinxes": [
+      {
+        "id": "marionette",
+        "reason": "The Marionette does not learn they are affected by Stress' ability.
+      },
       {
         "id": "mezepheles",
         "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
