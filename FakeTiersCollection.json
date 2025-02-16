@@ -201,7 +201,7 @@
       },
       {
         "id": "poppygrower",
-        "reason": "If the Poppy Grower died today or before Encore's turn in the night order, evil info only occurs after Encore's turn. Poppy Grower will be considered newly dead when Encore loses their ability at dusk."
+        "reason": "If the Poppy Grower died today or before Encore's turn in the night order, evil info only occurs after Encore's turn."
       },
       {
         "id": "zealot",
