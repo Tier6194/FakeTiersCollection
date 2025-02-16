@@ -80,6 +80,10 @@
     "otherNight": 3,
     "jinxes": [
       {
+        "id": "marionette",
+        "reason": "The Marionette does not learn they are affected by Stress' ability."
+      },
+      {
         "id": "mezepheles",
         "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
       },
@@ -204,6 +208,7 @@
   },
   "scarletwoman",
   "pukka",
+  "ojo",
   {
     "id": "zhobazhbu_faketierscollection",
     "image": [
