@@ -103,7 +103,7 @@
     ],
     "name": "Blitz - π",
     "team": "townsfolk",
-    "ability": "Each night, choose 2 players (not yourself & different from last night) & a character: if it is among them, learn the other character else learn false info.",
+    "ability": "Each night, guess a character is between 2 players (not you, a Traveller & different to last night): if correct, learn the other otherwise learn false info.",
     "flavor": "Attack twice if used in odd-numbered Phase",
     "otherNight": 77
   },
