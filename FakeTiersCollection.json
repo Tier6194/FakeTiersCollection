@@ -82,6 +82,21 @@
     "otherNight": 75
   },
   {
+    "id": "interceptor_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
+    "otherNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
+    "name": "Interceptor - π",
+    "team": "townsfolk",
+    "ability": "Each night, choose a good character (not yours): learn that it is between 2 players. If not-in-play, learn false info.",
+    "flavor": "Gotcha.",
+    "firstNight": 57,
+    "otherNight": 75
+  },
+  {
     "id": "dazzle_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
@@ -105,21 +120,6 @@
         "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
       }
     ]
-  },
-  {
-    "id": "interceptor_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
-    "otherNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
-    "name": "Interceptor - π",
-    "team": "townsfolk",
-    "ability": "Each night, choose a good character (not yours): learn that it is between 2 players. If not-in-play, learn false info.",
-    "flavor": "Gotcha.",
-    "firstNight": 57,
-    "otherNight": 75
   },
   {
     "id": "blitz_faketierscollection",
