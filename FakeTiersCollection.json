@@ -6,6 +6,22 @@
     "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true"
   },
   {
+    "id": "tailor_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Show 1 character token from 3 character types, 1 of which is in-play.",
+    "reminders": [
+      "Knows"
+    ],
+    "name": "Tailor - π",
+    "team": "townsfolk",
+    "ability": "You start knowing 1 character from 3 character types, 1 of which is in-play.",
+    "flavor": "Sir Armun has ordered for such exquisite outfits to the circus. Such eccentric ones too. Is he the main event, a spectator or someone who wishes to disrupt the show?",
+    "firstNight": 56
+  },
+  {
     "id": "starpierce_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
@@ -91,12 +107,28 @@
     ]
   },
   {
+    "id": "interceptor_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
+    "otherNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
+    "name": "Interceptor - π",
+    "team": "townsfolk",
+    "ability": "Each night, choose a good character (not yours): learn that it is between 2 players. If not-in-play, learn false info.",
+    "flavor": "Gotcha.",
+    "firstNight": 57,
+    "otherNight": 75
+  },
+  {
     "id": "blitz_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Blitz chooses 2 players and a character. If that character is amongst the 2, tell them the other character. If not, show them any other token.",
+    "firstNightReminder": "Blitz points to 2 players and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
+    "otherNightReminder": "Blitz points to 2 players and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
     "reminders": [
       "Chosen",
       "Chosen"
@@ -105,6 +137,7 @@
     "team": "townsfolk",
     "ability": "Each night, guess a character is between 2 players (not you, a Traveller & different to last night): if correct, learn the other otherwise learn false info.",
     "flavor": "Attack twice if used in odd-numbered Phase",
+    "firstNight": 64,
     "otherNight": 77
   },
   {
@@ -170,9 +203,64 @@
     ],
     "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Minion is chosen, you die & previously chosen players might die.",
+    "ability": "Each night*, choose a player: if a Minion, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 17.1
+  },
+  {
+    "id": "fortify_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Fortify points to a player. They cannot die tonight, mark them with the Safe token. If they chose evil, Fortify is drunk, mark them with the Drunk token.",
+    "reminders": [
+      "Safe",
+      "Drunk"
+    ],
+    "name": "Fortify - π",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: they can't die tonight. If you chose an evil player, you are drunk.",
+    "flavor": "Gain 12 Barrier",
+    "otherNight": 14,
+    "jinxes": [
+      {
+        "id": "leviation",
+        "reason": "If the Leviathan is in play, players protected by Fortify are safe from all evil abilities."
+      },
+      {
+        "id": "riot",
+        "reason": "If Riot is in play, players protected by Fortify are safe from all evil abilities."
+      }
+    ]
+  },
+  {
+    "id": "templar_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Templar points to 2 players, mark the 1st with the Holy token and the second with the Smote token. If the Demon kills the Holy player and is not the Smote player, the Holy player lives and the Smote player dies.",
+    "reminders": [
+      "Holy",
+      "Smote",
+      "Dead"
+    ],
+    "name": "Templar - π",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 alive players (not yourself): if the Demon kills the 1st, the 2nd, if not the Demon, dies instead.",
+    "flavor": "The Lord is with me always. In hardship, in times of distress, times of celebration and times of success.",
+    "otherNight": 14,
+    "jinxes": [
+      {
+        "id": "leviation",
+        "reason": "If the Leviathan is in play, Templar-protected players are safe from all evil abilities."
+      },
+      {
+        "id": "riot",
+        "reason": "If Riot is in play, players Templar-protected players are safe from all evil abilities."
+      }
+    ]
   },
   {
     "id": "encore_faketierscollection",
@@ -206,33 +294,6 @@
       {
         "id": "zealot",
         "reason": "If the Encore gains the Zealot ability, the Encore learns this."
-      }
-    ]
-  },
-  {
-    "id": "fortify_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_evil_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Fortify points to a player. They cannot die tonight, mark them with the Safe token. If they chose evil, Fortify is drunk, mark them with the Drunk token.",
-    "reminders": [
-      "Safe",
-      "Drunk"
-    ],
-    "name": "Fortify - π",
-    "team": "townsfolk",
-    "ability": "Each night*, choose a player: they can't die tonight. If you chose an evil player, you are drunk.",
-    "flavor": "Gain 12 Barrier",
-    "otherNight": 14,
-    "jinxes": [
-      {
-        "id": "leviation",
-        "reason": "If the Leviathan is in play, players protected by Fortify are safe from all evil abilities."
-      },
-      {
-        "id": "riot",
-        "reason": "If Riot is in play, players protected by Fortify are safe from all evil abilities."
       }
     ]
   },
@@ -351,22 +412,31 @@
     "flavor": "Recover HP by 8 and gain 4 Barrier"
   },
   {
+    "id": "spirit_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "If the Spirit was killed by the Demon. Point to all dead evil players.",
+    "name": "Spirit - π",
+    "team": "townsfolk",
+    "ability": "If the Demon kills you, learn all dead evil players.",
+    "flavor": "I must go, I must ascend. To the Realm Beyond.",
+    "otherNight": 56
+  },
+  {
     "id": "inversestrike_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The first time an evil player chooses Inverse Strike, this ability will affect an evil player instead of Inverse Strike, mark Inverse Strike with the No Ability token.",
-    "otherNightReminder": "The first time an evil player chooses Inverse Strike, this ability will affect an evil player instead of Inverse Strike, mark Inverse Strike with the No Ability token.",
     "reminders": [
       "No Ability"
     ],
     "name": "Inverse Strike - π",
     "team": "townsfolk",
     "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
-    "flavor": "Attack then reduce cooldown of Magic cards",
-    "firstNight": 40,
-    "otherNight": 53
+    "flavor": "Attack then reduce cooldown of Magic cards"
   },
   {
     "id": "trickmask_faketierscollection",
