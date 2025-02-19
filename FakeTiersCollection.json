@@ -79,7 +79,28 @@
     "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
     "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
     "firstNight": 47,
-    "otherNight": 75
+    "otherNight": 75,
+    "jinxes": [
+      {
+        "id": "marionette",
+        "reason": "If the Marionette thinks they are the Jump Strike, 1 Outsider might have been added."
+      }
+    ]
+  },
+  {
+    "id": "cynic_faketierscollection",
+    "image": [
+        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
+        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
+    "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
+    "name": "Cynic- π",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: learn their character. Good characters register as evil characters to this.",
+    "flavor": "That's what a Demon would say.",
+    "firstNight": 62,
+    "otherNight": 77
   },
   {
     "id": "interceptor_faketierscollection",
