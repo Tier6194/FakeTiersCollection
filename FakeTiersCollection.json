@@ -443,7 +443,17 @@
     "team": "townsfolk",
     "ability": "If the Demon kills you, learn all dead evil players.",
     "flavor": "I must go, I must ascend. To the Realm Beyond.",
-    "otherNight": 56
+    "otherNight": 56,
+    "jinxes": [
+      {
+        "id": "leviation",
+        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die"
+      },
+      {
+        "id": "riot",
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die"
+      }
+    ]
   },
   {
     "id": "inversestrike_faketierscollection",
@@ -874,6 +884,10 @@
       {
         "id": "sage",
         "reason": "If the Tyrant kills the Sage, the Sage learns the Demon is 1 of 2 players."
+      },
+      {
+        "id": "spirit_faketierscollection",
+        "reason": "The Tyrant registers as the Demon to the Spirit's ability."
       },
       {
         "id": "yaggababble",
@@ -1393,6 +1407,14 @@
       {
         "id": "soldier",
         "reason": "If the Fall. Charlotte is in play, the Soldier is safe from all evil abilities."
+      },
+      {
+        "id": "spirit_faketierscollection",
+        "reason": "Each night*, the Fall. Charlotte chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die."
+      },
+      {
+        "id": "templar_faketierscollection",
+        "reason": "If the Fall. Charlotte is in play, the Tmplar-protected player is safe from all evil abilities."
       }
     ]
   },
