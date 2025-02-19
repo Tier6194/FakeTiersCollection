@@ -137,6 +137,10 @@
     "otherNight": 10,
     "jinxes": [
       {
+        "id": "riot",
+        "reason": "If the Dazzle chose Riot on the 3rd night, on day 3, nominess die and nominate an alive player. This must happen."
+      },
+      {
         "id": "summoner",
         "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
       }
