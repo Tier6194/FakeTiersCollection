@@ -400,6 +400,10 @@
       {
         "id": "vortox",
         "reason": "The Mystery Attack when learning their next ability will always recieve true information."
+      },
+      {
+        "id": "zhobazhbu_faketierscollection",
+        "reason": "The Mystery Attack when learning their next ability will always recieve true information."
       }
     ]
   },
