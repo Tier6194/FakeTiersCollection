@@ -251,11 +251,11 @@
     "jinxes": [
       {
         "id": "leviation",
-        "reason": "If the Leviathan is in play, players protected by Fortify are safe from all evil abilities."
+        "reason": "If the Leviathan is in play, the Fortify-protected player is safe from all evil abilities."
       },
       {
         "id": "riot",
-        "reason": "If Riot is in play, players protected by Fortify are safe from all evil abilities."
+        "reason": "If Riot is in play, the Fortify-protected player is safe from all evil abilities."
       }
     ]
   },
@@ -279,11 +279,11 @@
     "jinxes": [
       {
         "id": "leviation",
-        "reason": "If the Leviathan is in play, Templar-protected players are safe from all evil abilities."
+        "reason": "If the Leviathan is in play, the Templar-protected player is safe from all evil abilities."
       },
       {
         "id": "riot",
-        "reason": "If Riot is in play, players Templar-protected players are safe from all evil abilities."
+        "reason": "If Riot is in play, the Templar-protected player is safe from all evil abilities."
       }
     ]
   },
@@ -1378,7 +1378,7 @@
       },
       {
         "id": "fortify_faketierscollection",
-        "reason": "If the Fall. Charlotte is in play, players protected by Fortify are safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in play, the Fortify-protected player is safe from all evil abilities."
       },
       {
         "id": "grandmother",
@@ -1386,7 +1386,7 @@
       },
       {
         "id": "innkeeper",
-        "reason": "If the Fall. Charlotte is in play, the Innkeeper-protected player is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in play, the Innkeeper-protected players are safe from all evil abilities."
       },
       {
         "id": "king",
@@ -1418,7 +1418,7 @@
       },
       {
         "id": "templar_faketierscollection",
-        "reason": "If the Fall. Charlotte is in play, the Tmplar-protected player is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in play, the Templar-protected player is safe from all evil abilities."
       }
     ]
   },
