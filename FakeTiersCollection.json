@@ -27,7 +27,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
+    "firstNightReminder": "Show the token of a Minion in play.",
     "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
     "reminders": [
       "Target"
@@ -51,7 +51,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Decide Focus' question. Show Focus a piece of paper with the answer to that question or signal it if possible.",
+    "firstNightReminder": "Show Focus a piece of paper with the answer to the question.",
     "name": "Focus - π",
     "team": "townsfolk",
     "ability": "You start knowing the answer to a question. Each day, privately guess what it is: you learn how accurate you are.",
@@ -64,8 +64,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
-    "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
+    "firstNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
+    "otherNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
     "reminders": [
       "Townsfolk",
       "Outsider",
