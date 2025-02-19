@@ -114,7 +114,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Point 2 up to 2 alive players as you want to the Whisper. Mark them with Linked tokens",
+    "firstNightReminder": "Point to up to 2 players.",
     "reminders": [
       "Linked",
       "Linked",
@@ -125,7 +125,7 @@
     ],
     "name": "Whisper - π",
     "team": "outsider",
-    "ability": "You start knowing up to 2 players: what happens to you happens to them & vice versa, even if you are dead, drunk or poisoned.",
+    "ability": "You start knowing up to 2 players: what happens to you might happen to them & vice versa, even if dead, drunk or poisoned.",
     "flavor": "Inflict 3 Sensitive",
     "firstNight": 57
   },
