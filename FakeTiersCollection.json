@@ -455,11 +455,11 @@
     "jinxes": [
       {
         "id": "leviation",
-        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die"
+        "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die."
       },
       {
         "id": "riot",
-        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die"
+        "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die."
       }
     ]
   },
