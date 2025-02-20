@@ -365,7 +365,7 @@
       },
       {
         "id": "widow",
-        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play good character tokens are shown to them. They point to one of those or themselves to poison. If they chose to see the Grimoire, evil does not win from correctly guessing a Shadow Pierce. The Widow cannot choose a Shadow Pierce to poison."
+        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from correctly guessing a Shadow Pierce. The Widow cannot choose a Shadow Pierce to poison."
       }
     ],
     "special": [
@@ -521,7 +521,7 @@
       },
       {
         "id": "widow",
-        "reason": "The Widow does not see the Grimoire. Instead all in-play good character tokens are shown to them. They point to one of those or themselves to poison."
+        "reason": "The Widow does not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison."
       },
       {
         "id": "vortox",
