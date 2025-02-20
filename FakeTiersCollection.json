@@ -501,7 +501,7 @@
       },
       {
         "id": "lilmonsta",
-        "reason": "If the Trick Mask's ability is active, Minions wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
+        "reason": "If Trick Mask's ability is active, Minions wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
       },
       {
         "id": "magician",
@@ -517,15 +517,19 @@
       },
       {
         "id": "spy",
-        "reason": "If the Trick Mask's ability is active: Spy does not see the Grimoire."
+        "reason": "If Trick Mask's ability is active: the Spy does not see the Grimoire."
       },
       {
         "id": "widow",
-        "reason": "The Widow does not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison."
+        "reason": "If Trick Mask’s ability is active: the Widow does not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison."
       },
       {
         "id": "vortox",
-        "reason": "The Trick Mask's ability is not affected by the Vortox."
+        "reason": "Trick Mask’s ability is safe from the Vortox."
+      },
+      {
+        "id": "zhobazhbu_faketierscollection",
+        "reason": "Trick Mask’s ability is safe from the Zhobazhbu."
       }
     ],
     "special": [
@@ -1154,7 +1158,7 @@
       },
       {
         "id": "trickmask_faketierscollection",
-        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Invitation Letter's token."
+        "reason": "If Trick Mask’s ability is active and the Invitation Letter is alive, Minions do not learn each other and are instead woken 1 by 1 until 1 of them chooses to take the Invitation letter’s token. After a Demon is invited, Minions learn each other."
       },
       {
         "id": "vizier",
