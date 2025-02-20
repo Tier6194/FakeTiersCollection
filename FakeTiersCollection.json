@@ -485,6 +485,9 @@
     ],
     "firstNightReminder": "Dont tell the Demon their Minions and Minions their Demon and instead show both parties Tricks Mask's token. Minions then choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
     "otherNightReminder": "Minions choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
+    "remindersGlobal": [
+      "False Demon"
+    ],
     "name": "Trick Mask - π",
     "team": "townsfolk",
     "ability": "Minions & Demons do not know the other. Each night, Minions guess a player: if you or a Demon, they learn this, even if your ability is removed from play.",
