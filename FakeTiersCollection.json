@@ -655,7 +655,7 @@
       },
       {
         "id": "marionette",
-        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
+        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette. This fails if there is already an extra evil player."
       },
       {
         "id": "mastermind",
