@@ -716,7 +716,7 @@
     ],
     "name": "Showtime - π",
     "team": "outsider",
-    "ability": "If you died today or tonight & 4 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
+    "ability": "If you died today or tonight & 5 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
     "otherNight": 70
   },
