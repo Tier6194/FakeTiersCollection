@@ -97,7 +97,7 @@
     "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
     "name": "Cynic- π",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: learn their character. Good characters register as evil characters to this.",
+    "ability": "Each night, choose a player: learn their character. Good characters register as evil characters to you.",
     "flavor": "That's what a Demon would say.",
     "firstNight": 62,
     "otherNight": 77
