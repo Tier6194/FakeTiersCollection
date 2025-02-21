@@ -602,8 +602,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/feint_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/feint_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Point to a player and put the Target token on them.  If this player is a Minion, choose to show them the Minion token then put it on their character.",
-    "otherNightReminder": "If the Feint wasnt mad, choose whether to kill the involved players. Point to a player and put the Target token on them. If the Feint has no Minion token and that player is a Minion, choose to show them the Minion token and put it on their character.",
+    "firstNightReminder": "Point to a player and mark them with the Mad token. If Feint is not marked with the Minion token and that player is a Minion, choose to show them the Minion token and mark Feint with it.",
+    "otherNightReminder": "Point to a player and mark them with the Mad token. If Feint is not marked with the Minion token and that player is a Minion, choose to show them the Minion token and mark Feint with it.",
     "reminders": [
       "Mad",
       "Minion",
