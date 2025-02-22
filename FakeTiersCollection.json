@@ -27,7 +27,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the token of a Minion in play.",
+    "firstNightReminder": "Show the token of a Minion in-play.",
     "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
     "reminders": [
       "Target"
@@ -41,7 +41,7 @@
     "jinxes": [
       {
         "id": "vizier",
-        "reason": "If the Star Pierce learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
+        "reason": "If the Star Pierce learns that the Vizier is in-play, the existence of the Vizier is not announced by the Storyteller."
       }
     ]
   },
@@ -255,11 +255,11 @@
     "jinxes": [
       {
         "id": "leviation",
-        "reason": "If the Leviathan is in play, the Fortify-protected player is safe from all evil abilities."
+        "reason": "If the Leviathan is in-play, the Fortify-protected player is safe from all evil abilities."
       },
       {
         "id": "riot",
-        "reason": "If Riot is in play, the Fortify-protected player is safe from all evil abilities."
+        "reason": "If Riot is in-play, the Fortify-protected player is safe from all evil abilities."
       }
     ]
   },
@@ -283,11 +283,11 @@
     "jinxes": [
       {
         "id": "leviation",
-        "reason": "If the Leviathan is in play, the Templar-protected player is safe from all evil abilities."
+        "reason": "If the Leviathan is in-play, the Templar-protected player is safe from all evil abilities."
       },
       {
         "id": "riot",
-        "reason": "If Riot is in play, the Templar-protected player is safe from all evil abilities."
+        "reason": "If Riot is in-play, the Templar-protected player is safe from all evil abilities."
       }
     ]
   },
@@ -353,7 +353,7 @@
       },
       {
         "id": "marionette",
-        "reason": "The Marionette does not learn that the Shadow Pierces are in play."
+        "reason": "The Marionette does not learn that the Shadow Pierces are in-play."
       },
       {
         "id": "mezepheles",
@@ -774,7 +774,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show each of the Outsider tokens in play",
+    "firstNightReminder": "Show each of the Outsider tokens in-play",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -784,7 +784,7 @@
     "setup": true,
     "name": "Biter - π",
     "team": "minion",
-    "ability": "You start knowing which Outsiders are in play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
+    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
     "flavor": "Chomp Chomp",
     "firstNight": 30,
     "jinxes": [
@@ -911,7 +911,7 @@
       },
       {
         "id": "zombuul",
-        "reason": "If the Tyrant is in play, the Zombuul instead wakes every other night that no player died that day."
+        "reason": "If the Tyrant is in-play, the Zombuul instead wakes every other night that no player died that day."
       }
     ]
   },
@@ -1151,7 +1151,7 @@
       },
       {
         "id": "poppygrower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to be the Invitee."
+        "reason": "If the Poppy Grower is in-play, Minions don't wake together. They are woken one by one, until one of them chooses to be the Invitee."
       },
       {
         "id": "pukka",
@@ -1390,19 +1390,19 @@
       },
       {
         "id": "fortify_faketierscollection",
-        "reason": "If the Fall. Charlotte is in play, the Fortify-protected player is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in-play, the Fortify-protected player is safe from all evil abilities."
       },
       {
         "id": "grandmother",
-        "reason": "If the Fall. Charlotte is in play and the Grandchild is a failed nominee, the final day comes closer by 2."
+        "reason": "If the Fall. Charlotte is in-play and the Grandchild is a failed nominee, the final day comes closer by 2."
       },
       {
         "id": "innkeeper",
-        "reason": "If the Fall. Charlotte is in play, the Innkeeper-protected players are safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in-play, the Innkeeper-protected players are safe from all evil abilities."
       },
       {
         "id": "king",
-        "reason": "If the Fall. Charlotte is in play, and at least 1 player is dead, the King learns an alive character each night."
+        "reason": "If the Fall. Charlotte is in-play, and at least 1 player is dead, the King learns an alive character each night."
       },
       {
         "id": "mayor",
@@ -1410,7 +1410,7 @@
       },
       {
         "id": "monk",
-        "reason": "If the Fall. Charlotte is in play, the Monk-protected player is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in-play, the Monk-protected player is safe from all evil abilities."
       },
       {
         "id": "ravenkeeper",
@@ -1422,7 +1422,7 @@
       },
       {
         "id": "soldier",
-        "reason": "If the Fall. Charlotte is in play, the Soldier is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in-play, the Soldier is safe from all evil abilities."
       },
       {
         "id": "spirit_faketierscollection",
@@ -1430,7 +1430,7 @@
       },
       {
         "id": "templar_faketierscollection",
-        "reason": "If the Fall. Charlotte is in play, the Templar-protected player is safe from all evil abilities."
+        "reason": "If the Fall. Charlotte is in-play, the Templar-protected player is safe from all evil abilities."
       }
     ]
   },
@@ -1454,11 +1454,11 @@
     "jinxes": [
       {
         "id": "engineer",
-        "reason": "Cultists and the Engineer can not both be in play at the start of the game. If the Engineer creates a Culist, most players (including all evil players) become evil Cultists."
+        "reason": "Cultists and the Engineer can not both be in-play at the start of the game. If the Engineer creates a Culist, most players (including all evil players) become evil Cultists."
       },
       {
         "id": "hatter",
-        "reason": "If the Hatter dies and a Cultist is in play, nothing happens. If the Hatter dies and an evil player chooses Cultist, all current evil players become Cultists."
+        "reason": "If the Hatter dies and a Cultist is in-play, nothing happens. If the Hatter dies and an evil player chooses Cultist, all current evil players become Cultists."
       },
       {
         "id": "minstrel",
