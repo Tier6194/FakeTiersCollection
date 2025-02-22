@@ -123,8 +123,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
-    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
+    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
+    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
     "reminders": [
       "Drunk",
       "Chosen"
@@ -572,7 +572,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" info card and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" token and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
     "reminders": [
       "Works Twice",
       "?",
@@ -627,7 +627,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
+    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" token and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
     "reminders": [
       "Demon's Ability"
     ],
@@ -846,8 +846,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" info card and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" info card and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "reminders": [
       "Chosen"
     ],
@@ -921,8 +921,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
     "reminders": [
       "Has Ability",
       "Has Ability",
@@ -1029,16 +1029,18 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If The Concert token is on False Idol, move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
+    "firstNightReminder": "Place the Stage token 5 spaces anti-clockwise to False Idol",
+    "otherNightReminder": "Move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
     "reminders": [
       "Concert",
       "Stage"
     ],
     "name": "False Idol - π",
     "team": "minion",
-    "ability": "If the Demon died today (ending the game), play for 4 more days after which evil wins.",
+    "ability": "After day 6, evil wins. Good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
-    "otherNight": 68,
+    "firstNight": 99,
+    "otherNight": 99,
     "jinxes": [
       {
         "id": "lleech",
@@ -1184,6 +1186,30 @@
     ]
   },
   {
+    "id": "estelle_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Estelle points to a player. That player dies. If that player was a Minion, they keep their ability and point to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability",
+      "Has Ability"
+    ],
+    "name": "Estelle - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability and choose a player: they die.",
+    "flavor": "No... Please stop. I don't want to hurt you",
+    "otherNight": 47
+  },
+  {
     "id": "corrsylphy_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_faketierscollection.png?raw=true",
@@ -1202,26 +1228,6 @@
     "ability": "Each night*, choose 1 more player than the previous night (up to 5): they die. If a Minion died today, choose 1 instead.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
-  },
-  {
-    "id": "estelle_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Estelle shakes their head \"no\" or points to as many players as their +1 tokens and 1 more. If Estelle pointed: those players die. If the Estelle shook their head \"no\": mark them with a +1 token unless they already have 4.",
-    "reminders": [
-      "Dead",
-      "+1",
-      "+1",
-      "+1",
-      "+1"
-    ],
-    "name": "Estelle - π",
-    "team": "demon",
-    "ability": "Each night*, you may choose a player: they die. For every night you chose no-one, you may choose 1 more (up to 4).",
-    "flavor": "No... Please stop. I don't want to hurt you",
-    "otherNight": 47
   },
   {
     "id": "timesixth_faketierscollection",
@@ -1291,7 +1297,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again.",
     "reminders": [
       "Dead",
       "Has Ability",

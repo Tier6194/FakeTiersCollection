@@ -143,8 +143,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
     "reminders": [
       "Has Ability",
       "Has Ability",
@@ -182,12 +182,28 @@
   },
   "vortox",
   {
+    "id": "plankofwood_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Plank of Wood - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
+    "flavor": "*Plank of Wood noises*",
+    "otherNight": 49
+  },
+  {
     "id": "zhobazhbu_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, mark them with the Has Ability token and the Purged token. They have their ability still. Townsfolk abilities yield false information while the Purged token is placed.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again.",
     "reminders": [
       "Dead",
       "Has Ability",

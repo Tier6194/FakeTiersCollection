@@ -60,8 +60,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
-    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
+    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
+    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
     "reminders": [
       "Drunk",
       "Chosen"
@@ -96,7 +96,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Ammo Blast points to a player. If they are the Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
+    "otherNightReminder": "The Ammo Blast points to a player. If they are a Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
     "reminders": [
       "Linked",
       "Linked",
@@ -108,7 +108,7 @@
     ],
     "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if the Demon, you die & previously chosen players might die.",
+    "ability": "Each night*, choose a player: if a Demon, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 17.1
   },
