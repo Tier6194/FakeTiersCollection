@@ -78,7 +78,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them \"This character has chosen you\" and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" info card and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
     "reminders": [
       "Works Twice",
       "?",
@@ -131,8 +131,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth points at a player. Wake that player, show them \"This character has chosen you\" and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" info card and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" info card and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "reminders": [
       "Chosen"
     ],

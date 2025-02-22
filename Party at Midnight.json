@@ -60,8 +60,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them 'This character has chosen you', Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
-    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil: wake that player, show the Dazzle token and point to the Dazzle. The chosen player is drunk.",
+    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
+    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player up after Dazzle's turn, show them the \"This character selected you\" info card, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
     "reminders": [
       "Drunk",
       "Chosen"
@@ -73,6 +73,14 @@
     "firstNight": 22,
     "otherNight": 10,
     "jinxes": [
+      {
+        "id": "marionette",
+        "reason": "The Marionette does not learn that the Dazzle chosen them."
+      },
+      {
+        "id": "riot",
+        "reason": "If the Dazzle chose Riot on the 3rd night, on day 3, nominees die and nominate an alive player. This must happen."
+      },
       {
         "id": "summoner",
         "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."

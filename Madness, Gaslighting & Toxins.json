@@ -37,7 +37,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them \"This character has chosen you\" then Coda's token and then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
+    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
     "reminders": [
       "Demon's Ability"
     ],
@@ -61,11 +61,11 @@
       },
       {
         "id": "grave_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Grave is in play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
+        "reason": "Up to 3 extra players learn that the Grave is in-play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
       },
       {
         "id": "hunter_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
+        "reason": "Up to 3 extra players learn that the Hunter is in-play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
       },
       {
         "id": "marionette",
@@ -143,8 +143,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character has chosen you\" and then Enra's character token and put them to sleep. They have no ability, mark them with No Ability. Then remove a Has Ability token from the Enra.",
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them \"This character selected you\" and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
     "reminders": [
       "Has Ability",
       "Has Ability",
@@ -153,7 +153,7 @@
     ],
     "name": "Enra - π",
     "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this and have no ability. If you have no ability, chosen players might regain theirs at any time.",
+    "ability": "Twice per game at night, choose a player: they learn this & have no ability. If you have no ability, chosen players might regain theirs at any time.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
     "firstNight": 24,
     "otherNight": 11.1
