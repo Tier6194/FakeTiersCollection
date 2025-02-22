@@ -220,7 +220,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Ammo Blast points to a player. If they are the Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
+    "otherNightReminder": "The Ammo Blast points to a player. If they are a Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
     "reminders": [
       "Linked",
       "Linked",
@@ -232,7 +232,7 @@
     ],
     "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if the Demon, you die & previously chosen players might die.",
+    "ability": "Each night*, choose a player: if a Demon, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 17.1
   },
