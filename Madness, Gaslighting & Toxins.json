@@ -69,7 +69,11 @@
       },
       {
         "id": "marionette",
-        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette."
+        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette. This fails if there is already an extra evil player."
+      },
+      {
+        "id": "mastermind",
+        "reason": "If the Coda dies and would give the Masterminds's ability, a Minion gains it instead and learns so."
       },
       {
         "id": "scarletwoman",
@@ -78,6 +82,10 @@
       {
         "id": "summoner",
         "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
+      },
+      {
+        "id": "vizier",
+        "reason": "If the Coda dies and would give the Vizier's ability, a living Minion gains it alongside their own."
       }
     ]
   },
@@ -116,14 +124,14 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If the Showtime died today or tonight & 4 or more players that are not Travellers are alive, they point to a player. Mark them with the Target token. If they are not executed tomorrow, the Showtime's team loses.",
+    "otherNightReminder": "If the Showtime died today or tonight & 5 or more players that are not Travellers are alive, they point to a player. Mark them with the Target token. If they are not executed tomorrow, the Showtime's team loses.",
     "reminders": [
       "Show Tonight",
       "Target"
     ],
     "name": "Showtime - π",
     "team": "outsider",
-    "ability": "If you died today or tonight & 4 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
+    "ability": "If you died today or tonight & 5 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
     "otherNight": 70
   },

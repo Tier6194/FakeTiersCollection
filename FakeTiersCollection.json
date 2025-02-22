@@ -137,6 +137,10 @@
     "otherNight": 10,
     "jinxes": [
       {
+        "id": "marionette",
+        "reason": "The Marionette does not learn that the Dazzle chosen them."
+      },
+      {
         "id": "riot",
         "reason": "If the Dazzle chose Riot on the 3rd night, on day 3, nominess die and nominate an alive player. This must happen."
       },
@@ -216,7 +220,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Ammo Blast points to a player. If they are Minion, kill the Ammo Blast and as many of the players they previously chose as you like. If good, mark them with the Linked Token.",
+    "otherNightReminder": "The Ammo Blast points to a player. If they are the Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
     "reminders": [
       "Linked",
       "Linked",
@@ -228,7 +232,7 @@
     ],
     "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Minion, you die & previously chosen players might die.",
+    "ability": "Each night*, choose a player: if the Demon, you die & previously chosen players might die.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 17.1
   },
@@ -709,7 +713,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If the Showtime died today or tonight & 4 or more players that are not Travellers are alive, they point to a player. Mark them with the Target token. If they are not executed tomorrow, the Showtime's team loses.",
+    "otherNightReminder": "If the Showtime died today or tonight & 5 or more players that are not Travellers are alive, they point to a player. Mark them with the Target token. If they are not executed tomorrow, the Showtime's team loses.",
     "reminders": [
       "Show Tonight",
       "Target"
