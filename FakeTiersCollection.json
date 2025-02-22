@@ -725,48 +725,20 @@
     "otherNight": 70
   },
   {
-    "id": "biter_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Show each of the Outsider tokens in play",
-    "reminders": [
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
-    "setup": true,
-    "name": "Biter - π",
-    "team": "minion",
-    "ability": "You start knowing which Outsiders are in play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
-    "flavor": "Chomp Chomp",
-    "firstNight": 30,
-    "jinxes": [
-      {
-        "id": "heretic",
-        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
-      }
-    ]
-  },
-  {
     "id": "hunter_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the Hunter an up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up, show them Hunter's character token and put them to sleep.",
-    "otherNightReminder": "The Hunter points to a player, if they have a Target token, they die.",
+    "firstNightReminder": "Show the Hunter an up to 3 in-play good character tokens. Wake 1 of these characters up, show them Hunter's character token and put them to sleep. Repeat until all have woken up",
     "reminders": [
       "Target",
       "Target",
-      "Target",
-      "Dead"
+      "Target"
     ],
     "name": "Hunter - π",
     "team": "minion",
-    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night* choose a player, if they are a target, they die.",
+    "ability": "You start knowing up to 3 in-play good characters (they learn this). If they are all dead, your team wins.",
     "flavor": "if you're not willing to obey, then only the end awaits you",
     "firstNight": 35,
     "otherNight": 52,
@@ -794,6 +766,32 @@
       {
         "id": "pithag",
         "reason": "Up to 3 extra players learn that the Hunter is in play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
+      }
+    ]
+  },
+  {
+    "id": "biter_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Show each of the Outsider tokens in play",
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Biter - π",
+    "team": "minion",
+    "ability": "You start knowing which Outsiders are in play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
+    "flavor": "Chomp Chomp",
+    "firstNight": 30,
+    "jinxes": [
+      {
+        "id": "heretic",
+        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
       }
     ]
   },
