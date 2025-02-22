@@ -745,11 +745,11 @@
     "jinxes": [
       {
         "id": "dazzle_faketierscollection",
-        "reason": "The Hunter cannot have a Dazzle as their target"
+        "reason": "The Hunter cannot have a Dazzle as their target."
       },
       {
         "id": "exorcist",
-        "reason": "The Hunter cannot have a Exorcist as their target"
+        "reason": "The Hunter cannot have a Exorcist as their target."
       },
       {
         "id": "heretic",
@@ -757,11 +757,11 @@
       },
       {
         "id": "king",
-        "reason": "The Hunter cannot have a King as their target"
+        "reason": "The Hunter cannot have a King as their target."
       },
       {
         "id": "lunatic",
-        "reason": "The Hunter cannot have a Lunatic as their target"
+        "reason": "The Hunter cannot have a Lunatic as their target."
       },
       {
         "id": "pithag",
@@ -817,11 +817,11 @@
     "jinxes": [
       {
         "id": "dazzle_faketierscollection",
-        "reason": "The Grave cannot have a Dazzle as their target"
+        "reason": "The Grave cannot have a Dazzle as their target."
       },
       {
         "id": "exorcist",
-        "reason": "The Grave cannot have a Exorcist as their target"
+        "reason": "The Grave cannot have a Exorcist as their target."
       },
       {
         "id": "heretic",
@@ -829,11 +829,11 @@
       },
       {
         "id": "king",
-        "reason": "The Grave cannot have a King as their target"
+        "reason": "The Grave cannot have a King as their target."
       },
       {
         "id": "lunatic",
-        "reason": "The Grave cannot have a Lunatic as their target"
+        "reason": "The Grave cannot have a Lunatic as their target."
       },
       {
         "id": "pithag",
