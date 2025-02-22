@@ -1032,7 +1032,6 @@
     "firstNightReminder": "Place the Stage token 5 spaces anti-clockwise to False Idol",
     "otherNightReminder": "Move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
     "reminders": [
-      "Concert",
       "Stage"
     ],
     "name": "False Idol - π",
