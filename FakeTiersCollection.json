@@ -730,7 +730,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the Hunter an up to 3 in-play good character tokens. Wake 1 of these characters up, show them Hunter's character token and put them to sleep. Repeat until all have woken up",
+    "firstNightReminder": "Show the Hunter an up to 3 in-play good character tokens. Wake 1 of these players up, show them Hunter's character token and put them to sleep. Repeat until all have woken up.",
     "reminders": [
       "Target",
       "Target",
@@ -741,7 +741,6 @@
     "ability": "You start knowing up to 3 in-play good characters (they learn this). If they are all dead, your team wins.",
     "flavor": "if you're not willing to obey, then only the end awaits you",
     "firstNight": 35,
-    "otherNight": 52,
     "jinxes": [
       {
         "id": "dazzle_faketierscollection",
@@ -801,8 +800,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the Grave up to 3 play character tokens then put the Target reminders on the corresponding players. Wake them up seperately, show them Grave's token then put them to sleep.",
-    "otherNightReminder": "The Grave points to as many players as targets. If correct, announce that their team has won.",
+    "firstNightReminder": "Show the Grave an up to 3 in-play good character tokens. Wake 1 of these players up, show them Grave's character token and put them to sleep. Repeat until all have woken up",
+    "otherNightReminder": "The Grave points to as many players as targets. If correct and at least 1 lives, announce that their team has won.",
     "reminders": [
       "Target",
       "Target",
@@ -810,7 +809,7 @@
     ],
     "name": "Grave - π",
     "team": "minion",
-    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 is alive, your team wins.",
+    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 lives, your team wins.",
     "flavor": "you shall not pass",
     "firstNight": 34,
     "otherNight": 30,
