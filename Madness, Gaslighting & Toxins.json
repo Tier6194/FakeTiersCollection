@@ -143,8 +143,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, mark them with a No Ability token. Then remove a Has Ability token from the Enra.",
+    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
     "reminders": [
       "Has Ability",
       "Has Ability",
