@@ -1038,17 +1038,7 @@
     "ability": "After day 6, evil wins. Good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "firstNight": 99,
-    "otherNight": 99,
-    "jinxes": [
-      {
-        "id": "lleech",
-        "reason": "If the Lleech's host dies during the day and the False Idol's ability triggers, the Lleech lives but loses their ability and registers as a Minion."
-      },
-      {
-        "id": "mastermind",
-        "reason": "If both Mastermind's and False Idol's abilities trigger,False Idol's ability works as normal but if an evil player is executed during those 4 days, good wins."
-      }
-    ]
+    "otherNight": 99
   },
   {
     "id": "madeline_faketierscollection",
