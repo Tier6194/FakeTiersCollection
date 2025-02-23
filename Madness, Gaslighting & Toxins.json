@@ -143,7 +143,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place both Has Ability tokens on Enra. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
+    "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
     "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
     "reminders": [
       "Has Ability",
@@ -180,22 +180,6 @@
     "otherNight": 6
   },
   "vortox",
-  {
-    "id": "plankofwood_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "name": "Plank of Wood - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
-    "flavor": "*Plank of Wood noises*",
-    "otherNight": 49
-  },
   {
     "id": "zhobazhbu_faketierscollection",
     "image": [
