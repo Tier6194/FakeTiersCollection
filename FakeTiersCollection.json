@@ -942,7 +942,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Place both Has Ability tokens on the Corrupted.",
-    "otherNightReminder": "Every night but the first, if the Corrupted has its ability: the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce \"The Corrupted has chosen\" the first player's name \"and\" the second player's name. \"After a countdown from 10, if most players have their hand up, the first player dies and if most players have their hand down, the second player dies. The Corrupted breaks ties.\" Start the countdown. When the countdown reaches 0, tally the results silently. The player with the most votes dies and the other is now alive.",
+    "otherNightReminder": "Every night but the first, if the Corrupted has its ability: the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce \"The Corrupted has chosen\" the first player's name \"and\" the second player's name. \"After a countdown from 10, if most players have their hand up, the first player dies and if most players have their hand down, the second player dies. The Corrupted breaks ties.\" Start the countdown. When the countdown reaches 0, tally the results silently. The player with the most votes dies, mark them with the Dead token, and the other is now alive, remove any existing shroud.",
     "reminders": [
       "Dead",
       "Choice 1",
