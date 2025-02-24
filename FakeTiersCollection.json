@@ -249,7 +249,7 @@
     ],
     "name": "Fortify - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: they can't die tonight. If you chose an evil player, you are drunk.",
+    "ability": "Each night*, choose a player (not yourself): they can't die tonight. If you chose an evil player, you are drunk.",
     "flavor": "Gain 12 Barrier",
     "otherNight": 14,
     "jinxes": [
