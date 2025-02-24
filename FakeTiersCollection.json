@@ -992,11 +992,11 @@
       },
       {
         "id": "kazali",
-        "reason": "Kazali may choose Marusok's Demon abilities. If they made a Marusok, all Minions become Marusok."
+        "reason": "The Kazali may choose Marusok's Demon abilities. If they made a Marusok, all Minions become Marusok."
       },
       {
         "id": "legion",
-        "reason": "If Marusok has the Legion ability, other Marusok and the Demon might have it instead"
+        "reason": "If Marusok has the Legion ability, other Marusok might have it as well. The Demon might be Legion too."
       },
       {
         "id": "po",
@@ -1004,7 +1004,7 @@
       },
       {
         "id": "summoner",
-        "reason": "The Summoner may choose to create Marusok as well as their Demon. If they do, all Minions become Marusok and the Summoner chosen player becomes the chosen Demon."
+        "reason": "The Summoner may choose to create Marusok as well as their Demon. If they do, all Minions become Marusok and the Summoner-chosen player becomes the chosen Demon."
       }
     ],
     "special": [
