@@ -1073,8 +1073,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "At start of game, assign a range of numbers and abilities to each of them then announce everyone what abilities you chose in any order without the numbers. Later, when you deem it appropriate, wake the Hand of Fate, they first signal a number. Note down the Hand of Fate's number and show them the unlocked ability. They may then signal the number of the ability they wish to use.",
-    "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the unlocked ability. The Hand of Fate may then signal the number of the ability they wish to use. After they are done: they shake their head \"no\" then point to a player. That player dies.",
+    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. Later, the Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
+    "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the card with the ability they now have. After they are done: they shake their head \"no\" then point to a player. That player dies.",
     "reminders": [
       "Dead",
       "?",
@@ -1229,7 +1229,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Write down a list of events and have Time - Sixth make their choice. Announce it to everyone as well as when it will happen and keep a note of it. Place the Final Hour token an equivalent steps anti-clockwise to Time - Sixth as the day of the event - 1 and mark Time - Sixth with as many New Day tokens as Final Hour reaches Time - Sixth prematurely.",
+    "firstNightReminder": "Show Time - Sixth all the events and they point to 1. Announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Time - Sixth as the day of the event - 1 and mark Time - Sixth with as many New Day tokens as Final Hour reaches Time - Sixth prematurely.",
     "otherNightReminder": "Time - Sixth points to a player. That player dies. Move the Final Hour token 1 step clockwise. If it reaches Time - Sixth, remove a New Day token. If there are none, the event happens.",
     "reminders": [
       "Dead",
@@ -1291,7 +1291,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again.",
+    "otherNightReminder": "Remove the Purged token from the Grimoire. The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again, mark that Minion with the Purged token.",
     "reminders": [
       "Dead",
       "Has Ability",

@@ -181,12 +181,28 @@
   },
   "vortox",
   {
+    "id": "plankofwood_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Plank of Wood - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
+    "flavor": "*Plank of Wood noises*",
+    "otherNight": 49
+  },
+  {
     "id": "zhobazhbu_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again.",
+    "otherNightReminder": "Remove the Purged token from the Grimoire. The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again, mark that Minion with the Purged token.",
     "reminders": [
       "Dead",
       "Has Ability",
