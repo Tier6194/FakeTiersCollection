@@ -6,6 +6,12 @@
     "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true"
   },
   {
+    "id": "gullible",
+    "name": "Gullible",
+    "team": "gullible",
+    "ability": "You think you are smart but you got baited [+17 Gullibles]"
+  },
+  {
     "id": "tailor_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_faketierscollection.png?raw=true",
