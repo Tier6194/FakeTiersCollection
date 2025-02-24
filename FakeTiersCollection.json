@@ -984,11 +984,7 @@
       },
       {
         "id": "engineer",
-        "reason": "If the Enginner successfully creates Marusok, all Minions become Marusok."
-      },
-      {
-        "id": "estelle_faketierscollection",
-        "reason": "Demons may choose to not attack when they wake. For every night a Demon chose to not attack, Estelle can choose 1 more player to kill."
+        "reason": "If the Engineer successfully creates Marusok, all Minions become Marusok."
       },
       {
         "id": "invitationletter_faketierscollection",
