@@ -9,7 +9,8 @@
     "id": "gullible",
     "name": "Gullible",
     "team": "gullible",
-    "ability": "You think you are smart but you got baited [+17 Gullibles]"
+    "ability": "You think you are smart but you got baited [+17 Gullibles]",
+    "flavor": "get baited losers, banshees screech lies"
   },
   {
     "id": "tailor_faketierscollection",
