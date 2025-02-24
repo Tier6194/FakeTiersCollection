@@ -197,10 +197,6 @@
         "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
       },
       {
-        "id": "focus_faketierscollection",
-        "reason": "If Invitation letter is in-play and no Demon was invited yet, a Focus that met their requirements at their time to wake receives their info after a Demon is invited."
-      },
-      {
         "id": "hatter",
         "reason": "If the Hatter dies, the Invitee can choose a Demon to become. If the Demon chooses Invitation Letter, they also choose a Minion to become and are the Invitee."
       },
@@ -222,19 +218,15 @@
       },
       {
         "id": "poppygrower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to be the Invitee."
+        "reason": "If the Poppy Grower is in-play, Minions don't wake together. They are woken one by one, until one of them chooses to be the Invitee."
       },
       {
         "id": "pukka",
-        "reason": "The Invitee may choose to invite Pukka on Night 2."
-      },
-      {
-        "id": "scarletwoman",
-        "reason": "If there are 5 or more players alive (excluding Travellers) and the Invitee dies, the Scarlet Woman is the Invitee then loses their ability."
+        "reason": "The Invitee may choose to invite Pukka on night 2."
       },
       {
         "id": "trickmask_faketierscollection",
-        "reason": "If the Trick Mask's and Invitation Letter's ability is active, Minions do not learn each other and are instead woken one by one until one of them chooses to take the Invitation Letter's token."
+        "reason": "If Trick Mask’s ability is active and the Invitation Letter is alive, Minions do not learn each other and are instead woken 1 by 1 until 1 of them chooses to take the Invitation letter’s token. After a Demon is invited, Minions learn each other."
       },
       {
         "id": "vizier",
