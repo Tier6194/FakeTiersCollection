@@ -1037,6 +1037,10 @@
     "otherNight": 99,
     "jinxes": [
       {
+        "id": "estelle_faketierscollection",
+        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
+      },
+      {
         "id": "vigormortis",
         "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
       },
@@ -1187,9 +1191,6 @@
     ],
     "otherNightReminder": "Estelle points to a player. That player dies. If that player was a Minion, they keep their ability and point to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Dead",
-      "Dead",
       "Dead",
       "Dead",
       "Has Ability",

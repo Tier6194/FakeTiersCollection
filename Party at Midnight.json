@@ -159,7 +159,21 @@
     "ability": "After day 6, evil wins. Good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "firstNight": 99,
-    "otherNight": 99
+    "otherNight": 99,
+    "jinxes": [
+      {
+        "id": "estelle_faketierscollection",
+        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
+      },
+      {
+        "id": "vigormortis",
+        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
+      },
+      {
+        "id": "zhobazhbu_faketierscollection",
+        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
+      }
+    ]
   },
   "pukka",
   {
