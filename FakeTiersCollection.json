@@ -1361,7 +1361,7 @@
     ],
     "name": "Fall. Charlotte - π",
     "team": "demon",
-    "ability": "All players start knowing a day. After that day, at dusk, evil wins. For every failed nomination, that day comes closer by 1 (2 if Demon nominee).",
+    "ability": "All players start knowing a day. After that day, at dusk, evil wins. For every nomination, that day comes closer by 1 (2 if Demon nominee).",
     "flavor": "..............",
     "firstNight": 74,
     "otherNight": 91,
