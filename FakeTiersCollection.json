@@ -3,7 +3,8 @@
     "id": "_meta",
     "name": "FakeTier's Collection",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true"
+    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true",
+    "almanac": "raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/FakeTiersCollection%20Almanac.pdf"
   },
   {
     "id": "tailor_faketierscollection",
