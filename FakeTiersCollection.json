@@ -983,6 +983,10 @@
         "reason": "Corr. Sylphy's ability only checks the last night they woke."
       },
       {
+        "id": "cultist_faketierscollection",
+        "reason": "If Marusok has the Cultist ability, other Marusok might have it as well. The Demon might be a Cultist too."
+      },
+      {
         "id": "engineer",
         "reason": "If the Engineer successfully creates Marusok, all Minions become Marusok."
       },
