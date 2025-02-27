@@ -426,7 +426,7 @@
     ],
     "name": "Overdrive - π",
     "team": "townsfolk",
-    "ability": "Once per game at night, choose a player: learn their character but they are drunk if a Townsfolk, even if you are dead.",
+    "ability": "Once per game at night, choose a player (not yourself or Traveller): learn their character but they are drunk if a Townsfolk, even if you are dead.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
     "firstNight": 19,
     "otherNight": 8
