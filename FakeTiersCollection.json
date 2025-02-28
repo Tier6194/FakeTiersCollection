@@ -1209,27 +1209,6 @@
     "otherNight": 46
   },
   {
-    "id": "madeline_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Madeline points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "remindersGlobal": [
-      "Night 1",
-      "Night 2",
-      "Night 3"
-    ],
-    "name": "Madeline - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights (up to 3) clockwise to you are poisoned.",
-    "flavor": "If only you knew your place! But its too late now!",
-    "otherNight": 46
-  },
-  {
     "id": "timesixth_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_faketierscollection.png?raw=true",
@@ -1250,6 +1229,27 @@
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
     "firstNight": 2,
     "otherNight": 43
+  },
+  {
+    "id": "madeline_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "name": "Madeline - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
+    "flavor": "If only you knew your place! But its too late now!",
+    "otherNight": 46
   },
   {
     "id": "destiny_faketierscollection",

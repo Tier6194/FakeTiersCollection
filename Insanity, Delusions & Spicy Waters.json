@@ -194,7 +194,7 @@
     ],
     "name": "Madeline - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights (up to 3) clockwise to you are poisoned.",
+    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
     "flavor": "If only you knew your place! But its too late now!",
     "otherNight": 46
   },
