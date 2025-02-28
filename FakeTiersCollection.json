@@ -132,7 +132,7 @@
     ],
     "name": "Dazzle - π",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
+    "ability": "Each night, choose a player (not a Traveller & different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
     "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
     "firstNight": 22,
     "otherNight": 10,
@@ -255,7 +255,7 @@
     "otherNight": 14,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "If the Leviathan is in-play, the Fortify-protected player is safe from all evil abilities."
       },
       {
@@ -283,7 +283,7 @@
     "otherNight": 14,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "If the Leviathan is in-play, the Templar-protected player is safe from all evil abilities."
       },
       {
@@ -459,7 +459,7 @@
     "otherNight": 56,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die."
       },
       {
