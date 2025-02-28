@@ -164,20 +164,20 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Madeline's clockwise Townsfolk neighbor is poisoned.",
-    "otherNightReminder": "Madeline's next clockwise Townsfolk neighbor is poisoned unless 3 players are already poisoned this way. Wake them later when Demons normally wake to point to a player. That player dies.",
+    "otherNightReminder": "Madeline points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
     ],
     "name": "Madeline - π",
     "team": "demon",
-    "ability": "Each night, the next Townsfolk closest clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
+    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights (up to 3) clockwise to you are poisoned.",
     "flavor": "If only you knew your place! But its too late now!",
-    "firstNight": 1,
-    "otherNight": 6
+    "otherNight": 46
   },
   "vortox",
   {
