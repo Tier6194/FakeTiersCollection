@@ -1216,7 +1216,9 @@
     ],
     "otherNightReminder": "Madeline points to a player. That player dies.",
     "reminders": [
-      "Dead",
+      "Dead"
+    ],
+    "remindersGlobal": [
       "Night 1",
       "Night 2",
       "Night 3"
