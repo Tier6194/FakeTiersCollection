@@ -1056,27 +1056,6 @@
     ]
   },
   {
-    "id": "madeline_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Madeline's clockwise Townsfolk neighbor is poisoned.",
-    "otherNightReminder": "Madeline's next clockwise Townsfolk neighbor is poisoned unless 3 players are already poisoned this way. Wake them later when Demons normally wake to point to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
-    "name": "Madeline - π",
-    "team": "demon",
-    "ability": "Each night, the next Townsfolk closest clockwise to you is poisoned until 3 are. Each night*, choose a player: they die.",
-    "flavor": "If only you knew your place! But its too late now!",
-    "firstNight": 1,
-    "otherNight": 6
-  },
-  {
     "id": "handoffate_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
@@ -1227,6 +1206,25 @@
     "team": "demon",
     "ability": "Each night*, choose 1 more player than last night (up to 5): they die. If a Minion died today, choose 1 instead.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
+    "otherNight": 46
+  },
+  {
+    "id": "madeline_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "name": "Madeline - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. The closest equal to nights (up to 3) clockwise Townsfolk to you are poisoned.",
+    "flavor": "If only you knew your place! But its too late now!",
     "otherNight": 46
   },
   {
