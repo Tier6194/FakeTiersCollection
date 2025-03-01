@@ -111,7 +111,7 @@
     ],
     "name": "Dazzle",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
+    "ability": "Each night, choose a player (not a Traveller & different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
     "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
     "firstNight": 22,
     "otherNight": 10,
