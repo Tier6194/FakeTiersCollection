@@ -645,7 +645,13 @@
     "team": "outsider",
     "ability": "If you died today or tonight & 5 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
-    "otherNight": 70
+    "otherNight": 70,
+    "jinxes": [
+      {
+        "id": "hagumoth_faketierscollection",
+        "reason": "If the Showtime chooses the same player as the Hagumoth, the Showtime's ability is canceled out."
+      }
+    ]
   },
   {
     "id": "hunter_faketierscollection",
