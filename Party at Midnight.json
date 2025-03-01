@@ -29,65 +29,26 @@
       }
     ]
   },
-  {
-    "id": "jumpstrike_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Mark a player with the Learnt token then wake Jump Strike. Show them the character type of the marked player via the reminder tokens.",
-    "otherNightReminder": "The previously marked player's clockwise neighbor, skipping Travellers, is marked instead. Wake Jump Strike and show them the character type of the marked player via the reminder tokens.",
-    "reminders": [
-      "Townsfolk",
-      "Outsider",
-      "Minion",
-      "Demon",
-      "Learnt"
-    ],
-    "setup": true,
-    "name": "Jump Strike - π",
-    "team": "townsfolk",
-    "ability": "You start knowing a player's character type. Each night*, learn their next non-Traveller clockwise neighbor's character type. [+0 or +1 Outsider]",
-    "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
-    "firstNight": 47,
-    "otherNight": 75
-  },
   "highpriestess",
   "sailor",
-  {
-    "id": "dazzle_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
-    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
-    "reminders": [
-      "Drunk",
-      "Chosen"
-    ],
-    "name": "Dazzle - π",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player (not a Traveller & different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
-    "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
-    "firstNight": 22,
-    "otherNight": 10,
-    "jinxes": [
-      {
-        "id": "marionette",
-        "reason": "The Marionette does not learn that the Dazzle chosen them."
-      },
-      {
-        "id": "riot",
-        "reason": "If the Dazzle chose Riot on the 3rd night, on day 3, nominees die and nominate an alive player. This must happen."
-      },
-      {
-        "id": "summoner",
-        "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
-      }
-    ]
-  },
   "innkeeper",
+  {
+    "id": "unnamed_ftcunreleased",
+    "otherNightReminder": "A good player who voted against Unamed 2 dies.",
+    "reminders": [
+      "Dead",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted"
+    ],
+    "name": "Unnamed 2 - π",
+    "team": "townsfolk",
+    "ability": "Each night*, a good player who voted against you today dies.",
+    "otherNight": 54
+  },
   "gambler",
   "acrobat",
   {
@@ -112,6 +73,35 @@
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
     "otherNight": 17.1
   },
+  {
+    "id": "templar_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Templar points to 2 players, mark the 1st with the Holy token and the second with the Smote token. If the Demon kills the Holy player and is not the Smote player, the Holy player lives and the Smote player dies.",
+    "reminders": [
+      "Holy",
+      "Smote",
+      "Dead"
+    ],
+    "name": "Templar - π",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 alive players (not yourself): if the Demon kills the 1st, the 2nd, if not the Demon, dies instead.",
+    "flavor": "The Lord is with me always. In hardship, in times of distress, times of celebration and times of success.",
+    "otherNight": 14,
+    "jinxes": [
+      {
+        "id": "leviathan",
+        "reason": "If the Leviathan is in-play, the Templar-protected player is safe from all evil abilities."
+      },
+      {
+        "id": "riot",
+        "reason": "If Riot is in-play, the Templar-protected player is safe from all evil abilities."
+      }
+    ]
+  },
+  "exorcist",
   "courtier",
   "fisherman",
   "minstrel",
@@ -140,41 +130,35 @@
   "ogre",
   "sweetheart",
   "klutz",
-  "godfather",
-  "devilsadvocate",
-  "marionette",
   {
-    "id": "falseidol_faketierscollection",
+    "id": "biter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place the Stage token 5 spaces anti-clockwise to False Idol",
-    "otherNightReminder": "Move the Stage token 1 step clockwise. If it reaches False Idol, announce that the game is over and that evil has won.",
+    "firstNightReminder": "Show each of the Outsider tokens in-play",
     "reminders": [
-      "Stage"
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
     ],
-    "name": "False Idol - π",
+    "setup": true,
+    "name": "Biter - π",
     "team": "minion",
-    "ability": "After day 6, evil wins. Good can't win by killing the Demon.",
-    "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
-    "firstNight": 99,
-    "otherNight": 99,
+    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
+    "flavor": "Chomp Chomp",
+    "firstNight": 30,
     "jinxes": [
       {
-        "id": "estelle_faketierscollection",
-        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
-      },
-      {
-        "id": "vigormortis",
-        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
-      },
-      {
-        "id": "zhobazhbu_faketierscollection",
-        "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
+        "id": "heretic",
+        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
       }
     ]
   },
+  "devilsadvocate",
+  "assassin",
+  "marionette",
   "pukka",
   {
     "id": "invitationletter_faketierscollection",
