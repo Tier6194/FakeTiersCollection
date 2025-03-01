@@ -31,10 +31,9 @@
   },
   "highpriestess",
   "sailor",
-  "innkeeper",
   {
-    "id": "unnamed_ftcunreleased",
-    "otherNightReminder": "A good player who voted against Unamed 2 dies.",
+    "id": "placeholder_ftcunreleased",
+    "otherNightReminder": "A good player who voted against ??? dies.",
     "reminders": [
       "Dead",
       "Voted",
@@ -44,12 +43,12 @@
       "Voted",
       "Voted"
     ],
-    "name": "Unnamed 2 - π",
+    "name": "??? - π",
     "team": "townsfolk",
     "ability": "Each night*, a good player who voted against you today dies.",
     "otherNight": 54
   },
-  "gambler",
+  "innkeeper",
   "acrobat",
   {
     "id": "ammoblast_faketierscollection",
