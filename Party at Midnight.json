@@ -32,8 +32,12 @@
   "highpriestess",
   "sailor",
   {
-    "id": "placeholder_ftcunreleased",
-    "otherNightReminder": "A good player who voted against ??? dies.",
+    "id": "count_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "A good player who voted against the Count dies.",
     "reminders": [
       "Dead",
       "Voted",
@@ -43,9 +47,10 @@
       "Voted",
       "Voted"
     ],
-    "name": "??? - π",
+    "name": "Count - π",
     "team": "townsfolk",
     "ability": "Each night*, a good player who voted against you today dies.",
+    "flavor": "Guards, seize this one!",
     "otherNight": 54
   },
   "innkeeper",
