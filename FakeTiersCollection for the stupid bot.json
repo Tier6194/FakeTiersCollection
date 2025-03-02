@@ -81,7 +81,7 @@
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
     "firstNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
     "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
-    "name": "Cynic- π",
+    "name": "Cynic",
     "team": "townsfolk",
     "ability": "Each night, choose a player: learn their character. All players register as Minions or Demons to you.",
     "flavor": "That's what a Demon would say.",
@@ -201,7 +201,7 @@
       "Voted",
       "Voted"
     ],
-    "name": "Count - π",
+    "name": "Count",
     "team": "townsfolk",
     "ability": "Each night*, a good player who voted against you today dies.",
     "flavor": "Guards, seize this one!",
