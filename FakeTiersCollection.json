@@ -1,6 +1,8 @@
 [
   {
     "id": "_meta",
+    "name": "FakeTier's Collection",
+    "author": "FakeTier",
     "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true",
     "almanac": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FakeTiersCollection%20Almanac.pdf"
   },
@@ -1087,7 +1089,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. Later, the Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
+    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. The Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
     "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the card with the ability they now have. After they are done: they shake their head \"no\" then point to a player. That player dies.",
     "reminders": [
       "Dead",
@@ -1102,7 +1104,7 @@
     "team": "demon",
     "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
     "flavor": "the time has come for you to return where you belong",
-    "firstNight": 4,
+    "firstNight": 25,
     "otherNight": 44
   },
   {
@@ -1240,8 +1242,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show Time - Sixth all the events and they point to 1. Announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Time - Sixth as the day of the event - 1 and mark Time - Sixth with as many New Day tokens as Final Hour reaches Time - Sixth prematurely.",
-    "otherNightReminder": "Time - Sixth points to a player. That player dies. Move the Final Hour token 1 step clockwise. If it reaches Time - Sixth, remove a New Day token. If there are none, the event happens.",
+    "firstNightReminder": "Show Time - Sixth all the events and they point to 1. Tomorrow, announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Time - Sixth as the day of the event and mark Time - Sixth with as many New Day tokens as Final Hour token reaches Time - Sixth prematurely.",
+    "otherNightReminder": "Time - Sixth points to a player. That player dies.",
     "reminders": [
       "Dead",
       "Final Hour",
@@ -1253,7 +1255,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. On your 1st night, choose from a list of events. All players learn your choice.",
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
-    "firstNight": 2,
+    "firstNight": 24,
     "otherNight": 43
   },
   {
