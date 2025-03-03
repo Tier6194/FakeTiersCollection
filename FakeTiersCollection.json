@@ -1393,7 +1393,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Announce the day before evil wins.",
-    "otherNightReminder": "Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token.",
+    "otherNightReminder": "Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token. If there were none, do not move it any more.",
     "reminders": [
       "Break Point",
       "New Cycle",
