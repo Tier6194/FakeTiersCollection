@@ -1055,14 +1055,14 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Place the Stage token 5 spaces anti-clockwise to False Idol",
+    "firstNightReminder": "Move the Stage token 1 step clockwise.",
     "otherNightReminder": "Move the Stage token 1 step clockwise. If it reaches False Idol, do not move it anymore.",
     "reminders": [
       "Stage"
     ],
     "name": "False Idol - π",
     "team": "minion",
-    "ability": "After day 6, evil wins. Good can't win by killing the Demon.",
+    "ability": "After day 6, at dusk, evil wins. Good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "firstNight": 99,
     "otherNight": 99,
@@ -1392,7 +1392,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Announce the day before evil wins.",
+    "firstNightReminder": "Announce the day before evil wins. Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token.",
     "otherNightReminder": "Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token. If there were none, do not move it any more.",
     "reminders": [
       "Break Point",
