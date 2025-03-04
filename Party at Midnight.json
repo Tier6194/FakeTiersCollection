@@ -208,7 +208,7 @@
       },
       {
         "id": "lordoftyphon",
-        "reason": "If Lord of Typhon is invited, one of the Invitee's neighbors becomes an evil Lord of Typhon."
+        "reason": "If a good Invitee neighboring a Minion invites Lord of Typhon, they turn evil."
       },
       {
         "id": "magician",
