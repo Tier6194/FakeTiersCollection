@@ -1113,8 +1113,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Wake all Minions and show them the Invitation Letter's token. They will point to a player. If they do not come to a decision, choose a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. Place the Day 1 Token in the center of the Grimoire.",
-    "otherNightReminder": "Place the next Day token in the centre of the Grimoire. Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is Day 3, wake them. They choose a Demon. If they choose Invitation Letter motion them to choose again. When they make their choice, show them the \"Your character is\" card and the Demon they chose. Change their token in the Grimoire to reflect that and remove the Invitation Letter reminders and tokens. You may need to rotate their token if they are good.",
+    "firstNightReminder": "Wake all Minions and show them the Invitation Letter's token. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token.",
+    "otherNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is Day 3, they choose a Demon on the character sheet. Show them the \"You are\" card and the relevant Demon token.",
     "remindersGlobal": [
       "Night 1",
       "Night 2",
