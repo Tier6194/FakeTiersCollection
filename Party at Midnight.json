@@ -3,7 +3,8 @@
     "id":"_meta",
     "name": "Party at Midnight",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/PaM.png?raw=true"
+    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/PaM.png?raw=true",
+    "hideTitle": true
   },
   {
     "id": "starpierce_faketierscollection",
