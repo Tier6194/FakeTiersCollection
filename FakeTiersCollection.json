@@ -634,13 +634,11 @@
     "otherNightReminder": "Point to a player and mark them with the Mad token. If Feint is not marked with the Minion token and that player is a Minion, choose to show them the Minion token and mark Feint with it.",
     "reminders": [
       "Mad",
-      "Minion",
-      "Dead",
-      "Dead"
+      "Minion"
     ],
     "name": "Feint - π",
     "team": "outsider",
-    "ability": "Each night, learn a player. If you aren't mad they are evil tomorrow, one or both of you might die. If you learn a Minion, you might learn this (once).",
+    "ability": "Each night, learn a player. You are mad they are evil tomorrow or 1 of you might be executed. If you learn a Minion, you might learn this (once).",
     "flavor": "Gain 3 Feint Status",
     "firstNight": 60,
     "otherNight": 76
