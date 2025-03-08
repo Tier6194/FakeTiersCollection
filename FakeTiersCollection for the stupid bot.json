@@ -134,8 +134,8 @@
   {
     "id": "blitz_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_faketierscollection.png?raw=true",
-    "firstNightReminder": "Blitz points to 2 players and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
-    "otherNightReminder": "Blitz points to 2 players and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
+    "firstNightReminder": "The Blitz points to 2 players, different to last night, and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
+    "otherNightReminder": "The Blitz points to 2 players, different to last night, and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
     "reminders": [
       "Chosen",
       "Chosen"
@@ -711,6 +711,14 @@
       {
         "id": "pithag",
         "reason": "Up to 3 extra players learn that the Hunter is in-play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
+      },
+      {
+        "id": "spy",
+        "reason": "The Spy may choose to not see the Grimoire. If they do see the Grimoire, evil does not win from the Hunter's ability."
+      },
+      {
+        "id": "widow",
+        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from the Hunter's ability."
       }
     ]
   },
@@ -777,6 +785,14 @@
       {
         "id": "pithag",
         "reason": "Up to 3 extra players learn that the Grave is in-play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
+      },
+      {
+        "id": "spy",
+        "reason": "The Spy may choose to not see the Grimoire. If they do see the Grimoire, evil does not win from the Grave correctly guessing."
+      },
+      {
+        "id": "widow",
+        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from the Grave correctly guessing."
       }
     ]
   },
