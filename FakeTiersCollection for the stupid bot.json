@@ -906,7 +906,7 @@
     "setup": true,
     "name": "Marusok",
     "team": "minion",
-    "ability": "You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
+    "ability": "You have a not-in-play Demon ability & register as them too. Evil players might not wake. [All Minions are Marusok]",
     "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
     "firstNight": 4,
     "jinxes": [
@@ -982,27 +982,6 @@
         "reason": "A dead False Idol cannot stop good from winning through killing the Demon."
       }
     ]
-  },
-  {
-    "id": "handoffate_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
-    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. The Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
-    "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the card with the ability they now have. After they are done: they shake their head \"no\" then point to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "?",
-      "?",
-      "?",
-      "?",
-      "?",
-      "?"
-    ],
-    "name": "Hand of Fate",
-    "team": "demon",
-    "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
-    "flavor": "the time has come for you to return where you belong",
-    "firstNight": 25,
-    "otherNight": 44
   },
   {
     "id": "invitationletter_faketierscollection",
@@ -1088,6 +1067,27 @@
         "global": "minion"
       }
     ]
+  },
+  {
+    "id": "handoffate_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
+    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. The Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
+    "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the card with the ability they now have. After they are done: they shake their head \"no\" then point to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Hand of Fate",
+    "team": "demon",
+    "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
+    "flavor": "the time has come for you to return where you belong",
+    "firstNight": 25,
+    "otherNight": 44
   },
   {
     "id": "estelle_faketierscollection",

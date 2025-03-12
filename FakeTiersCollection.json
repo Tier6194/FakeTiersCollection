@@ -1011,7 +1011,7 @@
     "setup": true,
     "name": "Marusok - π",
     "team": "minion",
-    "ability": "You have a not-in-play Demon ability and register as that Demon too. Evil players might not wake. [All Minions are Marusok]",
+    "ability": "You have a not-in-play Demon ability & register as them too. Evil players might not wake. [All Minions are Marusok]",
     "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
     "firstNight": 4,
     "jinxes": [
