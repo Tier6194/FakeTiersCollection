@@ -44,7 +44,7 @@
     ],
     "name": "Coda - π",
     "team": "outsider",
-    "ability": "When you die, the Demon gains a Minion ability alongside their own.",
+    "ability": "When you die, the Demon gains a Minion ability & learns which.",
     "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
     "otherNight": 55,
     "jinxes": [
