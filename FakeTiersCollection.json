@@ -359,7 +359,7 @@
     "setup": true,
     "name": "Shadow Pierce - π",
     "team": "townsfolk",
-    "ability": "Each night*, if both Shadow Pierces guessed the other, good wins. Evil knows Shadow Pierce is in-play & win if they publicly guess 1. [+1 Shadow Pierce]",
+    "ability": "Each night*, if Shadow Pierces guessed each other, good wins. Evil knows Shadow Pierce is in-play &, if they publicly guess 1 (once), win. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
     "firstNight": 14,
     "otherNight": 71,
@@ -442,7 +442,7 @@
     ],
     "name": "Overdrive - π",
     "team": "townsfolk",
-    "ability": "Once per game at night, choose a player (not yourself or Travellers): learn their character but they are drunk if a Townsfolk, even if you are dead.",
+    "ability": "Once per game at night, choose a player (not yourself or Travellers): learn their character. Chosen Townsfolk are drunk, even if you are dead.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
     "firstNight": 19,
     "otherNight": 8
@@ -648,7 +648,7 @@
     ],
     "name": "Coda - π",
     "team": "outsider",
-    "ability": "When you die, the Demon gains a Minion ability alongside their own.",
+    "ability": "When you die, the Demon gains a Minion ability & learns which.",
     "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
     "otherNight": 55,
     "jinxes": [
