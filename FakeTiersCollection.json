@@ -1305,8 +1305,8 @@
     ],
     "name": "Destiny - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true with consequences.",
-    "flavor": "The world is MINE to shape.",
+    "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true at a price.",
+    "flavor": "You cannot stop fate. Only delay what will be. Or have your delusions blinded you this far?",
     "firstNight": 30,
     "otherNight": 40
   },
@@ -1322,8 +1322,29 @@
     ],
     "name": "Plank of Wood - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers) & an execution occurs, evil wins. Otherwise good wins.",
+    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers), good wins if & only if no-one is executed.",
     "flavor": "*Plank of Wood noises*",
+    "otherNight": 49
+  },
+  {
+    "id": "timeninth_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "Mark Time - Ninth with the Day 1 token.",
+    "otherNightReminder": " If Time - Ninth is marked with the Day 3 token: kill Townsfolk equitable to dead Minions. If their ability would end the game, you choose who dies. Time - Ninth points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Day 1",
+      "Day 2",
+      "Day 3"
+    ],
+    "name": "Time - Ninth - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If this ends the game, deaths tonight are arbitrary.",
+    "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
+    "firstNight": 19,
     "otherNight": 49
   },
   {
@@ -1376,27 +1397,6 @@
     "otherNight": 42
   },
   {
-    "id": "timeninth_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Mark Time - Ninth with the Day 1 token.",
-    "otherNightReminder": " If Time - Ninth is marked with the Day 3 token: kill Townsfolk equitable to dead Minions. If their ability would end the game, you choose who dies. Time - Ninth points to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "Day 1",
-      "Day 2",
-      "Day 3"
-    ],
-    "name": "Time - Ninth - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If your ability would end the game: deaths tonight are arbitrary.",
-    "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
-    "firstNight": 19,
-    "otherNight": 49
-  },
-  {
     "id": "fallcharlotte_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_faketierscollection.png?raw=true",
@@ -1412,7 +1412,7 @@
     ],
     "name": "Fall. Charlotte - π",
     "team": "demon",
-    "ability": "All players start knowing a day. After that day, at dusk, evil wins. For every nomination, that day comes closer by 1 (2 if Demon nominee).",
+    "ability": "All players start knowing a day. After that day, at dusk, evil wins. Each nomination brings that day closer by 1 (2 if Demon nominee).",
     "flavor": "..............",
     "firstNight": 99,
     "otherNight": 91,
