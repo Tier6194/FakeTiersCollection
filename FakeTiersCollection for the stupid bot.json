@@ -1177,7 +1177,7 @@
     ],
     "name": "Destiny",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true with consequences.",
+    "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true at a price.",
     "flavor": "You cannot stop fate. Only delay what will be. Or have your delusions blinded you this far?",
     "firstNight": 30,
     "otherNight": 40
