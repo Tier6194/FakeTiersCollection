@@ -94,7 +94,7 @@
     "team": "townsfolk",
     "ability": "Each night*, choose 2 alive players (not yourself): if the Demon kills the 1st, the 2nd, if not the Demon, dies instead.",
     "flavor": "The Lord is with me always. In hardship, in times of distress, times of celebration and times of success.",
-    "otherNight": 14,
+    "otherNight": 15.1,
     "jinxes": [
       {
         "id": "leviathan",
