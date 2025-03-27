@@ -12,7 +12,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
+    "firstNightReminder": "Show the token of a Minion in play.",
     "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
     "reminders": [
       "Target"
