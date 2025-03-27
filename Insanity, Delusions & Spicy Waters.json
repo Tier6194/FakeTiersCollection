@@ -7,32 +7,9 @@
     "hideTitle": true
   },
   "noble",
-  {
-    "id": "starpierce_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Show the token of a Minion in play. Mark that player with the Target token.",
-    "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
-    "reminders": [
-      "Target"
-    ],
-    "name": "Star Pierce - π",
-    "team": "townsfolk",
-    "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
-    "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
-    "firstNight": 49,
-    "otherNight": 75,
-    "jinxes": [
-      {
-        "id": "vizier",
-        "reason": "If the Star Pierce learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
-      }
-    ]
-  },
   "mathematician",
   "flowergirl",
+  "towncrier",
   "oracle",
   "savant",
   "seamstress",
