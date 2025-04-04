@@ -38,9 +38,12 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
+    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
     "reminders": [
       "Demon's Ability"
+    ],
+    "remindersGlobal": [
+      "Is Coda"
     ],
     "name": "Coda - π",
     "team": "outsider",
@@ -87,6 +90,12 @@
       {
         "id": "vizier",
         "reason": "If the Coda dies and would give the Vizier's ability, a living Minion gains it alongside their own."
+      }
+    ],
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
       }
     ]
   },
@@ -154,8 +163,7 @@
     "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
     "reminders": [
       "Has Ability",
-      "Has Ability",
-      "No Ability"
+      "Has Ability"
     ],
     "name": "Enra - π",
     "team": "minion",
@@ -229,7 +237,7 @@
     "setup": true,
     "name": "Cultist - π",
     "team": "demon",
-    "ability": "Players might die at any time. Evil votes secretly don't count & a 50% majority is not required. You register as a Minion too. [Most players are Cultists]",
+    "ability": "Players might die at any time. Secretly, evil votes don't count & majority is not required. You register as a Minion too. [Most players are Cultists]",
     "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
     "otherNight": 41,
     "jinxes": [

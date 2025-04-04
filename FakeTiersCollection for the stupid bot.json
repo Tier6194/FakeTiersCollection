@@ -187,13 +187,7 @@
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
     "otherNightReminder": "A good player who voted against the Count dies.",
     "reminders": [
-      "Dead",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted"
+      "Dead"
     ],
     "name": "Count",
     "team": "townsfolk",
@@ -204,21 +198,15 @@
   {
     "id": "ammoblast_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Ammo Blast points to a player. If they are a Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
+    "otherNightReminder": "The Ammo Blast nods \"Yes\" or shakes their head \"No\". If they nodded, choose a good player that can die tonight. That player dies.",
     "reminders": [
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
       "Dead"
     ],
-    "name": "Ammo Blast",
+    "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Demon, you die & previously chosen players might die.",
+    "ability": "Each night*, you may choose that a player of your alignment dies.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
-    "otherNight": 17.1
+    "otherNight": 54
   },
   {
     "id": "fortify_faketierscollection",
@@ -314,7 +302,7 @@
     "setup": true,
     "name": "Shadow Pierce",
     "team": "townsfolk",
-    "ability": "Each night*, if Shadow Pierces guessed each other, good wins. Evil knows Shadow Pierce is in-play &, if they publicly guess 1 (once), win. [+1 Shadow Pierce]",
+    "ability": "Each night*, if you both guessed each other, good wins. Evil knows Shadow Pierce is in-play. If they publicly guess 1 (once), evil wins. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
     "firstNight": 14,
     "otherNight": 71,
@@ -567,9 +555,12 @@
   {
     "id": "coda_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" token and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability and you run it like a normal Minion ability.",
+    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
     "reminders": [
       "Demon's Ability"
+    ],
+    "remindersGlobal": [
+      "Is Coda"
     ],
     "name": "Coda",
     "team": "outsider",
@@ -616,6 +607,12 @@
       {
         "id": "vizier",
         "reason": "If the Coda dies and would give the Vizier's ability, a living Minion gains it alongside their own."
+      }
+    ],
+    "special": [
+      {
+        "name": "replace-character",
+        "type": "reveal"
       }
     ]
   },
@@ -863,8 +860,7 @@
     "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
     "reminders": [
       "Has Ability",
-      "Has Ability",
-      "No Ability"
+      "Has Ability"
     ],
     "name": "Enra",
     "team": "minion",
@@ -1343,7 +1339,7 @@
     "setup": true,
     "name": "Cultist",
     "team": "demon",
-    "ability": "Players might die at any time. Evil votes secretly don't count & a 50% majority is not required. You register as a Minion too. [Most players are Cultists]",
+    "ability": "Players might die at any time. Secretly, evil votes don't count & majority is not required. You register as a Minion too. [Most players are Cultists]",
     "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
     "otherNight": 41,
     "jinxes": [

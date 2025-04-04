@@ -40,13 +40,7 @@
     ],
     "otherNightReminder": "A good player who voted against the Count dies.",
     "reminders": [
-      "Dead",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted",
-      "Voted"
+      "Dead"
     ],
     "name": "Count - π",
     "team": "townsfolk",
@@ -62,21 +56,15 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Ammo Blast points to a player. If they are a Demon, kill the Ammo Blast and as many of the players they previously chose as you like. If not, mark them with the Linked Token.",
+    "otherNightReminder": "The Ammo Blast nods \"Yes\" or shakes their head \"No\". If they nodded, choose a good player that can die tonight. That player dies.",
     "reminders": [
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
-      "Linked",
       "Dead"
     ],
     "name": "Ammo Blast - π",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: if a Demon, you die & previously chosen players might die.",
+    "ability": "Each night*, you may choose that a player of your alignment dies.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
-    "otherNight": 17.1
+    "otherNight": 54
   },
   {
     "id": "templar_faketierscollection",
