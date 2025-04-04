@@ -202,7 +202,7 @@
     "reminders": [
       "Dead"
     ],
-    "name": "Ammo Blast - π",
+    "name": "Ammo Blast",
     "team": "townsfolk",
     "ability": "Each night*, you may choose that a player of your alignment dies.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
