@@ -1241,13 +1241,13 @@
     "otherNight": 46
   },
   {
-    "id": "timesixth_faketierscollection",
+    "id": "reverie_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timesixth_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/reverie_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/reverie_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show Time - Sixth all the events and they point to 1. Tomorrow, announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Time - Sixth as the day of the event and mark Time - Sixth with as many New Day tokens as Final Hour token reaches Time - Sixth prematurely.",
-    "otherNightReminder": "Time - Sixth points to a player. That player dies.",
+    "firstNightReminder": "Show Reverie all the events and they point to 1. Tomorrow, announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Reverie as the day of the event and mark Reverie with as many New Day tokens as Final Hour token reaches Reverie prematurely.",
+    "otherNightReminder": "Reverie points to a player. That player dies.",
     "reminders": [
       "Dead",
       "Final Hour",
@@ -1255,7 +1255,7 @@
       "New Day",
       "New Day"
     ],
-    "name": "Time - Sixth - π",
+    "name": "Reverie - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. On your 1st night, choose from a list of events. All players learn your choice.",
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
@@ -1323,24 +1323,22 @@
     "otherNight": 49
   },
   {
-    "id": "timeninth_faketierscollection",
+    "id": "time_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/timeninth_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Mark Time - Ninth with the Day 1 token.",
-    "otherNightReminder": " If Time - Ninth is marked with the Day 3 token: kill Townsfolk equitable to dead Minions. If their ability would end the game, you choose who dies. Time - Ninth points to a player. That player dies.",
+    "otherNightReminder": "Time points to a player. That player dies.",
     "reminders": [
       "Dead",
       "Day 1",
       "Day 2",
       "Day 3"
     ],
-    "name": "Time - Ninth - π",
+    "name": "Time - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If this ends the game, deaths tonight are arbitrary.",
     "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
-    "firstNight": 19,
     "otherNight": 49
   },
   {
