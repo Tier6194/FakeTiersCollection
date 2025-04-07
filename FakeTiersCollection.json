@@ -192,10 +192,6 @@
         "reason": "If a drunk or poisoned Engineer uses their ability and the Fine Manuever chose an evil player the same night, the Engineer's ability will work."
       },
       {
-        "id": "overdrive_faketierscollection",
-        "reason": "The Overdrive learns info after the Fine Manuever's turn."
-      },
-      {
         "id": "philosopher",
         "reason": "If the Fine Maneuver chooses an evil player the same night a drunk or poisoned Philospher uses their ability, their ability works as normal."
       },
@@ -432,8 +428,8 @@
     "team": "townsfolk",
     "ability": "Once per game at night, choose a player (not yourself or Travellers): learn their character. Chosen Townsfolk are drunk, even if you are dead.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
-    "firstNight": 19,
-    "otherNight": 8
+    "firstNight": 41.1,
+    "otherNight": 60.1
   },
   {
     "id": "hope_faketierscollection",
@@ -1347,7 +1343,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Remove the Purged token from the Grimoire. The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again, mark that Minion with the Purged token.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until dusk",
     "reminders": [
       "Dead",
       "Has Ability",
@@ -1359,7 +1355,7 @@
     "setup": true,
     "name": "Zhobazhbu - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
     "otherNight": 43,
     "jinxes": [
@@ -1388,7 +1384,13 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
-    "otherNight": 42
+    "otherNight": 42,
+    "jinxes": [
+      {
+        "id": "trauma_faketierscollection",
+        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
+      }
+    ]
   },
   {
     "id": "fallcharlotte_faketierscollection",

@@ -4,12 +4,15 @@
     "name": "Madness, Gaslighting & Toxins",
     "author": "FakeTier",
     "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/MG&T.png?raw=true",
-    "hideTitle": true
+    "hideTitle": true,
+    "bootlegger": [
+      "The Chaos Hatter rule is in-play."
+    ]
   },
   "noble",
   "dreamer",
-  "mathematician",
   "flowergirl",
+  "towncrier",
   "oracle",
   "savant",
   "seamstress",
@@ -153,26 +156,9 @@
   },
   "harpy",
   "witch",
-  {
-    "id": "enra_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "reminders": [
-      "Has Ability",
-      "Has Ability"
-    ],
-    "name": "Enra - π",
-    "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this & have no ability. If you have no ability, chosen players might regain theirs at any time.",
-    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
-    "firstNight": 24,
-    "otherNight": 11.1
-  },
+  "pithag",
   "eviltwin",
+  "vortox",
   {
     "id": "madeline_faketierscollection",
     "image": [
@@ -194,14 +180,13 @@
     "flavor": "If only you knew your place! But its too late now!",
     "otherNight": 46
   },
-  "vortox",
   {
     "id": "zhobazhbu_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Remove the Purged token from the Grimoire. The Zhobazhbu points to a player. That player dies and the Purged token is removed. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until Zhobazhbu chooses again, mark that Minion with the Purged token.",
+    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until dusk",
     "reminders": [
       "Dead",
       "Has Ability",
@@ -213,13 +198,40 @@
     "setup": true,
     "name": "Zhobazhbu - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until you choose again. [-1 Outsider]",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
     "otherNight": 43,
     "jinxes": [
       {
         "id": "banshee",
         "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
+      }
+    ]
+  },
+  {
+    "id": "sabnock_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Sabnock - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
+    "flavor": "Attrape des vers, salope.",
+    "otherNight": 42,
+    "jinxes": [
+      {
+        "id": "trauma_faketierscollection",
+        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
       }
     ]
   },
