@@ -397,7 +397,7 @@
     "otherNightReminder": "If the Spirit was killed by the Demon. Point to all dead evil players.",
     "name": "Spirit",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, learn all dead evil players.",
+    "ability": "If you die at night, learn all dead evil players & their characters. You are drunk unless the Demon killed you.",
     "flavor": "I must go, I must ascend. To the Realm Beyond.",
     "otherNight": 56,
     "jinxes": [
