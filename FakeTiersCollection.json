@@ -13,13 +13,13 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show 1 character token from 3 character types, 1 of which is in-play.",
+    "firstNightReminder": "Show 1 character token from 3 character types, only 1 of which is in-play.",
     "reminders": [
       "Knows"
     ],
     "name": "Tailor - π",
     "team": "townsfolk",
-    "ability": "You start knowing 1 character from 3 character types, 1 of which is in-play.",
+    "ability": "You start knowing 1 character from 3 character types, only 1 of which is in-play.",
     "flavor": "Sir Armun has ordered for such exquisite outfits to the circus. Such eccentric ones too. Is he the main event, a spectator or someone who wishes to disrupt the show?",
     "firstNight": 56
   },
