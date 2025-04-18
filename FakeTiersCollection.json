@@ -442,7 +442,7 @@
     ],
     "name": "Hope - π",
     "team": "townsfolk",
-    "ability": "Once per game, during the day, privately ask the Storyteller any question & receive some answers (only 1 is correct).",
+    "ability": "Once per game, during the day, privately ask the Storyteller any question & learn some answers (only 1 is correct).",
     "flavor": "Recover HP by 8 and gain 4 Barrier"
   },
   {
@@ -454,7 +454,7 @@
     "otherNightReminder": "If the Spirit was killed by the Demon, point to all dead evil players then show each of their character tokens in that order.",
     "name": "Spirit - π",
     "team": "townsfolk",
-    "ability": "If you die at night, learn all dead evil players & their characters. You are drunk until the Demon kills you.",
+    "ability": "If the Demon kills you, learn all dead evil players & their characters.",
     "flavor": "I must go, I must ascend. To the Realm Beyond.",
     "otherNight": 56,
     "jinxes": [
