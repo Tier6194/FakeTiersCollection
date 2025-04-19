@@ -125,60 +125,6 @@
     ]
   },
   {
-    "id": "blitz_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/blitz_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Blitz points to 2 players, different to last night, and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
-    "otherNightReminder": "The Blitz points to 2 players, different to last night, and a character. If that character is amongst the 2, show them the other player's character token. If not, show them any other token.",
-    "reminders": [
-      "Chosen",
-      "Chosen"
-    ],
-    "name": "Blitz",
-    "team": "townsfolk",
-    "ability": "Each night, guess a character is between 2 players (not you, a Traveller & different to last night): if correct, learn the other otherwise learn false info.",
-    "flavor": "Attack twice if used in odd-numbered Phase",
-    "firstNight": 64,
-    "otherNight": 77
-  },
-  {
-    "id": "finemaneuver_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/finemaneuver_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Fine Maneuver points to a player. If that player is evil: mark the Fine Manuever with the True token. All Townsfolk are sober, healthy and their abilities must yield true information until dusk.",
-    "otherNightReminder": "The Fine Maneuver points to a player, different to last night. If that player is evil: mark the Fine Manuever with the True token. All Townsfolk are sober, healthy and their abilities must yield true information until dusk.",
-    "reminders": [
-      "Chosen",
-      "True"
-    ],
-    "name": "Fine Maneuver",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player (different to last night): if evil, all Townsfolk are sober, healthy & their abilities yield true info until dusk.",
-    "flavor": "If the next card on the field is an Attack, heal by 6 HP. If its a Magic card, inflict 6 damage",
-    "firstNight": 25,
-    "otherNight": 11.2,
-    "jinxes": [
-      {
-        "id": "alchemist",
-        "reason": "The effects of a drunk or poisoned Alchemist's ability only takes place after Fine Maneuver's turn unless it would poison Fine Manuever."
-      },
-      {
-        "id": "engineer",
-        "reason": "If a drunk or poisoned Engineer uses their ability and the Fine Manuever chose an evil player the same night, the Engineer's ability will work."
-      },
-      {
-        "id": "philosopher",
-        "reason": "If the Fine Maneuver chooses an evil player the same night a drunk or poisoned Philospher uses their ability, their ability works as normal."
-      },
-      {
-        "id": "poppygrower",
-        "reason": "Minion and Demon info is delayed until after the Fine Manuever's turn if it is in-play and the Poppy Grower started out drunk or poisoned."
-      },
-      {
-        "id": "preacher",
-        "reason": "If a drunk or poisoned Preacher chooses a Minion the same night the Fine Manuever chooses an evil player, the Minion loses their ability and learns the Preacher chose them."
-      }
-    ]
-  },
-  {
     "id": "count_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
     "otherNightReminder": "A good player who voted against the Count dies.",
@@ -250,38 +196,6 @@
       {
         "id": "riot",
         "reason": "If Riot is in-play, the Templar-protected player is safe from all evil abilities."
-      }
-    ]
-  },
-  {
-    "id": "encore_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/encore_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Encore points to a dead player. They gain their ability tonight and tomorrow. If they chose an evil, they are drunk.",
-    "reminders": [
-      "Drunk",
-      "Encored"
-    ],
-    "name": "Encore",
-    "team": "townsfolk",
-    "ability": "Each night*, choose a dead player: gain their ability (if unused) until your next choice. If they were evil, you are drunk until your next choice.",
-    "flavor": "If previous card on the field is card user's, activate it again",
-    "otherNight": 3,
-    "jinxes":[
-      {
-        "id": "butler",
-        "reason": "If the Encore gains the Butler ability, the Encore learns this."
-      },
-      {
-        "id": "juggler",
-        "reason": "If the Juggler guesses on their first day and dies before learning, tonight a sober and healthy Encore choosing the Juggler learns how many guesses the Juggler got correct."
-      },
-      {
-        "id": "poppygrower",
-        "reason": "If the Poppy Grower died today or before Encore's turn in the night order, evil info only occurs after Encore's turn."
-      },
-      {
-        "id": "zealot",
-        "reason": "If the Encore gains the Zealot ability, the Encore learns this."
       }
     ]
   },
