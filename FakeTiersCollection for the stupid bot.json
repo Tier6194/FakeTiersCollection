@@ -308,10 +308,13 @@
   {
     "id": "spirit_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_faketierscollection.png?raw=true",
-    "otherNightReminder": "If the Spirit was killed by the Demon. Point to all dead evil players.",
-    "name": "Spirit",
+    "otherNightReminder": "If the Spirit was killed by the Demon, mark them with the Ascended token as a reminder they learn info. Show them all the in-play Demons and Minions.",
+    "reminders": [
+      "Ascended"
+    ],
+    "name": "Spirit - π",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, learn all dead evil players & their characters.",
+    "ability": "If the Demon kills you, from now on you know the in-play evil characters.",
     "flavor": "I must go, I must ascend. To the Realm Beyond.",
     "otherNight": 56,
     "jinxes": [
@@ -418,7 +421,7 @@
   {
     "id": "stress_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-    "otherNightReminder": "If Stress is dead: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" token and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "otherNightReminder": "If Stress died: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" token and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
     "reminders": [
       "Works Twice",
       "?",
@@ -428,7 +431,7 @@
     ],
     "name": "Stress",
     "team": "outsider",
-    "ability": "Each night, if you are dead, a Minion's ability might work twice until dusk. You & they learn this.",
+    "ability": "Each night, if you died, a Minion's ability might work twice until dusk. You & they learn this.",
     "flavor": "Does nothing. Disappears when used or after battle",
     "otherNight": 3,
     "jinxes": [
