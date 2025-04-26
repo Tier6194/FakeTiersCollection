@@ -523,7 +523,7 @@
     ],
     "name": "Feint - π",
     "team": "outsider",
-    "ability": "Each night, learn a player. You are mad they are evil tomorrow or 1 of you might be executed. If you learn a Minion, you might learn this (once).",
+    "ability": "Each night, learn a player: tomorrow, you are mad they are evil or 1 of you might be executed. Once, if you learn a Minion, you learn this.",
     "flavor": "Gain 3 Feint Status",
     "firstNight": 60,
     "otherNight": 76

@@ -458,9 +458,9 @@
       "Mad",
       "Minion"
     ],
-    "name": "Feint - π",
+    "name": "Feint",
     "team": "outsider",
-    "ability": "Each night, learn a player. You are mad they are evil tomorrow or 1 of you might be executed. If you learn a Minion, you might learn this (once).",
+    "ability": "Each night, learn a player: tomorrow, you are mad they are evil or 1 of you might be executed. Once, if you learn a Minion, you learn this.",
     "flavor": "Gain 3 Feint Status",
     "firstNight": 60,
     "otherNight": 76
@@ -1133,7 +1133,7 @@
       "Purged"
     ],
     "setup": true,
-    "name": "Zhobazhbu - π",
+    "name": "Zhobazhbu",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
