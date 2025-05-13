@@ -879,7 +879,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
     ],
     "firstNightReminder": "Mark the Corrupted with both Has Ability tokens.",
-    "otherNightReminder": "If the Corrupted has its ability, the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce that both players have been chosen by the Corrupted in that order and the rules of its ability. Start the countdown. When the countdown reaches 0, tally the results silently. The player with the most votes dies, mark them with the Dead token, and the other is now alive, remove any existing shroud.",
+    "otherNightReminder": "If the Corrupted has its ability, the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce that both players have been chosen by the Corrupted in that order and the rules of its ability. Run the countdown then add and remove shrouds as necessary.",
     "reminders": [
       "Dead",
       "Choice 1",
