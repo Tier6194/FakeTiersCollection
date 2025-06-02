@@ -289,7 +289,7 @@
     ],
     "name": "Overdrive",
     "team": "townsfolk",
-    "ability": "Once per game at night, choose a player (not yourself or Travellers): learn their character. Chosen Townsfolk are drunk, even if you are dead.",
+    "ability": "Once per game, at night, choose a player (not yourself or Travellers): learn their character &, if a Townsfolk, they are drunk.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
     "firstNight": 41.1,
     "otherNight": 60.1
@@ -767,22 +767,6 @@
     ]
   },
   {
-    "id": "enra_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
-    "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "reminders": [
-      "Has Ability",
-      "Has Ability"
-    ],
-    "name": "Enra",
-    "team": "minion",
-    "ability": "Twice per game at night, choose a player: they learn this & have no ability. If you have no ability, chosen players might regain theirs at any time.",
-    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
-    "firstNight": 24,
-    "otherNight": 11.1
-  },
-  {
     "id": "corrupted_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
     "firstNightReminder": "Mark the Corrupted with both Has Ability tokens.",
@@ -794,12 +778,28 @@
       "Has Ability",
       "Has Ability"
     ],
-    "name": "Corrupted",
+    "name": "Corrupted - π",
     "team": "minion",
-    "ability": "Twice per game, at night*, choose 2 players (all learn which): after a 10 to 1 countdown, the player with the most votes dies & the other lives, you break ties.",
+    "ability": "Twice per game, at night*, choose 2 players: all players learn who then silently choose who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
     "firstNight": 1,
     "otherNight": 16
+  },
+    {
+    "id": "enra_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
+    "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
+    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
+    "reminders": [
+      "Has Ability",
+      "Has Ability"
+    ],
+    "name": "Enra - π",
+    "team": "minion",
+    "ability": "Twice per game, at night, choose a player: they learn this & have no ability. If you lose yours, chosen players might regain theirs.",
+    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
+    "firstNight": 24,
+    "otherNight": 11.1
   },
   {
     "id": "marusok_faketierscollection",
@@ -813,7 +813,7 @@
       "Is Marusok"
     ],
     "setup": true,
-    "name": "Marusok",
+    "name": "Marusok - π",
     "team": "minion",
     "ability": "You have a not-in-play Demon ability & register as them too. Evil players might not wake. [All Minions are Marusok]",
     "flavor": "I am the Infinite Spiral, the herald of The One Beyond. What are you?",
@@ -871,7 +871,7 @@
     "reminders": [
       "Stage"
     ],
-    "name": "False Idol",
+    "name": "False Idol - π",
     "team": "minion",
     "ability": "After day 6, at dusk, evil wins. Good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
@@ -904,7 +904,7 @@
       "Invitee"
     ],
     "setup": true,
-    "name": "Invitation Letter",
+    "name": "Invitation Letter - π",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter. On night 3, the Invitee chooses a Demon to become. [+1 Minion]",
     "flavor": "\"You must play with at least 1 friend.\"\n\nRequirements: \n - A room with an open roof\n - An alive, human (recommended) sacrifice\n - Surgical equipment\n - A talisman of your choice\n - A new moon\n\nPreparations:\n*The rest of the letter is missing*",
@@ -991,7 +991,7 @@
       "?",
       "?"
     ],
-    "name": "Hand of Fate",
+    "name": "Hand of Fate - π",
     "team": "demon",
     "ability": "Each night, choose a number: gain that ability. Each night*, choose a player: they die. All players start knowing your abilities.",
     "flavor": "the time has come for you to return where you belong",
@@ -1010,7 +1010,7 @@
       "Has Ability",
       "Has Ability"
     ],
-    "name": "Estelle",
+    "name": "Estelle - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability and choose a player: they die.",
     "flavor": "No... Please stop. I don't want to hurt you",
@@ -1027,11 +1027,35 @@
       "Kill Chain",
       "Kill Chain"
     ],
-    "name": "Corr. Sylphy",
+    "name": "Corr. Sylphy - π",
     "team": "demon",
     "ability": "Each night*, choose 1 more player than last night (up to 5): they die. If a Minion died today, choose 1 instead.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
+  },
+  {
+    "id": "sabnock_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
+    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Sabnock - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Outsiders you kill poison the closest Townsfolk neighbor to you. [+1 Outsider]",
+    "flavor": "Attrape des vers, salope.",
+    "otherNight": 42,
+    "jinxes": [
+      {
+        "id": "trauma_faketierscollection",
+        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
+      }
+    ]
   },
   {
     "id": "reverie_faketierscollection",
@@ -1045,7 +1069,7 @@
       "New Day",
       "New Day"
     ],
-    "name": "Reverie",
+    "name": "Reverie - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. On your 1st night, choose from a list of events. All players learn your choice.",
     "flavor": "I gave your kind a chance. But it turned out to be a waste of time.",
@@ -1055,7 +1079,6 @@
   {
     "id": "madeline_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-
     "otherNightReminder": "Madeline points to a player. That player dies.",
     "reminders": [
       "Dead"
@@ -1065,7 +1088,7 @@
       "Night 2",
       "Night 3"
     ],
-    "name": "Madeline",
+    "name": "Madeline - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
     "flavor": "If only you knew your place! But its too late now!",
@@ -1084,10 +1107,10 @@
       "?",
       "?"
     ],
-    "name": "Destiny",
+    "name": "Destiny - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Once per game, you may make a prediction: if accepted, it will come true at a price.",
-    "flavor": "You cannot stop fate. Only delay what will be. Or have your delusions blinded you this far?",
+    "flavor": "Applaud me! For I am the God of the new world!",
     "firstNight": 30,
     "otherNight": 40
   },
@@ -1098,7 +1121,7 @@
     "reminders": [
       "Dead"
     ],
-    "name": "Plank of Wood",
+    "name": "Plank of Wood - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers), good wins if & only if no-one is executed.",
     "flavor": "*Plank of Wood noises*",
@@ -1114,9 +1137,9 @@
       "Day 2",
       "Day 3"
     ],
-    "name": "Time",
+    "name": "Time - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If this ends the game, deaths tonight are arbitrary.",
+    "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If it ends the game, deaths are arbitrary.",
     "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
     "otherNight": 49
   },
@@ -1133,7 +1156,7 @@
       "Purged"
     ],
     "setup": true,
-    "name": "Zhobazhbu",
+    "name": "Zhobazhbu - π",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
     "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
@@ -1142,30 +1165,6 @@
       {
         "id": "banshee",
         "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
-      }
-    ]
-  },
-  {
-    "id": "sabnock_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
-    "reminders": [
-      "Dead",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
-    "setup": true,
-    "name": "Sabnock",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Outsiders you kill poison their Townsfolk neighbor closest to you. If equidistant, it is arbitrary. [+1 Outsider]",
-    "flavor": "Attrape des vers, salope.",
-    "otherNight": 42,
-    "jinxes": [
-      {
-        "id": "trauma_faketierscollection",
-        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
       }
     ]
   },
