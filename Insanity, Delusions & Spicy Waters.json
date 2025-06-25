@@ -104,7 +104,7 @@
     "jinxes": [
       {
         "id": "hagumoth_faketierscollection",
-        "reason": "If the Showtime chooses the same player as the Hagumoth, the Showtime's ability is canceled out."
+        "reason": "If the Showtime chooses the same player as the Hagumoth, the Showtime is poisoned."
       }
     ]
   },
@@ -162,27 +162,33 @@
     "otherNight": 16
   },
   {
-    "id": "madeline_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Madeline points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "remindersGlobal": [
-      "Night 1",
-      "Night 2",
-      "Night 3"
-    ],
-    "name": "Madeline - π",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
-    "flavor": "If only you knew your place! But its too late now!",
-    "otherNight": 46
+  "id": "zhobazhbu_faketierscollection",
+  "image": [
+    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+  ],
+  "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
+  "reminders": [
+    "Dead",
+    "Has Ability",
+    "Has Ability",
+    "Has Ability",
+    "Has Ability",
+    "Purged"
+  ],
+  "setup": true,
+  "name": "Zhobazhbu - π",
+  "team": "demon",
+  "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & reverse Townsfolk info. [-1 Outsider]",
+  "flavor": "Bathe within the flames, such that they purify thee of thy sin of weakness and frailty. Through atonement for thy mortality thou shalt be embraced by The One Beyond.",
+  "otherNight": 43,
+  "jinxes": [
+    {
+      "id": "banshee",
+      "reason": "If the Demon kills the Banshee, players still learn that they have died."
+    }
+  ]
   },
-  "vortox",
     {
     "id": "sabnock_faketierscollection",
     "image": [
@@ -211,33 +217,27 @@
     ]
   },
   {
-    "id": "zhobazhbu_faketierscollection",
+    "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and Townsfolk abilities yield false information until dusk",
+    "otherNightReminder": "Madeline points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Purged"
+      "Dead"
     ],
-    "setup": true,
-    "name": "Zhobazhbu - π",
+    "remindersGlobal": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "name": "Madeline - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & Townsfolk abilities yield false info until dusk. [-1 Outsider]",
-    "flavor": "By the Blessed Flame...\nEndless Carnage unleash...\nAt Hells behest...\n... purify the accursed.\n... to purge the Nightmare.\n... you are reborn!",
-    "otherNight": 43,
-    "jinxes": [
-      {
-        "id": "banshee",
-        "reason": "If a Minion was Purged and the Demon kills the Banshee, players still learn that the Banshee has died."
-      }
-    ]
+    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
+    "flavor": "If only you knew your place! But its too late now!",
+    "otherNight": 46
   },
+  "vortox",
   "barista",
   "harlot",
   "bonecollector",

@@ -129,7 +129,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Show each of the Outsider tokens in-play",
+    "firstNightReminder": "Show each of the Outsider tokens in-play.",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -171,7 +171,7 @@
     "name": "Invitation Letter - π",
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter. On night 3, the Invitee chooses a Demon to become. [+1 Minion]",
-    "flavor": "\"You must play with at least 1 friend.\"\n\nRequirements: \n - A room with an open roof\n - An alive, human (recommended) sacrifice\n - Surgical equipment\n - A talisman of your choice\n - A new moon\n\nPreparations:\n*The rest of the letter is missing*",
+    "flavor": "\"You must play with at least 1 friend.\"\n\nRequirements: \n - A room with an open roof\n - An alive, human (recommended) sacrifice\n - Surgical equipment\n - An item representing the horror you wish to unleash\n - A new moon\n\nPreparations:\n\n*The rest of the letter is missing*",
     "firstNight": 24,
     "otherNight": 30,
     "jinxes": [
@@ -197,7 +197,7 @@
       },
       {
         "id": "lordoftyphon",
-        "reason": "If a good Invitee neighboring a Minion invites Lord of Typhon, they turn evil."
+        "reason": "If a Minion invites Lord of Typhon, they choose 1 of their neighbors to become an evil Lord of Typhon instead."
       },
       {
         "id": "magician",
@@ -218,10 +218,6 @@
       {
         "id": "trickmask_faketierscollection",
         "reason": "If Trick Mask’s ability is active and the Invitation Letter is alive, Minions do not learn each other and are instead woken 1 by 1 until 1 of them chooses to take the Invitation letter’s token. After a Demon is invited, Minions learn each other."
-      },
-      {
-        "id": "vizier",
-        "reason": "The Vizier can die by execution if they are the Invitee."
       },
       {
         "id": "zombuul",
