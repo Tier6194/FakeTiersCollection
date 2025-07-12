@@ -53,10 +53,7 @@
   },
   {
     "id": "cynic_faketierscollection",
-    "image": [
-        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
-        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_evil_faketierscollection.png?raw=true"
-    ],
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
     "firstNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
     "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
     "name": "Cynic- π",
@@ -68,10 +65,7 @@
   },
     {
     "id": "jumpstrike_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
-    ],
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
     "firstNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
     "otherNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
     "reminders": [
@@ -81,7 +75,7 @@
       "Demon",
       "Learnt"
     ],
-    "name": "Jump Strike - π",
+    "name": "Jump Strike",
     "team": "townsfolk",
     "ability": "Each night, learn the character type of the previously learnt player's clockwise neighbor (skipping Travellers).",
     "flavor": "Attack twice. After the attack, if the card was placed in an odd-numbered position on the field, increase the Attack Power of this card by 1 & refuce cooldown by 4",
@@ -90,48 +84,15 @@
   },
   {
     "id": "interceptor_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_evil_faketierscollection.png?raw=true"
-    ],
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
     "firstNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
     "otherNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
-    "name": "Interceptor - π",
+    "name": "Interceptor",
     "team": "townsfolk",
     "ability": "Each night, choose a good character (not yours): learn that it is between 2 players. If not-in-play, learn false info.",
     "flavor": "Gotcha.",
     "firstNight": 57,
     "otherNight": 75
-  },
-  {
-    "id": "dazzle_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/dazzle_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Dazzle points to a player, mark them with the Chosen token. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token then point to Dazzle then put them to sleep. They are drunk.",
-    "otherNightReminder": "The player previously chosen by Dazzle is no longer drunk. The Dazzle points to a player, different to last night. If that player is evil, wake that player, show them the \"This character selected you\" token, Dazzles token and point to Dazzle then put them to sleep. They are drunk.",
-    "reminders": [
-      "Drunk",
-      "Chosen"
-    ],
-    "name": "Dazzle",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player (not a Traveller & different to last night): chosen evil players learn you are Dazzle & are drunk until dusk.",
-    "flavor": "For this Phase: Reduce Attack Power of opponent cards by 4",
-    "firstNight": 22,
-    "otherNight": 10,
-    "jinxes": [
-      {
-        "id": "marionette",
-        "reason": "The Marionette does not learn that the Dazzle chosen them."
-      },
-      {
-        "id": "riot",
-        "reason": "If the Dazzle chose Riot on the 3rd night, on day 3, nominees die and nominate an alive player. This must happen."
-      },
-      {
-        "id": "summoner",
-        "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon but the Storyteller chooses which player."
-      }
-    ]
   },
   {
     "id": "count_faketierscollection",
@@ -174,7 +135,7 @@
     "otherNight": 14,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "If the Leviathan is in-play, the Fortify-protected player is safe from all evil abilities."
       },
       {
@@ -199,7 +160,7 @@
     "otherNight": 15.1,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "If the Leviathan is in-play, the Templar-protected player is safe from all evil abilities."
       },
       {
@@ -221,7 +182,7 @@
     "setup": true,
     "name": "Shadow Pierce",
     "team": "townsfolk",
-    "ability": "Each night*, if you both guessed each other, good wins. Evil knows Shadow Pierce is in-play. If they publicly guess 1 (once), evil wins. [+1 Shadow Pierce]",
+    "ability": "Each night*, if you both guessed each other, good wins. Evil players know that if they guess you (once), evil wins. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
     "firstNight": 14,
     "otherNight": 71,
@@ -328,7 +289,7 @@
     "otherNight": 56,
     "jinxes": [
       {
-        "id": "leviation",
+        "id": "leviathan",
         "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Spirit uses their ability but does not die."
       },
       {
@@ -347,85 +308,6 @@
     "team": "townsfolk",
     "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
     "flavor": "Attack then reduce cooldown of Magic cards"
-  },
-  {
-    "id": "trickmask_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/trickmask_faketierscollection.png?raw=true",
-    "firstNightReminder": "Dont tell the Demon their Minions and Minions their Demon and instead show both parties Tricks Mask's token. Minions then choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
-    "otherNightReminder": "Minions choose a player. If the Demon or Trick Mask, nod \"yes\" otherwise shake head \"no\".",
-    "remindersGlobal": [
-      "False Demon"
-    ],
-    "name": "Trick Mask",
-    "team": "townsfolk",
-    "ability": "Minions & Demons do not know the other. Each night, Minions guess a player: if you or a Demon, they learn this, even if your ability is removed from play.",
-    "flavor": "Halve opponent Barrier and gain 4 Cover Status",
-    "firstNight": 12,
-    "otherNight": 46,
-    "jinxes": [
-      {
-        "id": "legion",
-        "reason": "If both Trick Mask and Legion are in-play, Legion do not learn each other and, each night, may guess a player as Legion. They learn if they are correct. Trick Mask registers as Legion to this."
-      },
-      {
-        "id": "lilmonsta",
-        "reason": "If Trick Mask's ability is active, Minions wake each night to choose who babysits Lil' Monsta's token. Non-Minions dont learn they are babysitting Lil' Monsta if it is not alive."
-      },
-      {
-        "id": "magician",
-        "reason": "The Magician registers as the Demon to Trick Mask's ability instead of Trick Mask."
-      },
-      {
-        "id": "marionette",
-        "reason": "The Marionette does not wake with the Minions to guess their Demon and the Demon still knows who the Marionette is."
-      },
-      {
-        "id": "summoner",
-        "reason": "When the Summoner uses their ability and Trick Mask's ability is active, the Summoner chooses which Demon but the Storyteller chooses which player."
-      },
-      {
-        "id": "spy",
-        "reason": "If Trick Mask's ability is active: the Spy does not see the Grimoire."
-      },
-      {
-        "id": "widow",
-        "reason": "If Trick Mask’s ability is active: the Widow does not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison."
-      },
-      {
-        "id": "vortox",
-        "reason": "Trick Mask’s ability is safe from the Vortox."
-      },
-      {
-        "id": "zhobazhbu_faketierscollection",
-        "reason": "Trick Mask’s ability is safe from the Zhobazhbu."
-      }
-    ],
-    "special": [
-      {
-        "name": "pointing",
-        "type": "ability",
-        "time": "night",
-        "global": "minion"
-      }
-    ]
-  },
-  {
-    "id": "whisper_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
-    "firstNightReminder": "Point to up to 2 players.",
-    "reminders": [
-      "Linked",
-      "Linked",
-      "?",
-      "?",
-      "?",
-      "?"
-    ],
-    "name": "Whisper",
-    "team": "outsider",
-    "ability": "You start knowing up to 2 players: what happens to you might happen to them & vice versa, even if you are dead, drunk or poisoned.",
-    "flavor": "Inflict 3 Sensitive",
-    "firstNight": 57
   },
   {
     "id": "stress_faketierscollection",
@@ -469,21 +351,39 @@
     ],
     "name": "Feint",
     "team": "outsider",
-    "ability": "Each night, learn a player: tomorrow, you are mad they are evil or 1 of you might be executed. Once, if you learn a Minion, you learn this.",
+    "ability": "Each night, learn a player: you are mad they are evil tomorrow or 1 of you might be executed. Once, you learn they are a Minion.",
     "flavor": "Gain 3 Feint Status",
     "firstNight": 60,
     "otherNight": 76
   },
+    {
+    "id": "whisper_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
+    "firstNightReminder": "Point to up to 2 players.",
+    "reminders": [
+      "Linked",
+      "Linked",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "name": "Whisper",
+    "team": "outsider",
+    "ability": "You start knowing up to 2 players: what happens to you might happen to them & vice versa, even if you die, are drunk or poisoned.",
+    "flavor": "Inflict 3 Sensitive",
+    "firstNight": 57
+  },
   {
     "id": "coda_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
-    "reminders": [
-      "Demon's Ability"
-    ],
-    "remindersGlobal": [
-      "Is Coda"
-    ],
+  "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
+  "reminders": [
+    "Demon's Ability"
+  ],
+  "remindersGlobal": [
+    "Is Coda"
+  ],
     "name": "Coda",
     "team": "outsider",
     "ability": "When you die, the Demon gains a Minion ability & learns which.",
@@ -566,16 +466,13 @@
   {
     "id": "showtime_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-    "otherNightReminder": "If the Showtime died today & 5 or more players that are not Travellers are alive: they point to a player. Mark them with the Target token. If they are not executed tomorrow, the Showtime's team loses.",
     "reminders": [
-      "Show Tonight",
       "Target"
     ],
     "name": "Showtime",
     "team": "outsider",
-    "ability": "If you died today or tonight & 5 or more players (excluding Travellers) live, choose an alive player: if they are not executed tomorrow, your team loses.",
+    "ability": "If you die & 5 or more non-Travellers live, choose an alive player: if they are not executed tomorrow, your team loses.",
     "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
-    "otherNight": 70,
     "jinxes": [
       {
         "id": "hagumoth_faketierscollection",
@@ -598,10 +495,6 @@
     "flavor": "if you're not willing to obey, then only the end awaits you",
     "firstNight": 35,
     "jinxes": [
-      {
-        "id": "dazzle_faketierscollection",
-        "reason": "The Hunter cannot have a Dazzle as their target."
-      },
       {
         "id": "exorcist",
         "reason": "The Hunter cannot have a Exorcist as their target."
@@ -645,7 +538,7 @@
     "setup": true,
     "name": "Biter",
     "team": "minion",
-    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
+    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 to +1 Outsider]",
     "flavor": "Chomp Chomp",
     "firstNight": 30,
     "jinxes": [
@@ -667,15 +560,11 @@
     ],
     "name": "Grave",
     "team": "minion",
-    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess the players & at least 1 lives, your team wins.",
+    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess them & at least 1 lives, your team wins.",
     "flavor": "you shall not pass",
     "firstNight": 34,
     "otherNight": 30,
     "jinxes": [
-      {
-        "id": "dazzle_faketierscollection",
-        "reason": "The Grave cannot have a Dazzle as their target."
-      },
       {
         "id": "exorcist",
         "reason": "The Grave cannot have a Exorcist as their target."
@@ -716,7 +605,7 @@
     ],
     "name": "Hagumoth",
     "team": "minion",
-    "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
+    "ability": "Each night, choose a player: they learn this. If they are executed tomorrow, their team loses.",
     "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
     "firstNight": 38,
     "otherNight": 26,
@@ -794,7 +683,7 @@
     "firstNight": 1,
     "otherNight": 16
   },
-    {
+  {
     "id": "enra_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
     "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
@@ -805,7 +694,7 @@
     ],
     "name": "Enra",
     "team": "minion",
-    "ability": "Twice per game, at night, choose a player: they learn this & have no ability. If you lose yours, chosen players might regain theirs.",
+    "ability": "Twice per game, at night, choose a player: they learn this & have no ability. If you lose this, chosen players might regain theirs.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
     "firstNight": 24,
     "otherNight": 11.1
@@ -882,7 +771,7 @@
     ],
     "name": "False Idol",
     "team": "minion",
-    "ability": "After day 6, at dusk, evil wins. Good can't win by killing the Demon.",
+    "ability": "After day 6, evil wins. Unless just the Demon & 2 other non-Travellers live, good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "firstNight": 99,
     "otherNight": 99,
@@ -903,10 +792,7 @@
   },
   {
     "id": "invitationletter_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
-    ],
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
     "firstNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token.",
     "otherNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is night 3, they point to a Demon on the character sheet. Show them the \"You are\" card and the relevant Demon token.",
     "remindersGlobal": [
@@ -962,10 +848,6 @@
       {
         "id": "pukka",
         "reason": "The Invitee may choose to invite Pukka on night 2."
-      },
-      {
-        "id": "trickmask_faketierscollection",
-        "reason": "If Trick Mask’s ability is active and the Invitation Letter is alive, Minions do not learn each other and are instead woken 1 by 1 until 1 of them chooses to take the Invitation letter’s token. After a Demon is invited, Minions learn each other."
       },
       {
         "id": "zombuul",
@@ -1041,30 +923,30 @@
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
   },
+  {
+  "id": "zhobazhbu_faketierscollection",
+  "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
+  "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
+  "reminders": [
+    "Dead",
+    "Has Ability",
+    "Has Ability",
+    "Has Ability",
+    "Has Ability",
+    "Purged"
+  ],
+  "setup": true,
+  "name": "Zhobazhbu",
+  "team": "demon",
+  "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & reverse Townsfolk info. [-1 Outsider]",
+  "flavor": "Bathe within the flames, such that they purify thee of thy sin of weakness and frailty. Through atonement for thy mortality thou shalt be embraced by The One Beyond.",
+  "otherNight": 43,
+  "jinxes": [
     {
-    "id": "zhobazhbu_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
-    "reminders": [
-      "Dead",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Has Ability",
-      "Purged"
-    ],
-    "setup": true,
-    "name": "Zhobazhbu",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & reverse Townsfolk info. [-1 Outsider]",
-    "flavor": "Bathe within the flames, such that they purify thee of thy sin of weakness and frailty. Through atonement for thy mortality thou shalt be embraced by The One Beyond.",
-    "otherNight": 43,
-    "jinxes": [
-      {
-        "id": "banshee",
-        "reason": "If the Demon kills the Banshee, players still learn that they have died."
-      }
-    ]
+      "id": "banshee",
+      "reason": "If the Demon kills the Banshee, players still learn that they have died."
+    }
+  ]
   },
   {
     "id": "sabnock_faketierscollection",
@@ -1170,7 +1052,7 @@
       }
     ]
   },
-  {
+      {
     "id": "time_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_faketierscollection.png?raw=true",
     "otherNightReminder": "Time points to a player. That player dies.",
@@ -1296,10 +1178,6 @@
       {
         "id": "summoner",
         "reason": "If the Summoner creates a Cultist, most players (including all evil players) become evil Cultists."
-      },
-      {
-        "id": "trickmask_faketierscollection",
-        "reason": "If both Trick Mask and Cultists are in-play, Cultists do not learn each other and may guess a player is a Cultist. Trick Mask registers as a Cultist to this."
       }
     ],
     "special": [

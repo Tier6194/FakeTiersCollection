@@ -139,7 +139,7 @@
     "setup": true,
     "name": "Biter - π",
     "team": "minion",
-    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 or +1 Outsider]",
+    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 to +1 Outsider]",
     "flavor": "Chomp Chomp",
     "firstNight": 30,
     "jinxes": [
