@@ -180,10 +180,6 @@
         "reason": "If the Invitation Letter is in-play, the Clockmaker does not receive their info until a Demon is successfully invited."
       },
       {
-        "id": "cultist_faketierscollection",
-        "reason": "If the Cult is invited, most players (including all evil players) become evil Cultists. If the Cult wins and they were invited, they must do the macarena."
-      },
-      {
         "id": "engineer",
         "reason": "If the Engineer removes the Invitation Letter from play, the Invitee becomes the chosen Demon. If the Engineer creates the Invitation Letter before night 4, the Demon becomes a not-in-play Minion Invitee. Otherwise nothing happens."
       },
@@ -214,10 +210,6 @@
       {
         "id": "pukka",
         "reason": "The Invitee may choose to invite Pukka on night 2."
-      },
-      {
-        "id": "trickmask_faketierscollection",
-        "reason": "If Trick Mask’s ability is active and the Invitation Letter is alive, Minions do not learn each other and are instead woken 1 by 1 until 1 of them chooses to take the Invitation letter’s token. After a Demon is invited, Minions learn each other."
       },
       {
         "id": "zombuul",

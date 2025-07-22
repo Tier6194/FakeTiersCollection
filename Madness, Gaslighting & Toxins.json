@@ -108,7 +108,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "If a Trauma just died, wake them and show them \"You are\" then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
+    "otherNightReminder": "If a Trauma just died, wake them and show them the \"You are\" card then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
     "remindersGlobal": [
       "Is a Trauma"
     ],
@@ -233,52 +233,28 @@
   },
   "vortox",
   {
-    "id": "cultist_faketierscollection",
+    "id": "plankofwood_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Players might die at any time",
+    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "About to Die"
+      "Dead"
     ],
-    "setup": true,
-    "name": "Cultist - π",
+    "name": "Plank of Wood - π",
     "team": "demon",
-    "ability": "Players might die at any time. Executions fail if only evil voted. You register as a Minion too. [Most players are Cultists]",
-    "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
-    "otherNight": 41,
+    "ability": "Each night*, choose a player: they die. If just 3 players live (excluding Travellers), good only wins if no-one is executed.",
+    "flavor": "*Plank of Wood noises*",
+    "otherNight": 49,
     "jinxes": [
       {
-        "id": "engineer",
-        "reason": "Cultists and the Engineer can not both be in play at the start of the game. If the Engineer creates a Culist, most players (including all evil players) become evil Cultists."
-      },
-      {
         "id": "hatter",
-        "reason": "If the Hatter dies and a Cultist is in play, nothing happens. If the Hatter dies and an evil player chooses Cultist, all current evil players become Cultists."
+        "reason": "The Plank of Wood cannot be removed or brought into play by the Hatter's ability."
       },
       {
-        "id": "minstrel",
-        "reason": "If a Cultist died by execution today, Cultists keeps their ability, but the Minstrel might learn they are a Cultist."
-      },
-      {
-        "id": "preacher",
-        "reason": "If the Preacher chooses a Cultist, They keep their ability, but the Preacher might learn they are a Cultist."
-      },
-      {
-        "id": "summoner",
-        "reason": "If the Summoner creates a Cultist, most players (including all evil players) become evil Cultists."
-      },
-      {
-        "id": "trickmask_faketierscollection",
-        "reason": "If both Trick Mask and Cultists are in-play, Cultists do not learn each other and may guess a player is a Cultist. Trick Mask registers as a Cultist to this."
-      }
-    ],
-    "special": [
-      {
-        "name": "bag-duplicate",
-        "type": "selection"
+        "id": "pithag",
+        "reason": "The Plank of Wood cannot be removed or brought into play by the Pit-Hag's ability. If the Pit-Hag creates a Plank of Wood, they swap characters with the previous Plank of Wood."
       }
     ]
   },

@@ -200,59 +200,6 @@
     ]
   },
   {
-    "id": "shadowpierce_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "During the evil info steps, show Minions and Demons Shadow Pierce's token.",
-    "otherNightReminder": "Wake the 1st Shadow Pierce. They choose a player, if their choice was the other Shadow Pierce, mark them with the Correct token. Wake the 2nd Shadow Pierce, they point to a player. If their choice was the other Shadow Pierce, mark them with the Correct Token. If both Shadow Pierces have Correct tokens, announce the game has ended and good has won.",
-    "reminders": [
-      "Correct",
-      "Correct",
-      "Guess used"
-    ],
-    "setup": true,
-    "name": "Shadow Pierce - π",
-    "team": "townsfolk",
-    "ability": "Each night*, if you both guessed each other, good wins. Evil players know that if they guess you (once), evil wins. [+1 Shadow Pierce]",
-    "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
-    "firstNight": 14,
-    "otherNight": 71,
-    "jinxes": [
-      {
-        "id": "bountyhunter",
-        "reason": "A Shadow Pierce cannot turn evil."
-      },
-      {
-        "id": "marionette",
-        "reason": "The Marionette does not learn that the Shadow Pierces are in-play."
-      },
-      {
-        "id": "mezepheles",
-        "reason": "A Shadow Pierce cannot turn evil."
-      },
-      {
-        "id": "pithag",
-        "reason": "If a Pit Hag attempts to create a Shadow Pierce & there are spare tokens, the Storyteller chooses good players equal to spare tokens to become Shadow Pierce."
-      },
-      {
-        "id": "spy",
-        "reason": "The Spy may choose to not see the Grimoire. If they do see the Grimoire, evil does not win from correctly guessing a Shadow Pierce."
-      },
-      {
-        "id": "widow",
-        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from correctly guessing a Shadow Pierce. The Widow cannot choose a Shadow Pierce to poison."
-      }
-    ],
-    "special": [
-      {
-        "name": "bag-duplicate",
-        "type": "selection"
-      }
-    ]
-  },
-  {
     "id": "mysteryattack_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
@@ -298,7 +245,7 @@
     ],
     "name": "Overdrive - π",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a player (not yourself or Travellers): learn their character &, if a Townsfolk, they are drunk.",
+    "ability": "Once per game, at night, you may choose a resident: learn their character. Chosen Townsfolk are drunk, even if you die.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
     "firstNight": 41.1,
     "otherNight": 60.1
@@ -356,6 +303,57 @@
     "team": "townsfolk",
     "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
     "flavor": "Attack then reduce cooldown of Magic cards"
+  },
+  {
+    "id": "shadowpierce_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_evil_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "After the evil info steps, show each Minion Shadow Pierce's token.",
+    "reminders": [
+      "Correct",
+      "Correct",
+      "Guess used"
+    ],
+    "setup": true,
+    "name": "Shadow Pierce - π",
+    "team": "townsfolk",
+    "ability": "If both of you guess each other, good wins. Minions know that if they publicly guess you (once), evil wins. [+1 Shadow Pierce]",
+    "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
+    "firstNight": 14,
+    "jinxes": [
+      {
+        "id": "bountyhunter",
+        "reason": "A Shadow Pierce cannot turn evil."
+      },
+      {
+        "id": "marionette",
+        "reason": "The Marionette does not learn that the Shadow Pierces are in-play."
+      },
+      {
+        "id": "mezepheles",
+        "reason": "A Shadow Pierce cannot turn evil."
+      },
+      {
+        "id": "pithag",
+        "reason": "If a Pit Hag attempts to create a Shadow Pierce & there are spare tokens, the Storyteller chooses good players equal to spare tokens to become Shadow Pierces."
+      },
+      {
+        "id": "spy",
+        "reason": "The Spy may choose to not see the Grimoire. If they do see the Grimoire, evil does not win from correctly guessing a Shadow Pierce."
+      },
+      {
+        "id": "widow",
+        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from correctly guessing a Shadow Pierce. The Widow cannot choose a Shadow Pierce to poison."
+      }
+    ],
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
   },
   {
     "id": "whisper_faketierscollection",
@@ -504,7 +502,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "If a Trauma just died, wake them and show them \"You are\" then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
+    "otherNightReminder": "If a Trauma just died, wake them and show them the \"You are\" card then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
     "remindersGlobal": [
       "Is a Trauma"
     ],
@@ -621,56 +619,6 @@
     ]
   },
   {
-    "id": "grave_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Show the Grave an up to 3 in-play good character tokens. Wake 1 of these players up, show them Grave's character token and put them to sleep. Repeat until all have woken up",
-    "otherNightReminder": "The Grave points to as many players as targets. If correct and at least 1 lives, announce that their team has won.",
-    "reminders": [
-      "Target",
-      "Target",
-      "Target"
-    ],
-    "name": "Grave - π",
-    "team": "minion",
-    "ability": "You start knowing up to 3 in-play good characters (they learn this). Each night*, if you guess them & at least 1 lives, your team wins.",
-    "flavor": "you shall not pass",
-    "firstNight": 34,
-    "otherNight": 30,
-    "jinxes": [
-      {
-        "id": "exorcist",
-        "reason": "The Grave cannot have a Exorcist as their target."
-      },
-      {
-        "id": "heretic",
-        "reason": "The Grave cannot have a Heretic as their target."
-      },
-      {
-        "id": "king",
-        "reason": "The Grave cannot have a King as their target."
-      },
-      {
-        "id": "lunatic",
-        "reason": "The Grave cannot have a Lunatic as their target."
-      },
-      {
-        "id": "pithag",
-        "reason": "Up to 3 extra players learn that the Grave is in-play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
-      },
-      {
-        "id": "spy",
-        "reason": "The Spy may choose to not see the Grimoire. If they do see the Grimoire, evil does not win from the Grave correctly guessing."
-      },
-      {
-        "id": "widow",
-        "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from the Grave correctly guessing."
-      }
-    ]
-  },
-  {
     "id": "hagumoth_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
@@ -762,29 +710,10 @@
     ],
     "name": "Corrupted - π",
     "team": "minion",
-    "ability": "Twice per game, at night*, choose 2 players: all players learn who then silently choose who lives & who dies, you break ties.",
+    "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
     "firstNight": 1,
     "otherNight": 16
-  },
-  {
-    "id": "enra_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Mark the Enra with both Has Ability tokens. The Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "otherNightReminder": "If the Enra has their ability: the Enra shakes head \"no\" or points to a player. Wake that player up, show them the \"This character selected you\" token and Enra's character token then put them to sleep. They have no ability, move the Has Ability token to them and rotate it upside-down.",
-    "reminders": [
-      "Has Ability",
-      "Has Ability"
-    ],
-    "name": "Enra - π",
-    "team": "minion",
-    "ability": "Twice per game, at night, choose a player: they learn this & have no ability. If you lose this, chosen players might regain theirs.",
-    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins",
-    "firstNight": 24,
-    "otherNight": 11.1
   },
   {
     "id": "marusok_faketierscollection",
@@ -810,10 +739,6 @@
       {
         "id": "corrsylphy_faketierscollection",
         "reason": "Corr. Sylphy's ability only checks the last night they woke."
-      },
-      {
-        "id": "cultist_faketierscollection",
-        "reason": "If Marusok has the Cultist ability, other Marusok might have it as well. The Demon might be a Cultist too."
       },
       {
         "id": "engineer",
@@ -852,6 +777,41 @@
     ]
   },
   {
+    "id": "grave_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "You may wake the Grave if needed.",
+    "otherNightReminder": "You may wake the Grave if needed.",
+    "reminders": [
+      "Asked"
+    ],
+    "name": "Grave - π",
+    "team": "minion",
+    "ability": "You may ask a question that, if good wins, all players learn. If most good players are wrong, evil wins instead.",
+    "flavor": "you shall not pass",
+    "firstNight": 34,
+    "otherNight": 30
+  },
+  {
+    "id": "cultist_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Wake a good player neighboring any Minion. Show them the \"You are\" card then a thumb-down 'evil' hand sign and Cultist's character token. Put them to sleep. Mark both of their Townsfolk neighbors with the Safe tokens. Those players are safe from the Demon.",
+    "reminders": [
+      "Safe",
+      "Safe"
+    ],
+    "setup": true,
+    "name": "Cultist - π",
+    "team": "minion",
+    "ability": "Your Townsfolk neighbors are safe from the Demon. [+1 Minion. You neighbor a Minion]",
+    "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?"
+  },
+  {
     "id": "falseidol_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
@@ -884,6 +844,20 @@
     ]
   },
   {
+    "id": "enra_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
+    ],
+    "reminders": [
+      "The Demon"
+    ],
+    "name": "Enra - π",
+    "team": "minion",
+    "ability": "On the final day, before nominations & even if you die, the Demon may publicly choose a player: they are \"the Demon\" instead.",
+    "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins"
+  },
+  {
     "id": "invitationletter_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
@@ -908,10 +882,6 @@
       {
         "id": "clockmaker",
         "reason": "If the Invitation Letter is in-play, the Clockmaker does not receive their info until a Demon is successfully invited."
-      },
-      {
-        "id": "cultist_faketierscollection",
-        "reason": "If the Cult is invited, most players (including all evil players) become evil Cultists. If the Cult wins and they were invited, they must do the macarena."
       },
       {
         "id": "engineer",
@@ -1161,7 +1131,7 @@
     ],
     "name": "Plank of Wood - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If only 3 players live (excluding Travellers), good wins if & only if no-one is executed.",
+    "ability": "Each night*, choose a player: they die. If just 3 players live (excluding Travellers), good only wins if no-one is executed.",
     "flavor": "*Plank of Wood noises*",
     "otherNight": 49,
     "jinxes": [
@@ -1175,24 +1145,52 @@
       }
     ]
   },
-      {
+  {
     "id": "time_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Time points to a player. That player dies.",
+    "firstNightReminder": "Show the Grimoire to Time for as long as they need. Time then points to all the players, use an external notepad to mark down the order they are pointed at. Put them to sleep.",
+    "otherNightReminder": "The next player on the list of players chosen by Time without a shroud dies.",
     "reminders": [
-      "Dead",
-      "Day 1",
-      "Day 2",
-      "Day 3"
+      "Dead"
     ],
     "name": "Time - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. After day 3, Townsfolk proportional to dead Minions die. If it ends the game, deaths are arbitrary.",
+    "ability": "On your 1st night, see the Grimoire & choose all players. Each night*, the next alive player chosen dies, even if they could not.",
     "flavor": "You cannot stop time. All you can do is run away from this reality. How far will you run away this time I wonder?",
-    "otherNight": 49
+    "firstNight": 67.1,
+    "otherNight": 48.1,
+    "jinxes": [
+      {
+        "id": "damsel",
+        "reason": "The Damsel starts knowing a not-in-play Outsider and registers as it to Time."
+      },
+      {
+        "id": "heretic",
+        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Time."
+      },
+      {
+        "id": "magician",
+        "reason": "When Time sees the Grimoire, the Minion and Magician tokens are removed."
+      },
+      {
+        "id": "poppygrower",
+        "reason": "geniunely just dont. i dont even have an idea for a jinx"
+      },
+      {
+        "id": "shadowpierce_faketierscollection",
+        "reason": "geniunely just dont. i dont even have an idea for a jinx"
+      }
+    ],
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "firstNight"
+      }
+    ]
   },
   {
     "id": "fallcharlotte_faketierscollection",
@@ -1270,52 +1268,6 @@
       {
         "id": "templar_faketierscollection",
         "reason": "If Fall. Charlotte is in-play, the Templar-protected player is safe from all evil abilities."
-      }
-    ]
-  },
-  {
-    "id": "cultist_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/cultist_good_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "Players might die at any time",
-    "reminders": [
-      "Dead",
-      "About to Die"
-    ],
-    "setup": true,
-    "name": "Cultist - π",
-    "team": "demon",
-    "ability": "Players might die at any time. Executions fail if only evil voted. You register as a Minion too. [Most players are Cultists]",
-    "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?",
-    "otherNight": 41,
-    "jinxes": [
-      {
-        "id": "engineer",
-        "reason": "Cultists and the Engineer can not both be in-play at the start of the game. If the Engineer creates a Culist, most players (including all evil players) become evil Cultists."
-      },
-      {
-        "id": "hatter",
-        "reason": "If the Hatter dies and a Cultist is in-play, nothing happens. If the Hatter dies and an evil player chooses Cultist, all current evil players become Cultists."
-      },
-      {
-        "id": "minstrel",
-        "reason": "If a Cultist died by execution today, Cultists keeps their ability, but the Minstrel might learn they are a Cultist."
-      },
-      {
-        "id": "preacher",
-        "reason": "If the Preacher chooses a Cultist, They keep their ability, but the Preacher might learn they are a Cultist."
-      },
-      {
-        "id": "summoner",
-        "reason": "If the Summoner creates a Cultist, most players (including all evil players) become evil Cultists."
-      }
-    ],
-    "special": [
-      {
-        "name": "bag-duplicate",
-        "type": "selection"
       }
     ]
   }

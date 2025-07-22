@@ -27,7 +27,7 @@
     ],
     "name": "Overdrive - π",
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a player (not yourself or Travellers): learn their character &, if a Townsfolk, they are drunk.",
+    "ability": "Once per game, at night, you may choose a resident: learn their character. Chosen Townsfolk are drunk, even if you die.",
     "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
     "firstNight": 41.1,
     "otherNight": 60.1
@@ -153,7 +153,7 @@
     ],
     "name": "Corrupted - π",
     "team": "minion",
-    "ability": "Twice per game, at night*, choose 2 players: all players learn who then silently choose who lives & who dies, you break ties.",
+    "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
     "firstNight": 1,
     "otherNight": 16
