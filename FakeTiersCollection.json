@@ -461,10 +461,6 @@
         "reason": "If the Coda dies and would give the False Idol's ability, a Minion gains it instead and learns so."
       },
       {
-        "id": "grave_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Grave is in-play. If the Grave's ability is created midgame, those are its targets. If no possible targets, the Grave's ability cannot be put into play."
-      },
-      {
         "id": "hunter_faketierscollection",
         "reason": "Up to 3 extra players learn that the Hunter is in-play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
       },
