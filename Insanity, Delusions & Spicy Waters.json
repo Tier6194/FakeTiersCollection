@@ -112,14 +112,14 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
     "reminders": [
       "Chosen"
     ],
     "name": "Hagumoth - π",
     "team": "minion",
-    "ability": "Each night, choose a player: they learn this & if they are executed tomorrow, their team loses.",
+    "ability": "Each night, you may choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
     "firstNight": 38,
     "otherNight": 26,
