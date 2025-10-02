@@ -301,7 +301,7 @@
     "reminders": [
       "Drunk"
     ],
-    "name": "Ammo Blast - π",
+    "name": "Ammo Blast",
     "team": "townsfolk",
     "ability": "Only players of your alignment can die, even if for some reason they cannot. Each night, you may choose to be drunk until dusk.",
     "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
@@ -755,7 +755,7 @@
     "reminders": [
       "The Demon"
     ],
-    "name": "Enra - π",
+    "name": "Enra",
     "team": "minion",
     "ability": "On the final day, before nominations & even if you die, the Demon may publicly choose a player: they are \"the Demon\" instead.",
     "flavor": "... And it shall be our duty to slay the children of the wretched witch as our only way to reply to her sins"
