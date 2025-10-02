@@ -129,22 +129,6 @@
     "otherNight": 54
   },
   {
-    "id": "ammoblast_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
-    ],
-    "otherNightReminder": "The Ammo Blast nods \"Yes\" or shakes their head \"No\". If they nodded, choose a good player that can die tonight. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
-    "name": "Ammo Blast - π",
-    "team": "townsfolk",
-    "ability": "Each night*, you may choose that a player of your alignment dies.",
-    "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
-    "otherNight": 54
-  },
-  {
     "id": "fortify_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_faketierscollection.png?raw=true",
@@ -354,6 +338,22 @@
         "type": "selection"
       }
     ]
+  },
+  {
+    "id": "ammoblast_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Ammo Blast nods \"Yes\" to be drunk or shakes their head \"No\" to stay sober.",
+    "reminders": [
+      "Drunk"
+    ],
+    "name": "Ammo Blast - π",
+    "team": "townsfolk",
+    "ability": "Only players of your alignment can die, even if for some reason they cannot. Each night, you may choose to be drunk until dusk.",
+    "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
+    "otherNight": 1.5
   },
   {
     "id": "whisper_faketierscollection",
