@@ -56,7 +56,7 @@
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
     "firstNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
     "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
-    "name": "Cynic- π",
+    "name": "Cynic",
     "team": "townsfolk",
     "ability": "Each night, choose a player: learn an evil character they are, or could be.",
     "flavor": "That's what a Demon would say.",
@@ -957,7 +957,7 @@
     "firstNight": 24,
     "otherNight": 43
   },
-  {
+    {
     "id": "madeline_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
     "otherNightReminder": "Madeline points to a player. That player dies.",
@@ -971,7 +971,7 @@
     ],
     "name": "Madeline",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
+    "ability": "Each night*, choose a player: they die. Townsfolk equal to the night's number (maximum of 3) clockwise to you are poisoned.",
     "flavor": "If only you knew your place! But its too late now!",
     "otherNight": 46
   },
@@ -1004,7 +1004,7 @@
     ],
     "name": "Plank of Wood",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If just 3 players live (excluding Travellers), good only wins if no-one is executed.",
+    "ability": "Each night*, choose a player: they die. Good wins if (& only if) the Storyteller is executed. If you die, keep this ability.",
     "flavor": "*Plank of Wood noises*",
     "otherNight": 49,
     "jinxes": [

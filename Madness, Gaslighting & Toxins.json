@@ -36,69 +36,6 @@
   "ravenkeeper",
   "sage",
   {
-    "id": "coda_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
-  ],
-    "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
-    "reminders": [
-      "Demon's Ability"
-    ],
-    "remindersGlobal": [
-      "Is Coda"
-    ],
-    "name": "Coda - π",
-    "team": "outsider",
-    "ability": "When you die, the Demon gains a Minion ability & learns which.",
-    "flavor": "Reduce opponent HP by 5. Reset cooldown of other cards on the field if opponent was defeated by this card",
-    "otherNight": 55,
-    "jinxes": [
-      {
-        "id": "baron",
-        "reason": "If the Demon gains the Baron's ability, up to 2 players become not-in-play Outsiders."
-      },
-      {
-        "id": "boomdandy",
-        "reason": "If the Coda is executed and the Demon would gain the Boomdandy's ability, it instead triggers immediately."
-      },
-      {
-        "id": "falseidol_faketierscollection",
-        "reason": "If the Coda dies and would give the False Idol's ability, a Minion gains it instead and learns so."
-      },
-      {
-        "id": "hunter_faketierscollection",
-        "reason": "Up to 3 extra players learn that the Hunter is in-play. If the Hunter's ability is created midgame, those are its targets. If no possible targets, the Hunter's ability cannot be put into play."
-      },
-      {
-        "id": "marionette",
-        "reason": "If the Demon has a neighbor who can be a Marionette and Coda would give the Marionette ability, they become an evil Marionette. This fails if there is already an extra evil player."
-      },
-      {
-        "id": "mastermind",
-        "reason": "If the Coda dies and would give the Masterminds's ability, a Minion gains it instead and learns so."
-      },
-      {
-        "id": "scarletwoman",
-        "reason": "If the Coda dies and would give the Scarlet Woman's ability, a Minion gains it alongside their own instead and learns so."
-      },
-      {
-        "id": "summoner",
-        "reason": "The Demon cannot create an in-play Demon. If they create an out of play Demon, deaths tonight are arbitrary."
-      },
-      {
-        "id": "vizier",
-        "reason": "If the Coda dies and would give the Vizier's ability, a living Minion gains it alongside their own."
-      }
-    ],
-    "special": [
-      {
-        "name": "replace-character",
-        "type": "reveal"
-      }
-    ]
-  },
-  {
     "id": "trauma_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
@@ -126,7 +63,6 @@
       }
     ]
   },
-  "hatter",
   {
     "id": "showtime_faketierscollection",
     "image": [
@@ -147,10 +83,39 @@
       }
     ]
   },
-  "harpy",
+  "hatter",
+  "mutant",
+  {
+    "id": "hagumoth_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+    ],
+    "firstNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "otherNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "reminders": [
+      "Chosen"
+    ],
+    "name": "Hagumoth - π",
+    "team": "minion",
+    "ability": "Each night, you may choose a player: they learn this & if they are executed tomorrow, their team loses.",
+    "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
+    "firstNight": 38,
+    "otherNight": 26,
+    "jinxes": [
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
+      },
+      {
+        "id": "vizier",
+        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+      }
+    ]
+  },
   "witch",
+  "cerenovus",
   "pithag",
-  "eviltwin",
   {
   "id": "zhobazhbu_faketierscollection",
   "image": [
@@ -206,28 +171,28 @@
     }
   ]
   },
-  {
-  "id": "madeline_faketierscollection",
-  "image": [
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
-  ],
-  "otherNightReminder": "Madeline points to a player. That player dies.",
-  "reminders": [
-    "Dead"
-  ],
-  "remindersGlobal": [
-    "Night 1",
-    "Night 2",
-    "Night 3"
-  ],
-  "name": "Madeline - π",
-  "team": "demon",
-  "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
-  "flavor": "If only you knew your place! But its too late now!",
-  "otherNight": 46
-  },
   "vortox",
+  {
+    "id": "madeline_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Night 1",
+      "Night 2",
+      "Night 3"
+    ],
+    "name": "Madeline - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Townsfolk equal to the night's number (maximum of 3) clockwise to you are poisoned.",
+    "flavor": "If only you knew your place! But its too late now!",
+    "otherNight": 46
+  },
   {
     "id": "plankofwood_faketierscollection",
     "image": [
@@ -240,7 +205,7 @@
     ],
     "name": "Plank of Wood - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If just 3 players live (excluding Travellers), good only wins if no-one is executed.",
+    "ability": "Each night*, choose a player: they die. Good wins if (& only if) the Storyteller is executed. If you die, keep this ability.",
     "flavor": "*Plank of Wood noises*",
     "otherNight": 49,
     "jinxes": [

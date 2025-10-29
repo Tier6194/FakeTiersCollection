@@ -1088,7 +1088,7 @@
     ],
     "name": "Madeline - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The closest Townsfolk equal to nights clockwise to you are poisoned until 3 are.",
+    "ability": "Each night*, choose a player: they die. Townsfolk equal to the night's number (maximum of 3) clockwise to you are poisoned.",
     "flavor": "If only you knew your place! But its too late now!",
     "otherNight": 46
   },
@@ -1127,7 +1127,7 @@
     ],
     "name": "Plank of Wood - π",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If just 3 players live (excluding Travellers), good only wins if no-one is executed.",
+    "ability": "Each night*, choose a player: they die. Good wins if (& only if) the Storyteller is executed. If you die, keep this ability.",
     "flavor": "*Plank of Wood noises*",
     "otherNight": 49,
     "jinxes": [
