@@ -6,30 +6,7 @@
     "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/PaM.png?raw=true",
     "hideTitle": true
   },
-  {
-    "id": "starpierce_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_evil_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Show the token of a Minion in play.",
-    "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
-    "reminders": [
-      "Target"
-    ],
-    "name": "Star Pierce - π",
-    "team": "townsfolk",
-    "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
-    "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
-    "firstNight": 49,
-    "otherNight": 75,
-    "jinxes": [
-      {
-        "id": "vizier",
-        "reason": "If the Star Pierce learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
-      }
-    ]
-  },
+  "grandmother",
   "highpriestess",
   "sailor",
   {
@@ -38,7 +15,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "A good player who voted against the Count dies.",
+    "otherNightReminder": "A good player who voted against the Count dies. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -56,7 +33,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Templar points to 2 players, mark the 1st with the Holy token and the second with the Smote token. If the Demon kills the Holy player and is not the Smote player, the Holy player lives and the Smote player dies.",
+    "otherNightReminder": "The Templar chooses 2 players. :reminder: :reminder:",
     "reminders": [
       "Holy",
       "Smote",
@@ -89,7 +66,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Ammo Blast nods \"Yes\" to be drunk or shakes their head \"No\" to stay sober.",
+    "otherNightReminder": "The Ammo Blast either nods their head  yes to be drunk or shakes their head no to stay sober. :reminder:",
     "reminders": [
       "Drunk"
     ],
@@ -105,7 +82,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Point to up to 2 players.",
+    "firstNightReminder": "Point to all players marked *LINKED*.",
     "reminders": [
       "Linked",
       "Linked",
@@ -116,7 +93,7 @@
     ],
     "name": "Whisper - π",
     "team": "outsider",
-    "ability": "You start knowing up to 2 players: what happens to you might happen to them & vice versa, even if you are dead, drunk or poisoned.",
+    "ability": "You start knowing up to 2 players: what happens to them might happen to you & vice versa, even if dead, drunk or poisoned.",
     "flavor": "Inflict 3 Sensitive",
     "firstNight": 57
   },
@@ -159,8 +136,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token.",
-    "otherNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is night 3, they point to a Demon on the character sheet. Show them the \"You are\" card and the relevant Demon token.",
+    "firstNightReminder": "Wake all Minions, allow them to choose an invitee. then place the *NIGHT 1* token in the center of the Grimoire. :reminder: :reminder:",
+    "otherNightReminder": "Wake all Minions, allow them to choose an invitee. then place the relevent night token in the center of the Grimoire. :reminder: :reminder: If it is night 3, the invitee chooses a Demon. Show them the *YOU ARE* token and the chosen Demon token.",
     "remindersGlobal": [
       "Night 1",
       "Night 2",

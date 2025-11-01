@@ -41,7 +41,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
   ],
-    "otherNightReminder": "If a Trauma just died, wake them and show them the \"You are\" card then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
+    "otherNightReminder": "If a Trauma died, they have learnt their character and a new Trauma has been made. If you haven't done this yet, do so now. :reminder:",
     "remindersGlobal": [
       "Is a Trauma"
     ],
@@ -91,8 +91,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
+    "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "reminders": [
       "Chosen"
     ],
@@ -122,7 +122,7 @@
     "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
     "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
   ],
-  "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
+  "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
     "Dead",
     "Has Ability",
@@ -145,31 +145,31 @@
   ]
   },
   {
-  "id": "sabnock_faketierscollection",
-  "image": [
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
-  ],
-  "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
-  "reminders": [
-    "Dead",
-    "Poisoned",
-    "Poisoned",
-    "Poisoned",
-    "Poisoned"
-  ],
-  "setup": true,
-  "name": "Sabnock - π",
-  "team": "demon",
-  "ability": "Each night*, choose a player: they die. Outsiders you kill poison the closest Townsfolk neighbor to you. [+1 Outsider]",
-  "flavor": "Attrape des vers, salope.",
-  "otherNight": 42,
-  "jinxes": [
-    {
-      "id": "trauma_faketierscollection",
-      "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
-    }
-  ]
+    "id": "sabnock_faketierscollection",
+    "image": [
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
+      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+    ],
+    "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
+    "reminders": [
+      "Dead",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Sabnock - π",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Outsiders you kill poison the closest Townsfolk neighbor to you. [+1 Outsider]",
+    "flavor": "Attrape des vers, salope.",
+    "otherNight": 42,
+    "jinxes": [
+      {
+        "id": "trauma_faketierscollection",
+        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
+      }
+    ]
   },
   "vortox",
   {
@@ -178,7 +178,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -199,7 +199,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
+    "otherNightReminder": "The Plank of Wood chooses a player. :reminder:",
     "reminders": [
       "Dead"
     ],

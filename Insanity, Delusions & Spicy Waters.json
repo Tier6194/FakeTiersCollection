@@ -19,8 +19,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Overdrive shakes head \"no\" or points to a player. If they pointed: mark them with the \"No Ability\" token and show them that players character token. If that player is a Townsfolk, mark them with the Drunk token.",
-    "otherNightReminder": "If the Overdrive still has their ability: the Overdrive shakes head no or points to a player. Show them that players character token. If that player is a Townsfolk, they are drunk, mark them with the Drunk token.",
+    "firstNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
+    "otherNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
     "reminders": [
       "No Ability",
       "Drunk"
@@ -56,7 +56,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "If Stress died: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" token and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "otherNightReminder": "You may choose a Minion. :reminder: Wake Stress and nod. Put Stress to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Stress token. Run their ability twice.",
     "reminders": [
       "Works Twice",
       "?",
@@ -84,7 +84,6 @@
       }
     ]
   },
-  "barber",
   {
     "id": "showtime_faketierscollection",
     "image": [
@@ -105,6 +104,7 @@
       }
     ]
   },
+  "barber",
   "mutant",
   {
     "id": "hagumoth_faketierscollection",
@@ -112,8 +112,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
+    "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "reminders": [
       "Chosen"
     ],
@@ -142,10 +142,8 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
     ],
-    "firstNightReminder": "Mark the Corrupted with both Has Ability tokens.",
-    "otherNightReminder": "If the Corrupted has its ability, the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce that both players have been chosen by the Corrupted in that order and the rules of its ability. Run the countdown then add and remove shrouds as necessary.",
+    "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
-      "Dead",
       "Choice 1",
       "Choice 2",
       "Has Ability",
@@ -155,7 +153,6 @@
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
-    "firstNight": 1,
     "otherNight": 16
   },
   {
@@ -164,7 +161,7 @@
     "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
     "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
   ],
-  "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
+  "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
     "Dead",
     "Has Ability",
@@ -186,13 +183,13 @@
     }
   ]
   },
-    {
+  {
     "id": "sabnock_faketierscollection",
     "image": [
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
+    "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Poisoned",
@@ -220,7 +217,7 @@
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
       "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
     ],
-    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [
       "Dead"
     ],

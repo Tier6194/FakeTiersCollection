@@ -21,30 +21,9 @@
     "firstNight": 56
   },
   {
-    "id": "starpierce_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/starpierce_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show the token of a Minion in-play.",
-    "otherNightReminder": "The Star Pierce points to a player. Nod yes or shake no to indicate if they are the target.",
-    "reminders": [
-      "Target"
-    ],
-    "name": "Star Pierce",
-    "team": "townsfolk",
-    "ability": "You start knowing an in-play Minion. Each night*, guess who it is: learn if you're right.",
-    "flavor": "Attack. Reduce cooldown of all Attack cards by 2",
-    "firstNight": 49,
-    "otherNight": 75,
-    "jinxes": [
-      {
-        "id": "vizier",
-        "reason": "If the Star Pierce learns that the Vizier is in-play, the existence of the Vizier is not announced by the Storyteller."
-      }
-    ]
-  },
-  {
     "id": "focus_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show Focus a piece of paper with the answer to the question.",
+    "firstNightReminder": "Show the answer.",
     "name": "Focus",
     "team": "townsfolk",
     "ability": "You start knowing the answer to a question. Each day, privately guess what it is: you learn how accurate you are.",
@@ -54,11 +33,11 @@
   {
     "id": "cynic_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
-    "otherNightReminder": "The Cynic points to a player. If they are an evil character, show them that character token. Otherwise show them any evil character token.",
+    "firstNightReminder": "The Cynic chooses a player. Show them the evil character or could be (if they aren't an evil character).",
+    "otherNightReminder": "The Cynic chooses a player. Show them the evil character or could be (if they aren't an evil character).",
     "name": "Cynic",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: learn an evil character they are, or could be.",
+    "ability": "Each night, choose a player: learn the evil character they are, or could be.",
     "flavor": "That's what a Demon would say.",
     "firstNight": 62,
     "otherNight": 77
@@ -66,8 +45,8 @@
     {
     "id": "jumpstrike_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
-    "otherNightReminder": "Show Jump Strike the character type of the marked player via the reminder tokens.",
+    "firstNightReminder": "Show the character type token of the *LEARNT* player. :reminder:",
+    "otherNightReminder": "Show the character type token of the *LEARNT* player. :reminder:",
     "reminders": [
       "Townsfolk",
       "Outsider",
@@ -85,8 +64,8 @@
   {
     "id": "interceptor_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
-    "otherNightReminder": "The Interceptor points to a good character. If it is in-play, point to 2 players, 1 of which is that character. Otherwise point to any 2 players.",
+    "firstNightReminder": "The Interceptor chooses a character. Point to 2 players, 1 of which is that character (if it in-play).",
+    "otherNightReminder": "The Interceptor chooses a character. Point to 2 players, 1 of which is that character (if it in-play).",
     "name": "Interceptor",
     "team": "townsfolk",
     "ability": "Each night, choose a good character (not yours): learn that it is between 2 players. If not-in-play, learn false info.",
@@ -97,7 +76,7 @@
   {
     "id": "count_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
-    "otherNightReminder": "A good player who voted against the Count dies.",
+    "otherNightReminder": "A good player who voted against the Count dies. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -110,14 +89,14 @@
   {
     "id": "fortify_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Fortify points to a player. They cannot die tonight, mark them with the Safe token. If they chose evil, Fortify is drunk, mark them with the Drunk token.",
+    "otherNightReminder": "The Fortify chooses a player. :reminder:",
     "reminders": [
       "Safe",
       "Drunk"
     ],
     "name": "Fortify",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself): they can't die tonight. If you chose an evil player, you are drunk.",
+    "ability": "Each night*, choose a player (not yourself): they can't die tonight. If they are evil, you are drunk.",
     "flavor": "Gain 12 Barrier",
     "otherNight": 14,
     "jinxes": [
@@ -134,7 +113,7 @@
   {
     "id": "templar_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Templar points to 2 players, mark the 1st with the Holy token and the second with the Smote token. If the Demon kills the Holy player and is not the Smote player, the Holy player lives and the Smote player dies.",
+    "otherNightReminder": "The Templar chooses 2 players. :reminder: :reminder:",
     "reminders": [
       "Holy",
       "Smote",
@@ -159,7 +138,7 @@
   {
     "id": "mysteryattack_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
-    "otherNightReminder": "Change and run the Mystery Attack's ability.",
+    "otherNightReminder": "Change the ability.",
     "reminders": [
       "?",
       "?",
@@ -188,8 +167,8 @@
   {
     "id": "overdrive_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Overdrive shakes head \"no\" or points to a player. If they pointed: mark them with the \"No Ability\" token and show them that players character token. If that player is a Townsfolk, mark them with the Drunk token.",
-    "otherNightReminder": "If the Overdrive still has their ability: the Overdrive shakes head no or points to a player. Show them that players character token. If that player is a Townsfolk, they are drunk, mark them with the Drunk token.",
+    "firstNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
+    "otherNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
     "reminders": [
       "No Ability",
       "Drunk"
@@ -215,7 +194,7 @@
   {
     "id": "spirit_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_faketierscollection.png?raw=true",
-    "otherNightReminder": "If the Spirit was killed by the Demon, mark them with the Ascended token as a reminder they learn info. Show them all the in-play Demons and Minions.",
+    "otherNightReminder": "If the Demon killed the Spirit, wake the Spirit and show them all evil characters in-play. :reminder:",
     "reminders": [
       "Ascended"
     ],
@@ -236,31 +215,18 @@
     ]
   },
   {
-    "id": "inversestrike_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_faketierscollection.png?raw=true",
-    "reminders": [
-      "No Ability"
-    ],
-    "name": "Inverse Strike",
-    "team": "townsfolk",
-    "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
-    "flavor": "Attack then reduce cooldown of Magic cards"
-  },
-  {
     "id": "shadowpierce_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_faketierscollection.png?raw=true",
-    "firstNightReminder": "After the evil info steps, show each Minion Shadow Pierce's token.",
     "reminders": [
       "Correct",
       "Correct",
-      "Guess used"
+      "Guess Used"
     ],
     "setup": true,
     "name": "Shadow Pierce",
     "team": "townsfolk",
     "ability": "If both of you guess each other, good wins. Minions know that if they publicly guess you (once), evil wins. [+1 Shadow Pierce]",
     "flavor": "Attack & if there's another card user's card on the field, transform it to Shadow Pierce",
-    "firstNight": 14,
     "jinxes": [
       {
         "id": "bountyhunter",
@@ -295,9 +261,20 @@
     ]
   },
   {
+    "id": "inversestrike_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_faketierscollection.png?raw=true",
+    "reminders": [
+      "No Ability"
+    ],
+    "name": "Inverse Strike",
+    "team": "townsfolk",
+    "ability": "The 1st time an evil player chooses you with their ability at night, an evil player is chosen instead.",
+    "flavor": "Attack then reduce cooldown of Magic cards"
+  },
+  {
     "id": "ammoblast_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Ammo Blast nods \"Yes\" to be drunk or shakes their head \"No\" to stay sober.",
+    "otherNightReminder": "The Ammo Blast either nods their head  yes to be drunk or shakes their head no to stay sober. :reminder:",
     "reminders": [
       "Drunk"
     ],
@@ -321,14 +298,14 @@
     ],
     "name": "Whisper",
     "team": "outsider",
-    "ability": "You start knowing up to 2 players: what happens to you might happen to them & vice versa, even if you die, are drunk or poisoned.",
+    "ability": "You start knowing up to 2 players: what happens to them might happen to you & vice versa, even if dead, drunk or poisoned.",
     "flavor": "Inflict 3 Sensitive",
     "firstNight": 57
   },
   {
     "id": "stress_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-    "otherNightReminder": "If Stress died: choose if a Minion's ability will work twice. If so, wake that Minion, show them the \"This character selected you\" token and Stress' character token. Mark them with the Works Twice token. Their ability works twice now. Wake Stress, signal them a thumbsup to indicate their ability is in effect.",
+    "otherNightReminder": "You may choose a Minion. :reminder: Wake Stress and nod. Put Stress to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Stress token. Run their ability twice.",
     "reminders": [
       "Works Twice",
       "?",
@@ -359,8 +336,8 @@
   {
     "id": "feint_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/feint_faketierscollection.png?raw=true",
-    "firstNightReminder": "Point to a player and mark them with the Mad token. If Feint is not marked with the Minion token and that player is a Minion, choose to show them the Minion token and mark Feint with it.",
-    "otherNightReminder": "Point to a player and mark them with the Mad token. If Feint is not marked with the Minion token and that player is a Minion, choose to show them the Minion token and mark Feint with it.",
+    "firstNightReminder": "Show any player. If they are a Minion, you may show Feint the *MINION* token. :reminder:",
+    "otherNightReminder": "Show any player. If they are a Minion & you haven't shown Feint the *MINION* token, you may show them the *MINION* token. :reminder:",
     "reminders": [
       "Mad",
       "Minion"
@@ -375,7 +352,7 @@
   {
     "id": "coda_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-  "otherNightReminder": "At the earliest oppurtunity after the Coda's death, wake the Demon. Show them the \"This character selected you\" info card and Coda's token then the character token of the Minion whose ability they have. The Demon now has that ability.",
+  "otherNightReminder": "If Coda died, the Demon gained a Minion Ability. If you have not told them this yet, do so now. If necessary, swap Coda's character token. :reminder:",
   "reminders": [
     "Demon's Ability"
   ],
@@ -435,7 +412,7 @@
   {
     "id": "trauma_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
-    "otherNightReminder": "If a Trauma just died, wake them and show them the \"You are\" card then Trauma's character token. If their character on the Grimoire is not Trauma, take a spare Trauma token and replace their character with it. Mark a Townsfolk with Is Trauma token. They are Trauma now.",
+    "otherNightReminder": "If a Trauma died, they have learnt their character and a new Trauma has been made. If you haven't done this yet, do so now. :reminder:",
     "remindersGlobal": [
       "Is a Trauma"
     ],
@@ -477,7 +454,7 @@
   {
     "id": "hunter_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show the Hunter an up to 3 in-play good character tokens. Wake 1 of these players up, show them Hunter's character token and put them to sleep. Repeat until all have woken up.",
+    "firstNightReminder": "Point to all players marked *TARGET*. Put the Hunter to sleep. Wake each of these players 1 by 1 and show them the Hunter token until they have all seen it.",
     "reminders": [
       "Target",
       "Target",
@@ -545,8 +522,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-    "firstNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
-    "otherNightReminder": "The Hagumoth shakes their head \"no\" or points to a player. Wake that player, show them the \"This character selected you\" token and then Hagumoth's character token then put them to sleep. Mark them with the Chosen token. Tomorrow, if they are executed, their team loses.",
+    "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
+    "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "reminders": [
       "Chosen"
     ],
@@ -570,7 +547,7 @@
   {
     "id": "tyrant_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/tyrant_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Tyrant points to a player. That player dies. If the Demon is marked with the Overthrown token, they do not wake tonight. If they do not, wake them as normal and then mark them with the Overthrown token.",
+    "otherNightReminder": "The Tyrant chooses a player. :reminder: If the Demon woke for their ability the previous night, they do not wake tonight. :reminder:",
     "reminders": [
       "Dead",
       "Overthrown"
@@ -599,7 +576,7 @@
       },
       {
         "id": "spirit_faketierscollection",
-        "reason": "The Tyrant registers as the Demon to the Spirit."
+        "reason": "If the Tyrant kills the Spirit, from now on the Spirit knows the in-play evil characters."
       },
       {
         "id": "yaggababble",
@@ -614,10 +591,8 @@
   {
     "id": "corrupted_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
-    "firstNightReminder": "Mark the Corrupted with both Has Ability tokens.",
-    "otherNightReminder": "If the Corrupted has its ability, the Corrupted shakes head \"no\" or points to 2 players. Mark the first player with the Choice 1 token and the second with the Choice 2 token. Remove a Has Ability token from Corrupted. Announce that both players have been chosen by the Corrupted in that order and the rules of its ability. Run the countdown then add and remove shrouds as necessary.",
+    "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
-      "Dead",
       "Choice 1",
       "Choice 2",
       "Has Ability",
@@ -627,16 +602,21 @@
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
-    "firstNight": 1,
     "otherNight": 16
   },
   {
+    "id": "cultist_faketierscollection",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_faketierscollection.png?raw=true",
+    "setup": true,
+    "name": "Cultist",
+    "team": "minion",
+    "ability": "You are many. [+1 Cultist]",
+    "flavor": "Awaken, sister. It is time to serve once more."
+  },
+  {
     "id": "marusok_faketierscollection",
-    "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_good_faketierscollection.png?raw=true"
-    ],
-    "firstNightReminder": "Wake all Marusok 1 by 1. Show them each a not in-play Demon ability and replace their tokens with the corresponding Demon. Mark them with the Is Marusok tokens.",
+    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_faketierscollection.png?raw=true",
+    "firstNightReminder": "Wake each Marusok and show them their ability. Swap each of their tokens as needed. :reminder:",
     "remindersGlobal": [
       "Is Marusok",
       "Is Marusok",
@@ -707,26 +687,17 @@
     "otherNight": 30
   },
   {
-    "id": "cultist_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_faketierscollection.png?raw=true",
-    "otherNightReminder": "Wake a good player neighboring any Minion. Show them the \"You are\" card then a thumb-down 'evil' hand sign and Cultist's character token. Put them to sleep. Mark both of their Townsfolk neighbors with the Safe tokens. Those players are safe from the Demon.",
-    "reminders": [
-      "Safe",
-      "Safe"
-    ],
-    "setup": true,
-    "name": "Cultist",
-    "team": "minion",
-    "ability": "Your Townsfolk neighbors are safe from the Demon. [+1 Minion. You neighbor a Minion]",
-    "flavor": "For centuries we have been watching and waiting for a sign, embedding ourselves in the most prestigious of positions and the lowest trenches of society. Now we have been blessed with the Revelation from the One Beyond. Have you not woken?"
-  },
-  {
     "id": "falseidol_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
-    "firstNightReminder": "Move the Stage token 1 step clockwise.",
-    "otherNightReminder": "Move the Stage token 1 step clockwise. If it reaches False Idol, do not move it anymore.",
+    "firstNightReminder": "Mark the False Idol with the *DAY 1* token. :reminder:",
+    "otherNightReminder": "Replace the reminder token. :reminder:",
     "reminders": [
-      "Stage"
+      "Day 1",
+      "Day 2",
+      "Day 3",
+      "Day 4",
+      "Day 5",
+      "Day 6"
     ],
     "name": "False Idol",
     "team": "minion",
@@ -763,8 +734,8 @@
   {
     "id": "invitationletter_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
-    "firstNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token.",
-    "otherNightReminder": "Wake all Minions. They will point to a player. Wake that player, give them the Invitation Letter's token and mark them with the Invitee token. If it is night 3, they point to a Demon on the character sheet. Show them the \"You are\" card and the relevant Demon token.",
+    "firstNightReminder": "Wake all Minions, allow them to choose an invitee. then place the *NIGHT 1* token in the center of the Grimoire. :reminder: :reminder:",
+    "otherNightReminder": "Wake all Minions, allow them to choose an invitee. then place the relevent night token in the center of the Grimoire. :reminder: :reminder: If it is night 3, the invitee chooses a Demon. Show them the *YOU ARE* token and the chosen Demon token.",
     "remindersGlobal": [
       "Night 1",
       "Night 2",
@@ -836,8 +807,8 @@
   {
     "id": "handoffate_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
-    "firstNightReminder": "Announce to everyone all of the Hand of Fate's abilities. The Hand of Fate signals a number. Note it down and show them the card with the ability they now have.",
-    "otherNightReminder": "The Hand of Fate signals a number. Note it down and show them the card with the ability they now have. After they are done: they shake their head \"no\" then point to a player. That player dies.",
+    "firstNightReminder": "The Hand of Fate shows a number. Show them the ability.",
+    "otherNightReminder": "The Hand of Fate shows a number. Show them the ability. They choose a player. :reminder:",
     "reminders": [
       "Dead",
       "?",
@@ -857,7 +828,7 @@
   {
     "id": "estelle_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
-    "otherNightReminder": "Estelle points to a player. That player dies. If that player was a Minion, they keep their ability and point to a player. That player dies.",
+    "otherNightReminder": "Estelle chooses a player. :reminder: If that player is a Minion, they choose a player. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Dead",
@@ -875,7 +846,7 @@
   {
     "id": "corrsylphy_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_faketierscollection.png?raw=true",
-    "otherNightReminder": "Signal (1, 2, 3, 4, 5) how many players Corr. Sylphy can point to. They point to that many players. Those players die and mark Corr. Sylphy with a Kill Chain token unless they already have 4.",
+    "otherNightReminder": "Signal how many players Corr. Sylphy can choose. They then choose that many players. :reminder: :reminder: :reminder: :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Kill Chain",
@@ -892,7 +863,7 @@
   {
   "id": "zhobazhbu_faketierscollection",
   "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-  "otherNightReminder": "The Zhobazhbu points to a player. That player dies. If that player was a Minion, they keep their ability and reverse Townsfolk info.",
+  "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
     "Dead",
     "Has Ability",
@@ -917,7 +888,7 @@
   {
     "id": "sabnock_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Sabnock points to a player. That player dies. If they were an Outsider, their Townsfolk neighbor closer to Sabnock is poisoned, mark them with a Poisoned token.",
+    "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Poisoned",
@@ -941,8 +912,8 @@
   {
     "id": "reverie_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/reverie_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show Reverie all the events and they point to 1. Tomorrow, announce that event to everyone. Place the Final Hour token an equivalent steps anti-clockwise to Reverie as the day of the event and mark Reverie with as many New Day tokens as Final Hour token reaches Reverie prematurely.",
-    "otherNightReminder": "Reverie points to a player. That player dies.",
+    "firstNightReminder": "Show Reverie all the events and they choose 1. Announce the event.",
+    "otherNightReminder": "Reverie chooses a player. :reminder:",
     "reminders": [
       "Dead",
       "Final Hour",
@@ -957,10 +928,10 @@
     "firstNight": 24,
     "otherNight": 43
   },
-    {
+  {
     "id": "madeline_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-    "otherNightReminder": "Madeline points to a player. That player dies.",
+    "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -979,7 +950,7 @@
     "id": "destiny_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/destiny_faketierscollection.png?raw=true",
     "firstNightReminder": "Wake the Destiny if you need or want.",
-    "otherNightReminder": "The Destiny points to a player. That player dies. They may signal or text you their prediction.",
+    "otherNightReminder": "The Destiny chooses a player. :reminder: They may signal or text you their prediction.",
     "reminders": [
       "Prediction made",
       "Dead",
@@ -998,7 +969,7 @@
   {
     "id": "plankofwood_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
-    "otherNightReminder": "The Plank of Wood points to a player. That player dies.",
+    "otherNightReminder": "The Plank of Wood chooses a player. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -1021,8 +992,8 @@
   {
     "id": "time_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_faketierscollection.png?raw=true",
-    "firstNightReminder": "Show the Grimoire to Time for as long as they need. Time then points to all the players, use an external notepad to mark down the order they are pointed at. Put them to sleep.",
-    "otherNightReminder": "The next player on the list of players chosen by Time without a shroud dies.",
+    "firstNightReminder": "Show the Grimoire to Time for as long as they need. Time then chooses all the players in any order.",
+    "otherNightReminder": "The next living player on the list dies. :reminder:",
     "reminders": [
       "Dead"
     ],
@@ -1065,8 +1036,8 @@
   {
     "id": "fallcharlotte_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_faketierscollection.png?raw=true",
-    "firstNightReminder": "Announce the day before evil wins. Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token.",
-    "otherNightReminder": "Move the Break Point token one step clockwise. If it reaches Fall. Charlotte, remove a New Cycle token. If there were none, do not move it any more.",
+    "firstNightReminder": "Announce the day before evil wins.",
+    "otherNightReminder": "Update the timer as necessary.",
     "reminders": [
       "Break Point",
       "New Cycle",
