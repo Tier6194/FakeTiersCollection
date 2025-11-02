@@ -686,7 +686,7 @@
     "id": "cultist_faketierscollection",
     "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_faketierscollection.png?raw=true",
     "setup": true,
-    "name": "Cultist",
+    "name": "Cultist - π",
     "team": "minion",
     "ability": "You are many. [+1 Cultist]",
     "flavor": "Awaken, sister. It is time to serve once more."
