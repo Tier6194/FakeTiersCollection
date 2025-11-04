@@ -611,7 +611,13 @@
     "name": "Cultist",
     "team": "minion",
     "ability": "You are many. [+1 Cultist]",
-    "flavor": "Awaken, sister. It is time to serve once more."
+    "flavor": "Awaken, sister. It is time to serve once more.",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
   },
   {
     "id": "marusok_faketierscollection",
