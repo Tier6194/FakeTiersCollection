@@ -3,7 +3,7 @@
     "id":"_meta",
     "name": "Insanity, Delusions & Spicy Waters",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/ID&SW.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/ID&SW.png",
     "hideTitle": true
   },
   "noble",
@@ -16,8 +16,8 @@
   {
     "id": "overdrive_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_evil_faketierscollection.png"
     ],
     "firstNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
     "otherNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
@@ -36,8 +36,8 @@
   {
     "id": "hope_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
@@ -53,8 +53,8 @@
   {
     "id": "stress_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_evil_faketierscollection.png"
     ],
     "otherNightReminder": "You may choose a Minion. :reminder: Wake Stress and nod. Put Stress to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Stress token. Run their ability twice.",
     "reminders": [
@@ -87,8 +87,8 @@
   {
     "id": "showtime_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_evil_faketierscollection.png"
     ],
     "reminders": [
       "Target"
@@ -109,8 +109,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_good_faketierscollection.png"
     ],
     "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
@@ -139,8 +139,8 @@
   {
     "id": "corrupted_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
@@ -158,8 +158,8 @@
   {
   "id": "zhobazhbu_faketierscollection",
   "image": [
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_faketierscollection.png",
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_good_faketierscollection.png"
   ],
   "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
@@ -186,8 +186,8 @@
   {
     "id": "sabnock_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
     "reminders": [
@@ -214,8 +214,8 @@
   {
     "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_good_faketierscollection.png"
     ],
     "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [

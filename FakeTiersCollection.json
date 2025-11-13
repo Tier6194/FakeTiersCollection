@@ -3,15 +3,15 @@
     "id": "_meta",
     "name": "FakeTier's Collection",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FTC.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/FTC.png",
     "hideTitle": true,
-    "almanac": "https://github.com/Tier6194/FakeTiersCollection/blob/main/FakeTiersCollection%20Almanac.pdf"
+    "almanac": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/FakeTiersCollection%20Almanac.pdf"
   },
   {
     "id": "tailor_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/tailor_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/tailor_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/tailor_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Show them 3 characters of different types, only 1 of which is in-play.",
     "reminders": [
@@ -26,8 +26,8 @@
   {
     "id": "focus_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/focus_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/focus_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/focus_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Show the answer.",
     "name": "Focus - π",
@@ -39,8 +39,8 @@
   {
     "id": "cynic_faketierscollection",
     "image": [
-        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_faketierscollection.png?raw=true",
-        "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/cynic_evil_faketierscollection.png?raw=true"
+        "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/cynic_faketierscollection.png",
+        "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/cynic_evil_faketierscollection.png"
     ],
     "firstNightReminder": "The Cynic chooses a player. Show them the evil character or could be (if they aren't an evil character).",
     "otherNightReminder": "The Cynic chooses a player. Show them the evil character that player is or any evil character (if they aren't one).",
@@ -54,8 +54,8 @@
   {
     "id": "jumpstrike_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/jumpstrike_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/jumpstrike_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/jumpstrike_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Show the character type token of the *LEARNT* player. :reminder:",
     "otherNightReminder": "Show the character type token of the *LEARNT* player. :reminder:",
@@ -76,8 +76,8 @@
   {
     "id": "interceptor_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/interceptor_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/interceptor_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/interceptor_evil_faketierscollection.png"
     ],
     "firstNightReminder": "The Interceptor chooses a character. Point to 2 players, 1 of which is that character (if it in-play).",
     "otherNightReminder": "The Interceptor chooses a character. Point to 2 players, 1 of which is that character (if it in-play).",
@@ -91,8 +91,8 @@
   {
     "id": "count_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_evil_faketierscollection.png"
     ],
     "otherNightReminder": "A good player who voted against the Count dies. :reminder:",
     "reminders": [
@@ -107,8 +107,8 @@
   {
     "id": "fortify_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/fortify_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/fortify_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/fortify_evil_faketierscollection.png"
     ],
     "otherNightReminder": "The Fortify chooses a player. :reminder:",
     "reminders": [
@@ -134,8 +134,8 @@
   {
     "id": "templar_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/templar_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/templar_evil_faketierscollection.png"
     ],
     "otherNightReminder": "The Templar chooses 2 players. :reminder: :reminder:",
     "reminders": [
@@ -162,8 +162,8 @@
   {
     "id": "mysteryattack_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/mysteryattack_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/mysteryattack_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/mysteryattack_evil_faketierscollection.png"
     ],
     "otherNightReminder": "Change the ability.",
     "reminders": [
@@ -194,8 +194,8 @@
   {
     "id": "overdrive_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/overdrive_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_evil_faketierscollection.png"
     ],
     "firstNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
     "otherNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
@@ -213,8 +213,8 @@
   {
     "id": "hope_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
@@ -227,8 +227,8 @@
   {
     "id": "spirit_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/spirit_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/spirit_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/spirit_evil_faketierscollection.png"
     ],
     "otherNightReminder": "If the Demon killed the Spirit, wake the Spirit and show them all evil characters in-play. :reminder:",
     "reminders": [
@@ -253,8 +253,8 @@
   {
     "id": "shadowpierce_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/shadowpierce_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/shadowpierce_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/shadowpierce_evil_faketierscollection.png"
     ],
     "reminders": [
       "Correct",
@@ -302,8 +302,8 @@
   {
     "id": "inversestrike_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/inversestrike_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/inversestrike_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/inversestrike_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
@@ -316,8 +316,8 @@
   {
     "id": "ammoblast_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_evil_faketierscollection.png"
     ],
     "otherNightReminder": "The Ammo Blast either nods their head  yes to be drunk or shakes their head no to stay sober. :reminder:",
     "reminders": [
@@ -332,8 +332,8 @@
   {
     "id": "whisper_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Point to all players marked *LINKED*.",
     "reminders": [
@@ -353,8 +353,8 @@
   {
     "id": "stress_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/stress_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_evil_faketierscollection.png"
     ],
     "otherNightReminder": "You may choose a Minion. :reminder: Wake Stress and nod. Put Stress to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Stress token. Run their ability twice.",
     "reminders": [
@@ -387,8 +387,8 @@
   {
     "id": "feint_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/feint_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/feint_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/feint_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/feint_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Show any player. If they are a Minion, you may show Feint the *MINION* token. :reminder:",
     "otherNightReminder": "Show any player. If they are a Minion & you haven't shown Feint the *MINION* token, you may show them the *MINION* token. :reminder:",
@@ -406,8 +406,8 @@
   {
     "id": "coda_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/coda_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/coda_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/coda_evil_faketierscollection.png"
   ],
   "otherNightReminder": "If Coda died, the Demon gained a Minion Ability. If you have not told them this yet, do so now. If necessary, swap Coda's character token. :reminder:",
   "reminders": [
@@ -469,8 +469,8 @@
   {
     "id": "trauma_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_evil_faketierscollection.png"
   ],
     "otherNightReminder": "If a Trauma died, they have learnt their character and a new Trauma has been made. If you haven't done this yet, do so now. :reminder:",
     "remindersGlobal": [
@@ -497,8 +497,8 @@
   {
     "id": "showtime_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_evil_faketierscollection.png"
     ],
     "reminders": [
       "Target"
@@ -517,8 +517,8 @@
   {
     "id": "hunter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hunter_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hunter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hunter_good_faketierscollection.png"
     ],
     "firstNightReminder": "Point to all players marked *TARGET*. Put the Hunter to sleep. Wake each of these players 1 by 1 and show them the Hunter token until they have all seen it.",
     "reminders": [
@@ -565,8 +565,8 @@
   {
     "id": "biter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_good_faketierscollection.png"
     ],
     "firstNightReminder": "Show each of the Outsider tokens in-play.",
     "reminders": [
@@ -591,8 +591,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_good_faketierscollection.png"
     ],
     "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
@@ -619,8 +619,8 @@
   {
     "id": "tyrant_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/tyrant_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/tyrant_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/tyrant_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/tyrant_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Tyrant chooses a player. :reminder: If the Demon woke for their ability the previous night, they do not wake tonight. :reminder:",
     "reminders": [
@@ -666,8 +666,8 @@
   {
     "id": "corrupted_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/corrupted_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
@@ -684,7 +684,7 @@
   },
   {
     "id": "cultist_faketierscollection",
-    "image": "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/cultist_faketierscollection.png?raw=true",
+    "image": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/cultist_faketierscollection.png",
     "setup": true,
     "name": "Cultist - π",
     "team": "minion",
@@ -700,8 +700,8 @@
   {
     "id": "marusok_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/marusok_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/marusok_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/marusok_good_faketierscollection.png"
     ],
     "firstNightReminder": "Wake each Marusok and show them their ability. Swap each of their tokens as needed. :reminder:",
     "remindersGlobal": [
@@ -761,8 +761,8 @@
   {
     "id": "grave_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/grave_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/grave_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/grave_good_faketierscollection.png"
     ],
     "firstNightReminder": "You may wake the Grave if needed.",
     "otherNightReminder": "You may wake the Grave if needed.",
@@ -779,8 +779,8 @@
   {
     "id": "falseidol_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/falseidol_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/falseidol_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/falseidol_good_faketierscollection.png"
     ],
     "firstNightReminder": "Mark the False Idol with the *DAY 1* token. :reminder:",
     "otherNightReminder": "Replace the reminder token. :reminder:",
@@ -816,8 +816,8 @@
   {
     "id": "enra_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/enra_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/enra_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/enra_good_faketierscollection.png"
     ],
     "reminders": [
       "The Demon"
@@ -830,8 +830,8 @@
   {
     "id": "invitationletter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/invitationletter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/invitationletter_good_faketierscollection.png"
     ],
     "firstNightReminder": "Wake all Minions, allow them to choose an invitee. then place the *NIGHT 1* token in the center of the Grimoire. :reminder: :reminder:",
     "otherNightReminder": "Wake all Minions, allow them to choose an invitee. then place the relevent night token in the center of the Grimoire. :reminder: :reminder: If it is night 3, the invitee chooses a Demon. Show them the *YOU ARE* token and the chosen Demon token.",
@@ -906,8 +906,8 @@
   {
     "id": "handoffate_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/handoffate_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/handoffate_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/handoffate_good_faketierscollection.png"
     ],
     "firstNightReminder": "The Hand of Fate shows a number. Show them the ability.",
     "otherNightReminder": "The Hand of Fate shows a number. Show them the ability. They choose a player. :reminder:",
@@ -930,8 +930,8 @@
   {
     "id": "estelle_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/estelle_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/estelle_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/estelle_good_faketierscollection.png"
     ],
     "otherNightReminder": "Estelle chooses a player. :reminder: If that player is a Minion, they choose a player. :reminder: :reminder:",
     "reminders": [
@@ -951,8 +951,8 @@
   {
     "id": "corrsylphy_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/corrsylphy_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/corrsylphy_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/corrsylphy_good_faketierscollection.png"
     ],
     "otherNightReminder": "Signal how many players Corr. Sylphy can choose. They then choose that many players. :reminder: :reminder: :reminder: :reminder: :reminder:",
     "reminders": [
@@ -971,8 +971,8 @@
   {
   "id": "zhobazhbu_faketierscollection",
   "image": [
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_faketierscollection.png",
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_good_faketierscollection.png"
   ],
   "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
@@ -999,8 +999,8 @@
   {
     "id": "sabnock_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
     "reminders": [
@@ -1026,8 +1026,8 @@
   {
     "id": "reverie_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/reverie_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/reverie_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/reverie_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/reverie_good_faketierscollection.png"
     ],
     "firstNightReminder": "Show Reverie all the events and they choose 1. Announce the event.",
     "otherNightReminder": "Reverie chooses a player. :reminder:",
@@ -1048,8 +1048,8 @@
   {
     "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_good_faketierscollection.png"
     ],
     "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [
@@ -1069,8 +1069,8 @@
   {
     "id": "destiny_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/destiny_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/destiny_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/destiny_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/destiny_good_faketierscollection.png"
     ],
     "firstNightReminder": "Wake the Destiny if you need or want.",
     "otherNightReminder": "The Destiny chooses a player. :reminder: They may signal or text you their prediction.",
@@ -1092,8 +1092,8 @@
   {
     "id": "plankofwood_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/plankofwood_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/plankofwood_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Plank of Wood chooses a player. :reminder:",
     "reminders": [
@@ -1118,8 +1118,8 @@
   {
     "id": "time_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/time_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/time_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/time_good_faketierscollection.png"
     ],
     "firstNightReminder": "Show the Grimoire to Time for as long as they need. Time then chooses all the players in any order.",
     "otherNightReminder": "The next living player on the list dies. :reminder:",
@@ -1165,8 +1165,8 @@
   {
     "id": "fallcharlotte_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/fallcharlotte_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/fallcharlotte_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/fallcharlotte_good_faketierscollection.png"
     ],
     "firstNightReminder": "Announce the day before evil wins.",
     "otherNightReminder": "Update the timer as necessary.",

@@ -3,7 +3,7 @@
     "id":"_meta",
     "name": "Party at Midnight",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/PaM.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/PaM.png",
     "hideTitle": true
   },
   "grandmother",
@@ -12,8 +12,8 @@
   {
     "id": "count_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/count_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_evil_faketierscollection.png"
     ],
     "otherNightReminder": "A good player who voted against the Count dies. :reminder:",
     "reminders": [
@@ -30,8 +30,8 @@
   {
     "id": "templar_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/templar_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/templar_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/templar_evil_faketierscollection.png"
     ],
     "otherNightReminder": "The Templar chooses 2 players. :reminder: :reminder:",
     "reminders": [
@@ -63,8 +63,8 @@
   {
     "id": "ammoblast_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/ammoblast_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_evil_faketierscollection.png"
     ],
     "otherNightReminder": "The Ammo Blast either nods their head  yes to be drunk or shakes their head no to stay sober. :reminder:",
     "reminders": [
@@ -79,8 +79,8 @@
   {
     "id": "whisper_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/whisper_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Point to all players marked *LINKED*.",
     "reminders": [
@@ -103,8 +103,8 @@
   {
     "id": "biter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/biter_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_good_faketierscollection.png"
     ],
     "firstNightReminder": "Show each of the Outsider tokens in-play.",
     "reminders": [
@@ -133,8 +133,8 @@
   {
     "id": "invitationletter_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/invitationletter_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/invitationletter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/invitationletter_good_faketierscollection.png"
     ],
     "firstNightReminder": "Wake all Minions, allow them to choose an invitee. then place the *NIGHT 1* token in the center of the Grimoire. :reminder: :reminder:",
     "otherNightReminder": "Wake all Minions, allow them to choose an invitee. then place the relevent night token in the center of the Grimoire. :reminder: :reminder: If it is night 3, the invitee chooses a Demon. Show them the *YOU ARE* token and the chosen Demon token.",

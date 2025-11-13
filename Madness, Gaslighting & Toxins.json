@@ -3,7 +3,7 @@
     "id":"_meta",
     "name": "Madness, Gaslighting & Toxins",
     "author": "FakeTier",
-    "logo": "https://github.com/Tier6194/FakeTiersCollection/blob/main/MG&T.png?raw=true",
+    "logo": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/MG&T.png",
     "hideTitle": true,
     "bootlegger": [
       "The Chaos Hatter rule is in-play."
@@ -21,8 +21,8 @@
   {
     "id": "hope_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Townsfolk/hope_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
@@ -38,8 +38,8 @@
   {
     "id": "trauma_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/trauma_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_evil_faketierscollection.png"
   ],
     "otherNightReminder": "If a Trauma died, they have learnt their character and a new Trauma has been made. If you haven't done this yet, do so now. :reminder:",
     "remindersGlobal": [
@@ -66,8 +66,8 @@
   {
     "id": "showtime_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Outsiders/showtime_evil_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_evil_faketierscollection.png"
     ],
     "reminders": [
       "Target"
@@ -88,8 +88,8 @@
   {
     "id": "hagumoth_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Minions/hagumoth_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_good_faketierscollection.png"
     ],
     "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
@@ -119,8 +119,8 @@
   {
   "id": "zhobazhbu_faketierscollection",
   "image": [
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_faketierscollection.png?raw=true",
-    "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/zhobazhbu_good_faketierscollection.png?raw=true"
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_faketierscollection.png",
+    "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/zhobazhbu_good_faketierscollection.png"
   ],
   "otherNightReminder": "The Zhobazhbu chooses a player. :reminder:. If that player is a Minion, reverse Townsfolk info. :reminder: :reminder:",
   "reminders": [
@@ -147,8 +147,8 @@
   {
     "id": "sabnock_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/sabnock_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/sabnock_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Sabnock chooses a player. :reminder: If that player is an Outsider, poison a neighboring Townsfolk. :reminder: :reminder:",
     "reminders": [
@@ -175,8 +175,8 @@
   {
     "id": "madeline_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/madeline_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/madeline_good_faketierscollection.png"
     ],
     "otherNightReminder": "Madeline chooses a player. :reminder:",
     "reminders": [
@@ -196,8 +196,8 @@
   {
     "id": "plankofwood_faketierscollection",
     "image": [
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_faketierscollection.png?raw=true",
-      "https://github.com/Tier6194/FakeTiersCollection/blob/main/Demons/plankofwood_good_faketierscollection.png?raw=true"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/plankofwood_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Demons/plankofwood_good_faketierscollection.png"
     ],
     "otherNightReminder": "The Plank of Wood chooses a player. :reminder:",
     "reminders": [
