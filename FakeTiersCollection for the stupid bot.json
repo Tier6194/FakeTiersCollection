@@ -601,7 +601,13 @@
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
     "flavor": "Do not worry, your death will be swift and painless",
-    "otherNight": 16
+    "otherNight": 16,
+    "jinxes": [
+      {
+        "id": "pithag",
+        "reason": "If a Demon is resurrected, deaths tonight are arbitrary."
+      }
+    ]
   },
   {
     "id": "cultist_faketierscollection",
