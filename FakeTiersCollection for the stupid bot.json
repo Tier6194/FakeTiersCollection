@@ -589,23 +589,27 @@
   },
   {
     "id": "corrupted_faketierscollection",
-    "image": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
+    "image": [
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_good_faketierscollection.png"
+    ],
     "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
+      "Has Ability",
+      "Has Ability",
       "Choice 1",
       "Choice 2",
-      "Has Ability",
-      "Has Ability"
+      "Once"
     ],
-    "name": "Corrupted",
+    "name": "Corrupted - π",
     "team": "minion",
-    "ability": "Twice per game, at night*, choose 2 players: all players silently vote for who lives & who dies, you break ties.",
+    "ability": "Twice per game, at night*, choose 2 players: all vote for who lives & dies. The 1st time the Demon dies, play for 1 more night.",
     "flavor": "Do not worry, your death will be swift and painless",
     "otherNight": 16,
     "jinxes": [
       {
         "id": "pithag",
-        "reason": "If a Demon is resurrected, deaths tonight are arbitrary."
+        "reason": "If a Demon is resurrected, deaths tonight are arbitrary. If a Demon dies and the game continues anyway, it does not count."
       }
     ]
   },
@@ -617,6 +621,16 @@
     "team": "minion",
     "ability": "You are many. [+1 Cultist]",
     "flavor": "Awaken, sister. It is time to serve once more.",
+    "jinxes": [
+      {
+        "id": "kazali",
+        "reason": "If the Kazali chooses to make a Cultist, they choose 2 players to become Cultists."
+      },
+      {
+        "id": "engineer",
+        "reason": "If the Engineer creates a Cultist, 1 good player becomes an evil Cultist."
+      }
+    ],
     "special": [
       {
         "name": "bag-duplicate",
