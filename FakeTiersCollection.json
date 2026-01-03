@@ -696,7 +696,10 @@
   },
   {
     "id": "cultist_faketierscollection",
-    "image": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/cultist_faketierscollection.png",
+    "image": [
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/cultist_faketierscollection.png",
+     "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/cultist_good_faketierscollection.png"
+    ],
     "setup": true,
     "name": "Cultist - π",
     "team": "minion",

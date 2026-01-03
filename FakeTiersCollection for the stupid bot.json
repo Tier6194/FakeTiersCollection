@@ -589,10 +589,7 @@
   },
   {
     "id": "corrupted_faketierscollection",
-    "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_good_faketierscollection.png"
-    ],
+    "image": "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/corrupted_faketierscollection.png",
     "otherNightReminder": "The Corrupted might choose 2 players. :reminder: :reminder: Say \"The Corrupted has chosen\", then both players' names, then start the silent vote. Afterwards, add and remove shrouds from both players accordingly.",
     "reminders": [
       "Has Ability",
@@ -601,7 +598,7 @@
       "Choice 2",
       "Once"
     ],
-    "name": "Corrupted - π",
+    "name": "Corrupted",
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players: all vote for who lives & dies. The 1st time the Demon dies, play for 1 more night.",
     "flavor": "Do not worry, your death will be swift and painless",
