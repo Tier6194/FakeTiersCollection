@@ -839,6 +839,17 @@
     ]
   },
   {
+    "id": "afonoplexia_faketierscollection",
+    "image": [
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/afonoplexia_faketierscollecion.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/afonoplexia_good_faketierscollecion.png"
+    ],
+    "name": "Afonoplexia - π",
+    "team": "minion",
+    "ability": "On the final day, good only wins if a Minion is executed. If you die, keep this ability.",
+    "flavor": "I am the box and He is the key. Unshuffle and the truth you too shall see."
+  },
+  {
     "id": "enra_faketierscollection",
     "image": [
       "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/enra_faketierscollection.png",
