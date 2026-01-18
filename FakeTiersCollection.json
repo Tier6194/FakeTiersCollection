@@ -999,7 +999,7 @@
     ],
     "name": "Corr. Sylphy - π",
     "team": "demon",
-    "ability": "Each night*, choose 1 more player than last night (up to 5): they die. If a Minion died today, choose 1 instead.",
+    "ability": "Each night*, choose 1 more player than last time (up to 5): they die. If a Minion died today, choose 1 instead.",
     "flavor": "Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor Traitor...",
     "otherNight": 46
   },
