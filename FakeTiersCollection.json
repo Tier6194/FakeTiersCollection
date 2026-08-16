@@ -455,6 +455,32 @@
     ]
   },
   {
+    "id": "biter_faketierscollection",
+    "image": [
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_good_faketierscollection.png"
+    ],
+    "firstNightReminder": "Show each of the Outsider tokens in-play.",
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "setup": true,
+    "name": "Biter - π",
+    "team": "minion",
+    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 to +1 Outsider]",
+    "flavor": "Chomp Chomp",
+    "firstNight": 37.5,
+    "jinxes": [
+      {
+        "id": "heretic",
+        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
+      }
+    ]
+  },
+  {
     "id": "hunter_faketierscollection",
     "image": [
       "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hunter_faketierscollection.png",
@@ -503,32 +529,6 @@
       {
         "id": "widow",
         "reason": "On the Widow's first night, they may choose to not see the Grimoire. Instead all in-play character tokens are shown to them. They choose 1 of those to poison. If they chose to see the Grimoire, evil does not win from the Hunter's ability."
-      }
-    ]
-  },
-  {
-    "id": "biter_faketierscollection",
-    "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/biter_good_faketierscollection.png"
-    ],
-    "firstNightReminder": "Show each of the Outsider tokens in-play.",
-    "reminders": [
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
-    "setup": true,
-    "name": "Biter - π",
-    "team": "minion",
-    "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 to +1 Outsider]",
-    "flavor": "Chomp Chomp",
-    "firstNight": 37.5,
-    "jinxes": [
-      {
-        "id": "heretic",
-        "reason": "The Heretic starts knowing an out-of-play Outsider & registers as that Outsider to Biter."
       }
     ]
   },
@@ -735,10 +735,10 @@
     ],
     "name": "Grave - π",
     "team": "minion",
-    "ability": "You may ask a question that, if good wins, all players learn. If most good players are wrong, evil wins instead.",
+    "ability": "You may ask a question that, if good wins, all players learn (even if dead). If most good players are wrong, evil wins instead.",
     "flavor": "you shall not pass",
-    "firstNight": 34,
-    "otherNight": 30
+    "firstNight": 36.5,
+    "otherNight": 20.5
   },
   {
     "id": "falseidol_faketierscollection",
@@ -758,7 +758,7 @@
     ],
     "name": "False Idol - π",
     "team": "minion",
-    "ability": "After day 6, evil wins. Until just you, the Demon & another player live, good can't win by killing the Demon.",
+    "ability": "After day 6, evil wins. Unless just you, the Demon & another player live, good can't win by killing the Demon.",
     "flavor": "LISTEN TO ME, WATCH ME, LOVE ME!",
     "firstNight": 99,
     "otherNight": 99,
