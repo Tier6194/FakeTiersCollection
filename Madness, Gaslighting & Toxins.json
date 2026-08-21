@@ -19,41 +19,41 @@
   "philosopher",
   "artist",
   {
-    "id": "hope_faketierscollection",
+    "id": "optimist_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/optimist_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/optimist_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
     ],
-    "name": "Hope - π",
+    "name": "Optimist - π",
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately ask the Storyteller any question & learn some answers (only 1 is correct).",
-    "flavor": "Recover HP by 8 and gain 4 Barrier"
+    "flavor": "We don't matter in the eyes of nature but what about the eyes of those we fight for? Even in the worst of times there is still hope, some answers. Something."
   },
   "juggler",
   "ravenkeeper",
   "sage",
   {
-    "id": "trauma_faketierscollection",
+    "id": "plaguerat_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/trauma_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/plaguerat_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/plaguerat_evil_faketierscollection.png"
   ],
-    "otherNightReminder": "If a Trauma died, they have learnt their character and a new Trauma has been made. If you haven't done this yet, do so now. :reminder:",
+    "otherNightReminder": "If a Plague Rat died, they have learnt their character and a new Plague Rat has been made. If you haven't done this yet, do so now. :reminder:",
     "remindersGlobal": [
-      "Is a Trauma"
+      "Is a Plague Rat"
     ],
-    "name": "Trauma - π",
+    "name": "Plague Rat - π",
     "team": "outsider",
-    "ability": "When you die, learn your character then a Townsfolk becomes a Trauma, thinks they are a Townsfolk & learns false info.",
-    "flavor": "Take 4 damage. Disappears from deck when used in Battle. Cannot be lost or dissolved",
-    "otherNight": 66,
+    "ability": "When you die, learn your character then a Townsfolk becomes a Plague Rat, thinks they are a Townsfolk & learns false info.",
+    "flavor": "Wha' ya' mean ah smell? Jus' me cows'nall. 'ose rats 'ways been 'ere, ah tellya.",
+    "otherNight": 64.5,
     "jinxes": [
       {
         "id": "vortox",
-        "reason": "Players turned into Trauma through its ability learn only true info if the Vortox is alive, sober and healthy."
+        "reason": "Players turned into a Plague Rat through its ability learn only true info if the Vortox is alive, sober and healthy."
       }
     ],
     "special": [
@@ -64,22 +64,22 @@
     ]
   },
   {
-    "id": "showtime_faketierscollection",
+    "id": "celebrity_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_evil_faketierscollection.png"
     ],
     "reminders": [
       "Target"
     ],
-    "name": "Showtime - π",
+    "name": "Celebrity - π",
     "team": "outsider",
     "ability": "If you die & 5 or more non-Travellers live, choose an alive player: if they are not executed tomorrow, your team loses.",
-    "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
+    "flavor": "Marvelous photos darling just marvelous. Now go away, I have a show to star!",
     "jinxes": [
       {
         "id": "hagumoth_faketierscollection",
-        "reason": "If the Showtime chooses the same player as the Hagumoth, the Showtime is poisoned."
+        "reason": "If the Celebrity chooses the same player as the Hagumoth, the Celebrity is poisoned."
       }
     ]
   },
@@ -100,8 +100,8 @@
     "team": "minion",
     "ability": "Each night, you may choose a player: they learn this & if they are executed tomorrow, their team loses.",
     "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
-    "firstNight": 38,
-    "otherNight": 26,
+    "firstNight": 38.5,
+    "otherNight": 26.5,
     "jinxes": [
       {
         "id": "plaguedoctor",
@@ -136,7 +136,7 @@
   "team": "demon",
   "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & reverse Townsfolk info. [-1 Outsider]",
   "flavor": "Bathe within the flames, such that they purify thee of thy sin of weakness and frailty. Through atonement for thy mortality thou shalt be embraced by The One Beyond.",
-  "otherNight": 43,
+  "otherNight": 43.5,
   "jinxes": [
     {
       "id": "banshee",
@@ -163,7 +163,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison the closest Townsfolk neighbor to you. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
-    "otherNight": 42,
+    "otherNight": 42.5,
     "jinxes": [
       {
         "id": "trauma_faketierscollection",

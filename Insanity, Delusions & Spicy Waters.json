@@ -14,49 +14,49 @@
   "savant",
   "seamstress",
   {
-    "id": "overdrive_faketierscollection",
+    "id": "manager_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/overdrive_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/manager_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/manager_evil_faketierscollection.png"
     ],
-    "firstNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
-    "otherNightReminder": "The Overdrive might choose a player. Show them that player's character. :reminder:",
+    "firstNightReminder": "The Manager might choose a player. Show them that player's character. :reminder:",
+    "otherNightReminder": "The Manager might choose a player. Show them that player's character. :reminder:",
     "reminders": [
       "No Ability",
       "Drunk"
     ],
-    "name": "Overdrive - π",
+    "name": "Manager - π",
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a non-Traveller player: you learn their character. Chosen Townsfolk are drunk, even if you die.",
-    "flavor": "No enemy cards on the field next Phase. Change HP to the number of cards on cooldown x 2",
+    "flavor": "I'll withhold a thousand wages before I give up my bonuses!",
     "firstNight": 41.1,
     "otherNight": 60.1
   },
   "artist",
   {
-    "id": "hope_faketierscollection",
+    "id": "optimist_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/hope_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/optimist_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/optimist_evil_faketierscollection.png"
     ],
     "reminders": [
       "No Ability"
     ],
-    "name": "Hope - π",
+    "name": "Optimist - π",
     "team": "townsfolk",
     "ability": "Once per game, during the day, privately ask the Storyteller any question & learn some answers (only 1 is correct).",
-    "flavor": "Recover HP by 8 and gain 4 Barrier"
+    "flavor": "We don't matter in the eyes of nature but what about the eyes of those we fight for? Even in the worst of times there is still hope, some answers. Something."
   },
   "juggler",
   "sage",
   "atheist",
   {
-    "id": "stress_faketierscollection",
+    "id": "warden_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/stress_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/warden_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/warden_evil_faketierscollection.png"
     ],
-    "otherNightReminder": "You may choose a Minion. :reminder: Wake Stress and nod. Put Stress to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Stress token. Run their ability twice.",
+    "otherNightReminder": "You may choose a Minion. :reminder: Wake the Warden and nod. Put them to sleep. Wake the Minion and show the *THIS CHARACTER SELECTED YOU* token then the Warden token. Run their ability twice.",
     "reminders": [
       "Works Twice",
       "?",
@@ -64,73 +64,65 @@
       "?",
       "?"
     ],
-    "name": "Stress - π",
+    "name": "Warden - π",
     "team": "outsider",
     "ability": "Each night, if you died, a Minion's ability might work twice until dusk. You & they learn this.",
-    "flavor": "Does nothing. Disappears when used or after battle",
-    "otherNight": 3,
+    "flavor": "Times up ladies! Back to your cells!",
+    "otherNight": 15.5,
     "jinxes": [
       {
         "id": "marionette",
-        "reason": "The Marionette does not learn they are affected by Stress' ability."
+        "reason": "The Marionette does not learn they are affected by the Warden's ability."
       },
       {
         "id": "mezepheles",
-        "reason": "A Stress boosted Mezepheles cannot create 2 evil players."
+        "reason": "A Warden boosted Mezepheles cannot create 2 evil players."
       },
       {
         "id": "summoner",
-        "reason": "If the Summoner's ability works twice due to Stress, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
+        "reason": "If the Summoner's ability works twice due to the Warden, the second Demon they create retains their alignment. If the Summoner creates 2 evil Demons, deaths tonight are arbitrary."
       }
     ]
   },
   {
-    "id": "showtime_faketierscollection",
+    "id": "celebrity_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/showtime_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_evil_faketierscollection.png"
     ],
     "reminders": [
       "Target"
     ],
-    "name": "Showtime - π",
+    "name": "Celebrity - π",
     "team": "outsider",
     "ability": "If you die & 5 or more non-Travellers live, choose an alive player: if they are not executed tomorrow, your team loses.",
-    "flavor": "Gain 2 Automana status & reduce cooldown of Attack cards by 2",
+    "flavor": "Marvelous photos darling just marvelous. Now go away, I have a show to star!",
     "jinxes": [
       {
         "id": "hagumoth_faketierscollection",
-        "reason": "If the Showtime chooses the same player as the Hagumoth, the Showtime is poisoned."
+        "reason": "If the Celebrity chooses the same player as the Hagumoth, the Celebrity is poisoned."
       }
     ]
   },
   "barber",
   "mutant",
   {
-    "id": "hagumoth_faketierscollection",
+    "id": "celebrity_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_good_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_evil_faketierscollection.png"
     ],
-    "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
-    "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "reminders": [
-      "Chosen"
+      "Target"
     ],
-    "name": "Hagumoth - π",
-    "team": "minion",
-    "ability": "Each night, you may choose a player: they learn this & if they are executed tomorrow, their team loses.",
-    "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
-    "firstNight": 38,
-    "otherNight": 26,
+    "name": "Celebrity - π",
+    "team": "outsider",
+    "ability": "If you die & 5 or more non-Travellers live, choose an alive player: if they are not executed tomorrow, your team loses.",
+    "flavor": "Marvelous photos darling just marvelous. Now go away, I have a show to star!",
     "jinxes": [
       {
-        "id": "plaguedoctor",
-        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
-      },
-      {
-        "id": "vizier",
-        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
+        "id": "hagumoth_faketierscollection",
+        "reason": "If the Celebrity chooses the same player as the Hagumoth, the Celebrity is poisoned."
       }
     ]
   },
@@ -153,8 +145,8 @@
     "name": "Corrupted - π",
     "team": "minion",
     "ability": "Twice per game, at night*, choose 2 players: all vote for who lives & dies. The 1st time the Demon dies, play for 1 more night.",
-    "flavor": "Do not worry, your death will be swift and painless",
-    "otherNight": 16,
+    "flavor": "Do not worry, your death will be swift and painless.",
+    "otherNight": 16.5,
     "jinxes": [
       {
         "id": "pithag",
@@ -182,7 +174,7 @@
   "team": "demon",
   "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & reverse Townsfolk info. [-1 Outsider]",
   "flavor": "Bathe within the flames, such that they purify thee of thy sin of weakness and frailty. Through atonement for thy mortality thou shalt be embraced by The One Beyond.",
-  "otherNight": 43,
+  "otherNight": 43.5,
   "jinxes": [
     {
       "id": "banshee",
@@ -209,7 +201,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Outsiders you kill poison the closest Townsfolk neighbor to you. [+1 Outsider]",
     "flavor": "Attrape des vers, salope.",
-    "otherNight": 42,
+    "otherNight": 42.5,
     "jinxes": [
       {
         "id": "trauma_faketierscollection",

@@ -9,22 +9,6 @@
   "grandmother",
   "highpriestess",
   "sailor",
-  {
-    "id": "count_faketierscollection",
-    "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/count_evil_faketierscollection.png"
-    ],
-    "otherNightReminder": "A good player who voted against the Count dies. :reminder:",
-    "reminders": [
-      "Dead"
-    ],
-    "name": "Count - π",
-    "team": "townsfolk",
-    "ability": "Each night*, a good player who voted against you today dies.",
-    "flavor": "Guards, seize this one!",
-    "otherNight": 54
-  },
   "innkeeper",
   "acrobat",
   {
@@ -56,31 +40,32 @@
     ]
   },
   "exorcist",
+  "gossip",
   "courtier",
   "minstrel",
   "tealady",
   "fool",
   {
-    "id": "ammoblast_faketierscollection",
+    "id": "executioner_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/ammoblast_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/executioner_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Townsfolk/executioner_evil_faketierscollection.png"
     ],
-    "otherNightReminder": "The Ammo Blast either nods their head  yes to be drunk or shakes their head no to stay sober. :reminder:",
+    "otherNightReminder": "The Executioner either nods their head yes to be drunk or shakes their head no to stay sober. :reminder:",
     "reminders": [
       "Drunk"
     ],
-    "name": "Ammo Blast - π",
+    "name": "Executioner - π",
     "team": "townsfolk",
     "ability": "Only players of your alignment can die, even if for some reason they cannot. Each night, you may choose to be drunk until dusk.",
-    "flavor": "Attack twice by damage of 3 + number of remaining Arcana. Reduce Arcana to 0",
-    "otherNight": 1.5
+    "flavor": "Perhaps Lady Justice need not know that her trusty guillotine got caught on a little nail. Or if that nail were to be removed...",
+    "otherNight": 14.5
   },
   {
-    "id": "whisper_faketierscollection",
+    "id": "whisperer_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisper_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisperer_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/whisperer_evil_faketierscollection.png"
     ],
     "firstNightReminder": "Point to all players marked *LINKED*.",
     "reminders": [
@@ -91,11 +76,11 @@
       "?",
       "?"
     ],
-    "name": "Whisper - π",
+    "name": "Whisperer - π",
     "team": "outsider",
     "ability": "You start knowing up to 2 players: what happens to them might happen to you & vice versa, even if dead, drunk or poisoned.",
-    "flavor": "Inflict 3 Sensitive",
-    "firstNight": 57
+    "flavor": "Hear the song of the damned, and perhaps they shall speak to you. Through only death shall we be free.",
+    "firstNight": 63.5
   },
   "ogre",
   "sweetheart",
@@ -117,8 +102,8 @@
     "name": "Biter - π",
     "team": "minion",
     "ability": "You start knowing which Outsiders are in-play. Dead Outsiders poison 1 Townsfolk neighbor. [-1 to +1 Outsider]",
-    "flavor": "Chomp Chomp",
-    "firstNight": 30,
+    "flavor": "Chomp Chomp!",
+    "firstNight": 37.5,
     "jinxes": [
       {
         "id": "heretic",
@@ -149,8 +134,8 @@
     "team": "demon",
     "ability": "Each night, Minions choose who holds the Invitation Letter. On night 3, the Invitee chooses a Demon to become. [+1 Minion]",
     "flavor": "\"You must play with at least 1 friend.\"\n\nRequirements: \n - A room with an open roof\n - An alive, human (recommended) sacrifice\n - Surgical equipment\n - An item representing the horror you wish to unleash\n - A new moon\n\nPreparations:\n\n*The rest of the letter is missing*",
-    "firstNight": 24,
-    "otherNight": 30,
+    "firstNight": 29.5,
+    "otherNight": 34.5,
     "jinxes": [
       {
         "id": "clockmaker",
