@@ -884,8 +884,8 @@
     "otherNight": 42.5,
     "jinxes": [
       {
-        "id": "trauma_faketierscollection",
-        "reason": "Traumas created by its own ability do not register as Outsiders to the Sabnock."
+        "id": "plaguerat_faketierscollection",
+        "reason": "Plague Rats created by their own ability do not register as Outsiders to the Sabnock."
       }
     ]
   },
