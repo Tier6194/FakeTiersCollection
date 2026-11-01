@@ -107,22 +107,30 @@
   "barber",
   "mutant",
   {
-    "id": "celebrity_faketierscollection",
+    "id": "hagumoth_faketierscollection",
     "image": [
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_faketierscollection.png",
-      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Outsiders/celebrity_evil_faketierscollection.png"
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_faketierscollection.png",
+      "https://raw.githubusercontent.com/Tier6194/FakeTiersCollection/refs/heads/main/Minions/hagumoth_good_faketierscollection.png"
     ],
+    "firstNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
+    "otherNightReminder": "The Hagumoth might choose a player. :reminder: Put the Hagumoth to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token then the Hagumoth token.",
     "reminders": [
-      "Target"
+      "Chosen"
     ],
-    "name": "Celebrity - π",
-    "team": "outsider",
-    "ability": "If you die & 5 or more non-Travellers live, choose an alive player: if they are not executed tomorrow, your team loses.",
-    "flavor": "Marvelous photos darling just marvelous. Now go away, I have a show to star!",
+    "name": "Hagumoth - π",
+    "team": "minion",
+    "ability": "Each night, you may choose a player: they learn this & if they are executed tomorrow, their team loses.",
+    "flavor": "Through the path of Umalaaq, I stand upon thy grave. Through the will of the One Beyond, I break thy spirit. Through the ends of Heaven and Hell, I cut thy heart.",
+    "firstNight": 38.5,
+    "otherNight": 26.5,
     "jinxes": [
       {
-        "id": "hagumoth_faketierscollection",
-        "reason": "If the Celebrity chooses the same player as the Hagumoth, the Celebrity is poisoned."
+        "id": "plaguedoctor",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Hagumoth ability in addition to their own and learns this."
+      },
+      {
+        "id": "vizier",
+        "reason": "The Vizier wakes with the Hagumoth, learns who they choose and cannot choose to immediately execute that player tomorrow."
       }
     ]
   },
